@@ -1,0 +1,16 @@
+
+// Reset styles
+@import url(reset.css);
+
+// Global Mixins and Variables
+@import 'color';
+@import 'typography';
+
+// Partial styles
+@import 'header';
+@import 'footer';
+
+// Page Specific styles
+@import 'portfolio-main';
+@import 'portfolio-resume';
+@import 'work/portfolio-work-subpage';

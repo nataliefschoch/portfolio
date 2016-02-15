@@ -1,0 +1,80 @@
+#portfolio {
+  section#portfolio-subpage-hero {
+    background: $grey-100;
+    .hero {
+      position: relative;
+      .hero-desc {
+        .hero-desc-wrapper {
+          background: $white;
+          box-shadow: 0px 3px 17px rgba(0, 0, 0, 0.07);
+          padding: 20px;
+          .hero-desc-tags {
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+  section#portfolio-work-subpage {
+    background: $grey-100;
+    .work-image {
+      background: $white;
+    }
+    .img-desc {
+      margin-top: 20px;
+      .img-desc-text p {
+        color: $grey-300;
+        font-size: 15px;
+        line-height: 19px;
+      }
+      .img-desc-link a {
+        text-align: right;
+      }
+    }
+    .work-text {
+      margin-top: 20px;
+    }
+  }
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+  }
+
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    section#portfolio-subpage-hero {
+      .hero {
+        position: relative;
+        .hero-desc {
+            position: absolute;
+            right: 0;
+            top: 25%;
+            width: 50%;
+          .hero-desc-wrapper {
+            padding: 40px;
+            .hero-desc-tags {
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    section#portfolio-subpage-hero {
+      .hero {
+        .hero-desc {
+          .hero-desc-wrapper {
+            padding: 60px;
+          }
+        }
+      }
+    }
+  }
+
+  /* Large devices (large desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+  }
+
+}
