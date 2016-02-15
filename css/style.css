@@ -242,20 +242,21 @@ html {
         background: #fff;
         box-shadow: 0px 3px 17px rgba(0, 0, 0, 0.07);
         padding: 20px; }
+        #portfolio section#portfolio-subpage-hero .hero .hero-desc .hero-desc-wrapper p {
+          margin-bottom: 10px; }
         #portfolio section#portfolio-subpage-hero .hero .hero-desc .hero-desc-wrapper .hero-desc-tags {
           margin-top: 20px; }
   #portfolio section#portfolio-work-subpage {
     background: #f5f7fc; }
     #portfolio section#portfolio-work-subpage .work-image {
-      background: #fff; }
-    #portfolio section#portfolio-work-subpage .img-desc {
-      margin-top: 20px; }
-      #portfolio section#portfolio-work-subpage .img-desc .img-desc-text p {
-        color: #8a8d92;
-        font-size: 15px;
-        line-height: 19px; }
-      #portfolio section#portfolio-work-subpage .img-desc .img-desc-link a {
-        text-align: right; }
+      background: #fff;
+      margin-bottom: 20px; }
+    #portfolio section#portfolio-work-subpage .img-desc-text p {
+      color: #8a8d92;
+      font-size: 15px;
+      line-height: 19px; }
+    #portfolio section#portfolio-work-subpage .img-desc-link a {
+      text-align: right; }
     #portfolio section#portfolio-work-subpage .work-text {
       margin-top: 20px; }
   @media (min-width: 992px) {

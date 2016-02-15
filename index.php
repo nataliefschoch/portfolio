@@ -24,9 +24,11 @@
             </a>
           </li>
         <li>
-          <h2>ZenPayroll to Gusto</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat justo est, vel sollicitudin dui ornare eu. Integer vitae ipsum ut justo tincidunt faucibus quis quis lacus.
-          </p>
+          <a href='wiser.php'>
+            <h2>ZenPayroll to Gusto</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat justo est, vel sollicitudin dui ornare eu. Integer vitae ipsum ut justo tincidunt faucibus quis quis lacus.
+            </p>
+          </a>
         </li>
         <li>
           <h2>Wiser - Pricing Perfected</h2>

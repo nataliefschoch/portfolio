@@ -8,6 +8,9 @@
           background: $white;
           box-shadow: 0px 3px 17px rgba(0, 0, 0, 0.07);
           padding: 20px;
+          p {
+            margin-bottom: 10px;
+          }
           .hero-desc-tags {
             margin-top: 20px;
           }
@@ -19,17 +22,15 @@
     background: $grey-100;
     .work-image {
       background: $white;
+      margin-bottom: 20px;
     }
-    .img-desc {
-      margin-top: 20px;
-      .img-desc-text p {
-        color: $grey-300;
-        font-size: 15px;
-        line-height: 19px;
-      }
-      .img-desc-link a {
-        text-align: right;
-      }
+    .img-desc-text p {
+      color: $grey-300;
+      font-size: 15px;
+      line-height: 19px;
+    }
+    .img-desc-link a {
+      text-align: right;
     }
     .work-text {
       margin-top: 20px;
