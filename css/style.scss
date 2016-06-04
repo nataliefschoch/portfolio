@@ -2,15 +2,119 @@
 // Reset styles
 @import url(reset.css);
 
-// Global Mixins and Variables
-@import 'color';
-@import 'typography';
+$font-family-serif: 'Noe', Verdana, Sans Serif;
+$black: #37384C;
+$yellow: #D0D810;
+$cream: #F2F5F2;
+$white: #fff;
+$red: #f7523c;
+$pink: #FF4195;
 
-// Partial styles
-@import 'header';
-@import 'footer';
+@font-face {
+  font-family: 'noe';
+  src: url('Noe Display Medium.eot'); /* IE9 Compat Modes */
+  src: url('Noe Display Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Noe Display Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('Noe Display Medium.woff') format('woff'); /* Pretty Modern Browsers */
+}
 
-// Page Specific styles
-@import 'portfolio-main';
-@import 'portfolio-resume';
-@import 'work/portfolio-work-subpage';
+body {
+	background-color: $white;
+	color: $black;
+	font-family: 'Akkurat';
+}
+
+h1 {
+	font-size: 30px;
+	font-family: $font-family-serif;
+	margin: 10px auto 30px;
+}
+
+p {
+	font-family: 'Akkurat';
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 10px;
+}
+
+a {
+	border-bottom: 1px solid $yellow;
+	color: $pink;
+	display: inline-block;
+	&:hover {
+		color: $pink;
+		text-decoration: none;
+	}
+}
+.container {
+	width: 90%;
+	margin: auto;
+	max-width: 1000px;
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+#portfolio {
+	background: $cream;
+}
+
+footer {
+	background: $cream;
+	border-top: 1px solid rgba(0, 0, 0, 0.04);
+	a {
+		color: $black;
+		border-bottom: none;
+	}
+	p,
+	li {
+		font-size: 14px;
+	}
+	ul {
+		text-align: left;
+		li {
+			display: inline;
+			margin-right: 30px;
+		}
+	}
+}
+
+/* In between XSmall & Small devices (phones & tablets, 480px and up) */
+@media (min-width: 480px) {
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	h1 {
+		font-size: 50px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.container {
+		width: 80%;
+		max-width: 1000px;
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	#portfolio {
+		height: 85vh;
+	}
+	#footer {
+	  align-items: center;
+	  display: flex;
+	  height: 15vh;
+	  justify-content: center;
+		.container {
+			padding-bottom: 0;
+			padding-top: 0;
+		}
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+

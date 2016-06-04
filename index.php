@@ -1,57 +1,66 @@
-<?php 
-  require 'header.php';
-?>
-<body id='portfolio'>
-  <section id='intro'>
+
+<!DOCTYPE html>
+<head>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" TYPE="text/css">
+  <link rel="icon" type="image/png" href="images/favicon2.ico"></link>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <title>Natalie Schoch - Designer</title>
+  <meta name="keywords" content="natalie, schoch, designer, graphic, illustration, infographics">
+  <meta name="description" content="Natalie Schoch - Portfolio">
+  <meta name="author" content="Natalie Schoch">
+</head>
+
+<body>
+  <section id='portfolio'>
     <div class='container'>
       <div class='row'>
-        <div class='col-md-9'>
-          <h4>Hi, I'm Natalie!</h4>
-          <h1>Im a developer and designer working a living in San Francisco, CA at <a href='https://www.gusto.com', target: '_blank'>Gusto</a>. Were on a mission to put people first by offering payroll, benefits and workers' comp insurance to small businesses in the United States.</h1>
+        <div class='col-md-8'>
+           <h1>Natalie Schoch is an interaction designer working in San Francisco, CA.</h1>
+            <p>
+              I am currently an interaction designer at
+              <a href='#'>
+                Gusto
+              </a>
+              , specializing in web design and development to acquire new customers. I&rsquo;m obsessed with crafting interactive experiences using
+              <a href='#'>HTML &amp; CSS</a>
+              to craft stories that resonate with small businsesses across the United States. In my spare time, I love to illustrate and and geek out on on typography. 
+            </p>
+            <p>
+              I can be found carefully crafting playlists on Spotify, eating thai food at Hawker Fare, or trying to teach myself piano.
+            </p>
         </div>
       </div>
     </div>
   </section>
-  <section id='work'>
+
+  <footer id='footer'>
     <div class='container'>
       <div class='row'>
-       <ul class='col-md-6'>
+        <div class='col-md-12'>
+         <ul>
           <li>
-            <a href='gusto.php'>
-              <h2>Gusto</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat justo est, vel sollicitudin dui ornare eu. Integer vitae ipsum ut justo tincidunt faucibus quis quis lacus.
-              </p>
+            <a href='#'>
+              Contact
             </a>
           </li>
-        <li>
-          <a href='wiser.php'>
-            <h2>ZenPayroll to Gusto</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat justo est, vel sollicitudin dui ornare eu. Integer vitae ipsum ut justo tincidunt faucibus quis quis lacus.
-            </p>
-          </a>
-        </li>
-        <li>
-          <h2>Wiser - Pricing Perfected</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat justo est, vel sollicitudin dui ornare eu. Integer vitae ipsum ut justo tincidunt faucibus quis quis lacus.
-          </p>
-        </li>
-      </ul>
-      <ul class='col-md-6'>
-        <li>
-          <h2>Watermelon</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat justo est, vel sollicitudin dui ornare eu. Integer vitae ipsum ut justo tincidunt faucibus quis quis lacus.
-          </p>
-        </li>
-        <li>
-          <h2>Infographics and Illustration</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat justo est, vel sollicitudin dui ornare eu. Integer vitae ipsum ut justo tincidunt faucibus quis quis lacus.
-          </p>
-        </li>
-      </ul>
+          <li>
+            <a href='#'>
+              About
+            </a>
+          </li>
+          <li>
+            <a href='#'>
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a href='#'>
+              Dribbble
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
-  </section>
+  </footer>
 </body>
-<?php 
-  require 'footer.php';
-?>

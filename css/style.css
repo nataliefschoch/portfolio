@@ -1,278 +1,83 @@
 @import url(reset.css);
+@font-face {
+  font-family: 'noe';
+  src: url("Noe Display Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("Noe Display Medium.eot?#iefix") format("embedded-opentype"), url("Noe Display Medium.woff2") format("woff2"), url("Noe Display Medium.woff") format("woff");
+  /* Pretty Modern Browsers */ }
+body {
+  background-color: #fff;
+  color: #37384C;
+  font-family: 'Akkurat'; }
+
 h1 {
-  font-family: "Publico Text", "Georgia", "Serif";
-  font-size: 23px;
-  font-weight: 600;
-  line-height: 28px;
-  margin-bottom: 10px;
-  margin-top: 10px; }
-
-h2 {
-  font-family: "Publico Text", "Georgia", "Serif";
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 25px;
-  margin-bottom: 3px; }
-
-h3 {
-  font-family: "Source Sans Pro", "Helvetica", "Arial", "Sans Serif";
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 0.4px;
-  line-height: 25px;
-  margin-bottom: 3px; }
-
-h4 {
-  font-family: "Source Sans Pro", "Helvetica", "Arial", "Sans Serif";
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #58595b;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 10px; }
-
-h5 {
-  font-family: "Source Sans Pro", "Helvetica", "Arial", "Sans Serif";
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #58595b;
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 10px; }
-
-h6 {
-  font-family: "Source Sans Pro", "Helvetica", "Arial", "Sans Serif";
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #58595b;
-  font-size: 13px;
-  font-weight: 600; }
+  font-size: 30px;
+  font-family: "Noe", Verdana, Sans Serif;
+  margin: 10px auto 30px; }
 
 p {
-  color: #58595b;
-  font-family: "Source Sans Pro", "Helvetica", "Arial", "Sans Serif";
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: 0.1px; }
+  font-family: 'Akkurat';
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 10px; }
 
-/* Small devices (tablets, 768px and up) */
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  h1 {
-    font-size: 25px;
-    line-height: 35px;
-    margin-bottom: 10px;
-    margin-top: 10px; } }
-/* Large devices (large desktops, 1200px and up) */
-/* Large devices (large desktops, 1400px and up) */
-header {
-  background: #f5f7fc; }
-  header .header-logo a .logo-circle {
-    background: #fff;
-    border-radius: 50%;
-    display: block;
-    height: 50px;
-    text-align: center;
-    width: 50px; }
-    header .header-logo a .logo-circle svg#logo-n {
-      margin: 10px auto;
-      width: 30px; }
-      header .header-logo a .logo-circle svg#logo-n path {
-        fill: #58595b; }
-    header .header-logo a .logo-circle:hover svg#logo-n path {
-      fill: #ff2266; }
-  header .header-nav {
-    text-align: right; }
-    header .header-nav ul li {
-      display: inline;
-      margin-left: 40px; }
-      header .header-nav ul li h5 {
-        display: inline; }
-      header .header-nav ul li a {
-        opacity: 0.6; }
-        header .header-nav ul li a:hover {
-          opacity: 1;
-          text-decoration: none; }
-
-footer {
-  /* Small devices (tablets, 768px and up) */
-  /* Medium devices (desktops, 992px and up) */
-  /* Large devices (large desktops, 1200px and up) */
-  /* Large devices (large desktops, 1400px and up) */ }
-  footer .container {
-    padding-top: 30px;
-    padding-bottom: 30px; }
-  footer ul {
-    text-align: center; }
-    footer ul li {
-      display: inline-block;
-      margin-right: 40px;
-      margin-bottom: 20px; }
-      footer ul li h5 {
-        display: inline; }
-        footer ul li h5 a {
-          color: #AB74FF; }
-          footer ul li h5 a:hover {
-            color: #6B15EC;
-            text-decoration: none; }
-  footer img {
-    position: absolute;
-    bottom: -43px;
-    width: 130px; }
-  @media (min-width: 992px) {
-    footer ul {
-      text-align: left; }
-      footer ul li {
-        margin-top: 0px; } }
-
-html {
-  background: #f5f7fc; }
+a {
+  border-bottom: 1px solid #D0D810;
+  color: #FF4195;
+  display: inline-block; }
+  a:hover {
+    color: #FF4195;
+    text-decoration: none; }
 
 .container {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  max-width: 1500px; }
-
-.divider-lrg {
-  background: white;
-  height: 1px;
-  margin: 20px auto;
-  opacity: 0.1;
-  width: 100%; }
+  width: 90%;
+  margin: auto;
+  max-width: 1000px;
+  padding-top: 40px;
+  padding-bottom: 60px; }
 
 #portfolio {
-  /* Small devices (tablets, 768px and up) */
-  /* Medium devices (desktops, 992px and up) */
-  /* Large devices (large desktops, 1200px and up) */
-  /* Large devices (large desktops, 1400px and up) */ }
-  #portfolio section#intro {
-    background: #f5f7fc; }
-    #portfolio section#intro h1 {
-      color: #6600FF;
-      font-size: 35px;
-      line-height: 47px; }
-      #portfolio section#intro h1 a {
-        color: #6B15EC;
-        text-decoration: underline; }
-  #portfolio section#work {
-    background: #f5f7fc;
-    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.07); }
-    #portfolio section#work ul li {
-      margin-bottom: 25px; }
-      #portfolio section#work ul li a h2 {
-        color: #000; }
-      #portfolio section#work ul li a:hover {
-        text-decoration: none; }
-      #portfolio section#work ul li:hover {
-        opacity: .7; }
-  @media (min-width: 992px) {
-    #portfolio .container {
-      padding-top: 60px;
-      padding-bottom: 60px; }
-    #portfolio .divider-lrg {
-      background: white;
-      height: 1px;
-      margin: 50px auto;
-      opacity: 0.1;
-      width: 100%; }
-    #portfolio section#work ul li {
-      margin-bottom: 50px; } }
+  background: #F2F5F2; }
 
-#header-dark {
-  background-color: #24232b; }
+footer {
+  background: #F2F5F2;
+  border-top: 1px solid rgba(0, 0, 0, 0.04); }
+  footer a {
+    color: #37384C;
+    border-bottom: none; }
+  footer p,
+  footer li {
+    font-size: 14px; }
+  footer ul {
+    text-align: left; }
+    footer ul li {
+      display: inline;
+      margin-right: 30px; }
 
-#portfolio.portfolio-resume {
-  /* Small devices (tablets, 768px and up) */
-  /* Medium devices (desktops, 992px and up) */
-  /* Large devices (large desktops, 1200px and up) */
-  /* Large devices (large desktops, 1400px and up) */ }
-  #portfolio.portfolio-resume section#resume {
-    background-color: #24232b;
-    box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.17); }
-    #portfolio.portfolio-resume section#resume .resume-row {
-      margin-bottom: 20px; }
-      #portfolio.portfolio-resume section#resume .resume-row h1,
-      #portfolio.portfolio-resume section#resume .resume-row h3,
-      #portfolio.portfolio-resume section#resume .resume-row h5,
-      #portfolio.portfolio-resume section#resume .resume-row p {
-        color: #fff; }
-      #portfolio.portfolio-resume section#resume .resume-row h1 {
-        letter-spacing: 0.4px; }
-      #portfolio.portfolio-resume section#resume .resume-row h5 {
-        opacity: 0.4; }
-      #portfolio.portfolio-resume section#resume .resume-row p {
-        font-weight: 200;
-        opacity: 0.7; }
-      #portfolio.portfolio-resume section#resume .resume-row ul {
-        margin-top: 10px; }
-        #portfolio.portfolio-resume section#resume .resume-row ul li.tag {
-          border: 2px solid #58595b;
-          border-radius: 20px;
-          display: inline-block;
-          padding: 2px 10px;
-          margin-top: 15px;
-          margin-right: 10px; }
-          #portfolio.portfolio-resume section#resume .resume-row ul li.tag:last-child {
-            margin-right: 0px; }
-          #portfolio.portfolio-resume section#resume .resume-row ul li.tag h6 {
-            display: inline; }
-      #portfolio.portfolio-resume section#resume .resume-row:last-child {
-        margin-bottom: 30px; }
-  @media (min-width: 992px) {
-    #portfolio.portfolio-resume section#resume {
-      background-color: #24232b; }
-      #portfolio.portfolio-resume section#resume .resume-row {
-        margin-bottom: 60px; }
-        #portfolio.portfolio-resume section#resume .resume-row:last-child {
-          margin-bottom: 100px; } }
+/* In between XSmall & Small devices (phones & tablets, 480px and up) */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 50px; } }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    width: 80%;
+    max-width: 1000px;
+    padding-top: 70px;
+    padding-bottom: 70px; }
 
-#portfolio {
-  /* Small devices (tablets, 768px and up) */
-  /* Medium devices (desktops, 992px and up) */
-  /* Large devices (large desktops, 1200px and up) */
-  /* Large devices (large desktops, 1400px and up) */ }
-  #portfolio section#portfolio-subpage-hero {
-    background: #f5f7fc; }
-    #portfolio section#portfolio-subpage-hero .hero {
-      position: relative; }
-      #portfolio section#portfolio-subpage-hero .hero .hero-desc .hero-desc-wrapper {
-        background: #fff;
-        box-shadow: 0px 3px 17px rgba(0, 0, 0, 0.07);
-        padding: 20px; }
-        #portfolio section#portfolio-subpage-hero .hero .hero-desc .hero-desc-wrapper p {
-          margin-bottom: 10px; }
-        #portfolio section#portfolio-subpage-hero .hero .hero-desc .hero-desc-wrapper .hero-desc-tags {
-          margin-top: 20px; }
-  #portfolio section#portfolio-work-subpage {
-    background: #f5f7fc; }
-    #portfolio section#portfolio-work-subpage .work-image {
-      background: #fff;
-      margin-bottom: 20px; }
-    #portfolio section#portfolio-work-subpage .img-desc-text p {
-      color: #8a8d92;
-      font-size: 15px;
-      line-height: 19px; }
-    #portfolio section#portfolio-work-subpage .img-desc-link a {
-      text-align: right; }
-    #portfolio section#portfolio-work-subpage .work-text {
-      margin-top: 20px; }
-  @media (min-width: 992px) {
-    #portfolio section#portfolio-subpage-hero .hero {
-      position: relative; }
-      #portfolio section#portfolio-subpage-hero .hero .hero-desc {
-        position: absolute;
-        right: 0;
-        top: 25%;
-        width: 50%; }
-        #portfolio section#portfolio-subpage-hero .hero .hero-desc .hero-desc-wrapper {
-          padding: 40px; }
-          #portfolio section#portfolio-subpage-hero .hero .hero-desc .hero-desc-wrapper .hero-desc-tags {
-            margin-top: 20px; } }
-  @media (min-width: 1200px) {
-    #portfolio section#portfolio-subpage-hero .hero .hero-desc .hero-desc-wrapper {
-      padding: 60px; } }
+  #portfolio {
+    height: 85vh; }
+
+  #footer {
+    align-items: center;
+    display: flex;
+    height: 15vh;
+    justify-content: center; }
+    #footer .container {
+      padding-bottom: 0;
+      padding-top: 0; } }
+/* Large devices (large desktops, 1200px and up) */
 
 /*# sourceMappingURL=style.css.map */
