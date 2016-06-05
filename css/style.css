@@ -1,83 +1,102 @@
 @import url(reset.css);
+@import url("//hello.myfonts.net/count/314268");
+@import url(http://db.onlinewebfonts.com/c/bc9fa02b4227255be2387a7e19a3e09b?family=Akkurat-Light);
+@font-face {
+  font-family: "Akkurat-Light";
+  src: url("Akkurat-Light.eot");
+  src: url("Akkurat-Light.eot?#iefix") format("embedded-opentype"), url("Akkurat-Light.woff2") format("woff2"), url("Akkurat-Light.woff") format("woff"), url("Akkurat-Light.ttf") format("truetype"), url("Akkurat-Light.svg#Akkurat-Light") format("svg"); }
 @font-face {
   font-family: 'noe';
   src: url("Noe Display Medium.eot");
   /* IE9 Compat Modes */
   src: url("Noe Display Medium.eot?#iefix") format("embedded-opentype"), url("Noe Display Medium.woff2") format("woff2"), url("Noe Display Medium.woff") format("woff");
   /* Pretty Modern Browsers */ }
-body {
+@font-face {
+  font-family: 'NeueHaasUnicaPro-Regular';
+  src: url("314268_0_0.eot");
+  src: url("314268_0_0.eot?#iefix") format("embedded-opentype"), url("314268_0_0.woff2") format("woff2"), url("314268_0_0.woff") format("woff"), url("314268_0_0.ttf") format("truetype"); }
+@-webkit-keyframes colorPulse {
+  0% {
+    background-color: #FAFBF5; }
+  50% {
+    background-color: #FFFCFD; }
+  100% {
+    background-color: #EAEAF3; } }
+#portfolio {
   background-color: #fff;
   color: #37384C;
-  font-family: 'Akkurat'; }
-
-h1 {
-  font-size: 30px;
-  font-family: "Noe", Verdana, Sans Serif;
-  margin: 10px auto 30px; }
-
-p {
-  font-family: 'Akkurat';
-  font-size: 16px;
-  line-height: 26px;
-  margin-bottom: 10px; }
-
-a {
-  border-bottom: 1px solid #D0D810;
-  color: #FF4195;
-  display: inline-block; }
-  a:hover {
-    color: #FF4195;
-    text-decoration: none; }
-
-.container {
-  width: 90%;
-  margin: auto;
-  max-width: 1000px;
-  padding-top: 40px;
-  padding-bottom: 60px; }
-
-#portfolio {
-  background: #F2F5F2; }
-
-footer {
-  background: #F2F5F2;
-  border-top: 1px solid rgba(0, 0, 0, 0.04); }
-  footer a {
+  font-family: "Akkurat-Light", "NeueHaasUnicaPro-Regular", Helvetica, Arial, Sans-serif; }
+  #portfolio h1 {
+    font-size: 30px;
+    font-family: "Noe", Verdana, Serif;
+    margin: 0px auto 20px;
+    letter-spacing: 0.3px;
+    line-height: 35px; }
+  #portfolio p {
+    font-family: "Akkurat-Light", "NeueHaasUnicaPro-Regular", Helvetica, Arial, Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 10px; }
+  #portfolio a {
+    border-bottom: 1px solid #FF4195;
+    display: inline-block;
     color: #37384C;
-    border-bottom: none; }
-  footer p,
-  footer li {
-    font-size: 14px; }
-  footer ul {
-    text-align: left; }
-    footer ul li {
-      display: inline;
-      margin-right: 30px; }
+    font-weight: 600;
+    line-height: 22px; }
+    #portfolio a:hover {
+      color: #FF4195;
+      text-decoration: none; }
+    #portfolio a:hover, #portfolio a:active, #portfolio a:visited, #portfolio a:focus {
+      color: #37384C;
+      text-decoration: none; }
+  #portfolio .container {
+    margin: auto;
+    max-width: 1000px;
+    padding: 40px 0px;
+    width: 90%; }
+  #portfolio #main {
+    -webkit-animation: colorPulse 10s infinite alternate;
+    align-items: center;
+    background-color: #FAFBF5;
+    display: flex;
+    justify-content: center; }
+  #portfolio #footer {
+    background: #fff;
+    align-items: center;
+    display: flex;
+    height: 13vh;
+    justify-content: center; }
+    #portfolio #footer p,
+    #portfolio #footer li {
+      font-size: 14px; }
+    #portfolio #footer ul {
+      text-align: left; }
+      #portfolio #footer ul li {
+        display: inline;
+        margin-right: 30px; }
+        #portfolio #footer ul li.copyright {
+          opacity: 0.4; }
+        #portfolio #footer ul li a {
+          color: #37384C;
+          border-bottom: none; }
 
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  h1 {
-    font-size: 50px; } }
+  #portfolio h1 {
+    font-size: 50px;
+    line-height: 57px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .container {
+  #portfolio .container {
     width: 80%;
     max-width: 1000px;
-    padding-top: 70px;
-    padding-bottom: 70px; }
-
-  #portfolio {
-    height: 85vh; }
-
-  #footer {
-    align-items: center;
-    display: flex;
-    height: 15vh;
-    justify-content: center; }
-    #footer .container {
-      padding-bottom: 0;
-      padding-top: 0; } }
+    padding: 0px; }
+  #portfolio #main {
+    height: 87vh; }
+    #portfolio #main .main-text-wrapper {
+      margin-top: -25px; } }
 /* Large devices (large desktops, 1200px and up) */
 
 /*# sourceMappingURL=style.css.map */

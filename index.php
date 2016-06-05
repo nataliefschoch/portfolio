@@ -3,37 +3,42 @@
 <head>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" TYPE="text/css">
-  <link rel="icon" type="image/png" href="images/favicon2.ico"></link>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <title>Natalie Schoch - Designer</title>
+  <link rel="icon" type="image/png" href="images/favicon.ico"/>
+<!--   <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+ -->  <title>Natalie Schoch - Designer</title>
   <meta name="keywords" content="natalie, schoch, designer, graphic, illustration, infographics">
   <meta name="description" content="Natalie Schoch - Portfolio">
   <meta name="author" content="Natalie Schoch">
 </head>
 
-<body>
-  <section id='portfolio'>
+<body id='portfolio'>
+  <section id='main'>
     <div class='container'>
-      <div class='row'>
+      <div class='row main-text-wrapper'>
         <div class='col-md-8'>
            <h1>Natalie Schoch is an interaction designer working in San Francisco, CA.</h1>
-            <p>
-              I am currently an interaction designer at
-              <a href='#'>
-                Gusto
-              </a>
-              , specializing in web design and development to acquire new customers. I&rsquo;m obsessed with crafting interactive experiences using
-              <a href='#'>HTML &amp; CSS</a>
-              to craft stories that resonate with small businsesses across the United States. In my spare time, I love to illustrate and and geek out on on typography. 
-            </p>
-            <p>
-              I can be found carefully crafting playlists on Spotify, eating thai food at Hawker Fare, or trying to teach myself piano.
-            </p>
+          <p>
+            I am an interaction designer at 
+            <a href='gusto.com', target='_blank'>
+              Gusto &mdash; a payroll and benefits platform
+            </a>
+            , who specializes in web design and development. I use
+            <a href='github.com/nataliefschoch', tagret='_blank'>
+              HTML &amp; CSS
+            </a>
+            to tell stories and craft memorable experiences that help aqcuire new customers. In my spare time, I love to 
+            <a href='dribbble.com/nataliefschoch', target='_blank'>
+              illustrate
+            </a>
+            and geek out on on typography.
+          </p>
+          <p>
+            I can be found carefully crafting playlists on Spotify, eating Gai Tod at Hawker Fare, or trying to teach myself piano.
+          </p>
         </div>
       </div>
     </div>
   </section>
-
   <footer id='footer'>
     <div class='container'>
       <div class='row'>
@@ -45,20 +50,16 @@
             </a>
           </li>
           <li>
-            <a href='#'>
-              About
-            </a>
-          </li>
-          <li>
-            <a href='#'>
+            <a href='https://www.twitter.com/nataliefschoch', target='_blank'>
               Twitter
             </a>
           </li>
           <li>
-            <a href='#'>
+            <a href='https://www.dribbble.com/nataliefschoch', target='_blank'>
               Dribbble
             </a>
           </li>
+          <li class='copyright'>NFS &copy; 2016</li>
         </ul>
       </div>
     </div>

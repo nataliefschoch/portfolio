@@ -1,14 +1,18 @@
 
-// Reset styles
+// Import styles
 @import url(reset.css);
+@import url("//hello.myfonts.net/count/314268");
+@import url(http://db.onlinewebfonts.com/c/bc9fa02b4227255be2387a7e19a3e09b?family=Akkurat-Light);
 
-$font-family-serif: 'Noe', Verdana, Sans Serif;
-$black: #37384C;
-$yellow: #D0D810;
-$cream: #F2F5F2;
-$white: #fff;
-$red: #f7523c;
-$pink: #FF4195;
+// Font styles
+@font-face {font-family: "Akkurat-Light";
+    src: url("Akkurat-Light.eot");
+    src: url("Akkurat-Light.eot?#iefix") format("embedded-opentype"),
+    url("Akkurat-Light.woff2") format("woff2"),
+    url("Akkurat-Light.woff") format("woff"),
+    url("Akkurat-Light.ttf") format("truetype"),
+    url("Akkurat-Light.svg#Akkurat-Light") format("svg");
+}
 
 @font-face {
   font-family: 'noe';
@@ -18,64 +22,116 @@ $pink: #FF4195;
        url('Noe Display Medium.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
-body {
+@font-face {
+	font-family: 'NeueHaasUnicaPro-Regular';
+	src: url('314268_0_0.eot');
+	src: url('314268_0_0.eot?#iefix') format('embedded-opentype'),
+	url('314268_0_0.woff2') format('woff2'),
+	url('314268_0_0.woff') format('woff'),
+	url('314268_0_0.ttf') format('truetype');
+}
+
+// Mixin and Variables styles
+@mixin font-smoothing {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+$font-family-serif: 'Noe', Verdana, Serif;
+$font-family-sans: 'Akkurat-Light', 'NeueHaasUnicaPro-Regular', Helvetica, Arial, Sans-serif;
+$black: #37384C;
+$white: #fff;
+$pink: #FF4195;
+$cream-yellow: #FAFBF5;
+$cream-pink: #FFFCFD;
+$cream-blue: #EAEAF3;
+
+@-webkit-keyframes colorPulse {
+      0% {background-color: $cream-yellow;}
+     50% {background-color: $cream-pink;}
+    100% {background-color: $cream-blue;}
+}
+
+
+// Element Styles
+#portfolio {
 	background-color: $white;
 	color: $black;
-	font-family: 'Akkurat';
-}
+	font-family: $font-family-sans;
 
-h1 {
-	font-size: 30px;
-	font-family: $font-family-serif;
-	margin: 10px auto 30px;
-}
-
-p {
-	font-family: 'Akkurat';
-	font-size: 16px;
-	line-height: 26px;
-	margin-bottom: 10px;
-}
-
-a {
-	border-bottom: 1px solid $yellow;
-	color: $pink;
-	display: inline-block;
-	&:hover {
-		color: $pink;
-		text-decoration: none;
+	h1 {
+		font-size: 30px;
+		font-family: $font-family-serif;
+		margin: 0px auto 20px;
+	  letter-spacing: 0.3px;
+	  line-height: 35px;
 	}
-}
-.container {
-	width: 90%;
-	margin: auto;
-	max-width: 1000px;
-	padding-top: 40px;
-	padding-bottom: 60px;
-}
 
-#portfolio {
-	background: $cream;
-}
+	p {
+		font-family: $font-family-sans;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 26px;
+		margin-bottom: 10px;
+	}
 
-footer {
-	background: $cream;
-	border-top: 1px solid rgba(0, 0, 0, 0.04);
 	a {
+		border-bottom: 1px solid $pink;
+		display: inline-block;
 		color: $black;
-		border-bottom: none;
-	}
-	p,
-	li {
-		font-size: 14px;
-	}
-	ul {
-		text-align: left;
-		li {
-			display: inline;
-			margin-right: 30px;
+		font-weight: 600;
+		line-height: 22px;
+		&:hover {
+			color: $pink;
+			text-decoration: none;
+		}
+		&:hover, &:active, &:visited, &:focus {
+			color: $black;
+	    text-decoration: none;
 		}
 	}
+
+	.container {
+		margin: auto;
+		max-width: 1000px;
+		padding: 40px 0px;
+		width: 90%;
+	}
+
+	#main {
+		-webkit-animation: colorPulse 10s infinite alternate;
+		align-items: center;
+		background-color: $cream-yellow;
+	  display: flex;
+	  justify-content: center;
+	}
+
+	#footer {
+		background: $white;
+		align-items: center;
+	  display: flex;
+	  height: 13vh;
+	  justify-content: center;
+		p,
+		li {
+			font-size: 14px;
+		}
+		ul {
+			text-align: left;
+			li {
+				display: inline;
+				margin-right: 30px;
+				&.copyright {
+					opacity: 0.4;
+				}
+				a {
+					color: $black;
+					border-bottom: none;
+				}
+			}
+		}
+	}
+
 }
 
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
@@ -85,30 +141,27 @@ footer {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	h1 {
-		font-size: 50px;
+	#portfolio {
+		h1 {
+			font-size: 50px;
+			line-height: 57px;
+		}
 	}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+	#portfolio {
 	.container {
 		width: 80%;
 		max-width: 1000px;
-		padding-top: 70px;
-		padding-bottom: 70px;
+		padding: 0px;
 	}
-	#portfolio {
-		height: 85vh;
-	}
-	#footer {
-	  align-items: center;
-	  display: flex;
-	  height: 15vh;
-	  justify-content: center;
-		.container {
-			padding-bottom: 0;
-			padding-top: 0;
+	#main {
+		height: 87vh;
+			.main-text-wrapper {
+				margin-top: -25px;
+			}
 		}
 	}
 }
@@ -117,4 +170,6 @@ footer {
 @media (min-width: 1200px) {
 
 }
+
+
 
