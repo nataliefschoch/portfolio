@@ -23,11 +23,11 @@
   100% {
     background-color: #EAEAF3; } }
 ::selection {
-  background: #FFE49F;
+  background: #EDF0FF;
   /* WebKit/Blink Browsers */ }
 
 ::-moz-selection {
-  background: #FFE49F;
+  background: #EDF0FF;
   /* Gecko Browsers */ }
 
 #portfolio {

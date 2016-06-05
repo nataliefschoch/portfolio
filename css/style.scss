@@ -42,7 +42,7 @@ $font-family-sans: 'Akkurat-Light', 'NeueHaasUnicaPro-Regular', Helvetica, Arial
 $black: #37384C;
 $white: #fff;
 $pink: #FF4195;
-$yellow: #FFE49F;
+$cream-blue-dark: #EDF0FF;
 $cream-yellow: #FAFBF5;
 $cream-pink: #FFFCFD;
 $cream-blue: #EAEAF3;
@@ -54,10 +54,10 @@ $cream-blue: #EAEAF3;
 }
 
 ::selection {
-  background: $yellow; /* WebKit/Blink Browsers */
+  background: $cream-blue-dark; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: $yellow; /* Gecko Browsers */
+  background: $cream-blue-dark; /* Gecko Browsers */
 }
 
 // Element Styles
