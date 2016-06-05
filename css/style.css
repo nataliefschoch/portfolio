@@ -22,10 +22,19 @@
     background-color: #FFFCFD; }
   100% {
     background-color: #EAEAF3; } }
+::selection {
+  background: #FFE49F;
+  /* WebKit/Blink Browsers */ }
+
+::-moz-selection {
+  background: #FFE49F;
+  /* Gecko Browsers */ }
+
 #portfolio {
   background-color: #fff;
   color: #37384C;
-  font-family: "Akkurat-Light", "NeueHaasUnicaPro-Regular", Helvetica, Arial, Sans-serif; }
+  font-family: "Akkurat-Light", "NeueHaasUnicaPro-Regular", Helvetica, Arial, Sans-serif;
+  text-rendering: optimizeLegibility; }
   #portfolio h1 {
     font-size: 30px;
     font-family: "Noe", Verdana, Serif;
@@ -40,14 +49,14 @@
     margin-bottom: 10px; }
   #portfolio a {
     border-bottom: 1px solid #FF4195;
-    display: inline-block;
+    display: inline;
     color: #37384C;
     font-weight: 600;
     line-height: 22px; }
     #portfolio a:hover {
       color: #FF4195;
       text-decoration: none; }
-    #portfolio a:hover, #portfolio a:active, #portfolio a:visited, #portfolio a:focus {
+    #portfolio a:active, #portfolio a:visited, #portfolio a:focus {
       color: #37384C;
       text-decoration: none; }
   #portfolio .container {
@@ -76,19 +85,22 @@
         display: inline;
         margin-right: 30px; }
         #portfolio #footer ul li.copyright {
-          opacity: 0.4; }
+          display: block;
+          opacity: 0.4;
+          margin-top: 15px; }
         #portfolio #footer ul li a {
           color: #37384C;
           border-bottom: none; }
 
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
+@media (min-width: 480px) {
+  #portfolio #footer ul li.copyright {
+    display: inline;
+    margin-top: 0; } }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  #portfolio h1 {
-    font-size: 50px;
-    line-height: 57px; } }
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+  #portfolio a {
+    display: inline-block; }
   #portfolio .container {
     width: 80%;
     max-width: 1000px;
@@ -96,7 +108,11 @@
   #portfolio #main {
     height: 87vh; }
     #portfolio #main .main-text-wrapper {
-      margin-top: -25px; } }
+      margin-top: -25px; }
+      #portfolio #main .main-text-wrapper h1 {
+        font-size: 50px;
+        line-height: 57px; } }
+/* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
 
 /*# sourceMappingURL=style.css.map */

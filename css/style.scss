@@ -42,6 +42,7 @@ $font-family-sans: 'Akkurat-Light', 'NeueHaasUnicaPro-Regular', Helvetica, Arial
 $black: #37384C;
 $white: #fff;
 $pink: #FF4195;
+$yellow: #FFE49F;
 $cream-yellow: #FAFBF5;
 $cream-pink: #FFFCFD;
 $cream-blue: #EAEAF3;
@@ -52,13 +53,19 @@ $cream-blue: #EAEAF3;
     100% {background-color: $cream-blue;}
 }
 
+::selection {
+  background: $yellow; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: $yellow; /* Gecko Browsers */
+}
 
 // Element Styles
 #portfolio {
 	background-color: $white;
 	color: $black;
 	font-family: $font-family-sans;
-
+  text-rendering: optimizeLegibility;
 	h1 {
 		font-size: 30px;
 		font-family: $font-family-serif;
@@ -77,7 +84,7 @@ $cream-blue: #EAEAF3;
 
 	a {
 		border-bottom: 1px solid $pink;
-		display: inline-block;
+		display: inline;
 		color: $black;
 		font-weight: 600;
 		line-height: 22px;
@@ -85,7 +92,7 @@ $cream-blue: #EAEAF3;
 			color: $pink;
 			text-decoration: none;
 		}
-		&:hover, &:active, &:visited, &:focus {
+		&:active, &:visited, &:focus {
 			color: $black;
 	    text-decoration: none;
 		}
@@ -122,7 +129,9 @@ $cream-blue: #EAEAF3;
 				display: inline;
 				margin-right: 30px;
 				&.copyright {
+					display: block;
 					opacity: 0.4;
+					margin-top: 15px;
 				}
 				a {
 					color: $black;
@@ -136,34 +145,45 @@ $cream-blue: #EAEAF3;
 
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
 @media (min-width: 480px) {
-
+	#portfolio {
+			#footer {
+			ul {
+				li.copyright {
+					display: inline;
+					margin-top: 0;
+				}
+			}
+		}
+	}
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	#portfolio {
-		h1 {
-			font-size: 50px;
-			line-height: 57px;
+		a {
+			display: inline-block;
+		}
+		.container {
+			width: 80%;
+			max-width: 1000px;
+			padding: 0px;
+		}
+		#main {
+			height: 87vh;
+			.main-text-wrapper {
+				margin-top: -25px;
+				h1 {
+					font-size: 50px;
+					line-height: 57px;
+				}
+			}
 		}
 	}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-	#portfolio {
-	.container {
-		width: 80%;
-		max-width: 1000px;
-		padding: 0px;
-	}
-	#main {
-		height: 87vh;
-			.main-text-wrapper {
-				margin-top: -25px;
-			}
-		}
-	}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
