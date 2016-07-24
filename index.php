@@ -12,54 +12,83 @@
 </head>
 
 <body id='portfolio'>
+  <header>
+    <div class='container'>
+      <div class='column'>
+        <ul class='nav'>
+          <li>Work</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class='column'>
+        <h1>Natalie Schoch</h1>
+      </div>
+    </div>
+  </header>
   <section id='main'>
     <div class='container'>
-      <div class='row main-text-wrapper'>
-        <div class='col-md-8 col-sm-9'>
-           <h1>Natalie Schoch is an interaction designer working in San Francisco, CA.</h1>
+      <div class='column'>
+        <div class='item gusto'>
+          <img src='images/img-home-gusto@2x.jpg' class='img-responsive'>
           <p>
-            I am an interaction designer at 
-            <a href='https://www.gusto.com', target='_blank'>
-              Gusto &mdash; a payroll and benefits platform
-            </a>
-            , who specializes in web design and development. I use
-            <a href='https://www.github.com/nataliefschoch', tagret='_blank'>
-              HTML &amp; CSS
-            </a>
-            to tell stories and craft memorable experiences that help acquire new customers. In my spare time, I love to 
-            <a href='https://www.dribbble.com/nataliefschoch', target='_blank'>
-              illustrate
-            </a>
-            and geek out on on typography.
+            Gusto
+            <span>Front-end development, branding, etc.</span>
           </p>
+        </div>
+        <div class='item'>
+          <img src='images/img-home-vad@2x.jpg' class='img-responsive'>
           <p>
-            I can be found carefully crafting playlists on Spotify, eating Gai Tod at Hawker Fare, or trying to teach myself piano.
+            Vad Foundation
+            <span>Front-end development, branding, etc.</span> 
+          </p>
+        </div>
+        <div class='item wiser'>
+          <img src='images/img-home-wiser@2x.jpg' class='img-responsive'>
+          <p>
+            Wiser
+            <span>Front-end development, branding, etc.</span>
+          </p>
+        </div>
+      </div>
+      <div class='column'>
+        <div class='item bio'>
+          <p>
+            Natalie Schoch is an interaction designer, working at <a href='#'>Gusto</a> and living in San Francisco.
+          </p>
+        </div>
+        <div class='item zp'>
+          <img src='images/img-home-zp@2x.jpg' class='img-responsive'>
+          <p>
+            Zenpayroll
+            <span>Front-end development, branding, etc.</span>
+          </p>
+        </div>
+        <div class='item ballhawk'>
+          <img src='images/img-home-ballhawk@2x.jpg' class='img-responsive'>
+          <p>
+            Ballhawk
+            <span>Front-end development, branding, etc.</span>
+          </p>
+        </div>
+        <div class='item watermelon'>
+          <img src='images/img-home-watermelon@2x.jpg' class='img-responsive'>
+          <p>
+            Watermelon
+            <span>Front-end development, branding, etc.</span>
           </p>
         </div>
       </div>
     </div>
   </section>
-  <footer id='footer'>
+  <footer>
     <div class='container'>
-      <div class='row'>
-        <div class='col-md-12'>
-         <ul>
-          <li>
-            <a href="mailto:hello@natalieschoch.com?Subject=Hey%20girl,%20hey!" target="_top">
-              Contact
-            </a>
-          </li>
-          <li>
-            <a href='https://www.twitter.com/nataliefschoch', target='_blank'>
-              Twitter
-            </a>
-          </li>
-          <li>
-            <a href='https://www.dribbble.com/nataliefschoch', target='_blank'>
-              Dribbble
-            </a>
-          </li>
-          <li class='copyright'>NFS &copy; 2016</li>
+      <div class='bio'>
+        <p>Natalie is an interaction designer working and living in San Francisco, CA. She specializes in design and front-end development.</p>
+        <ul class='footer-links'>
+          <li><a href='#'>Dribbble</a></li>
+          <li><a href='#'>Twitter</a></li>
+          <li><a href='#'>Github</a></li>
         </ul>
       </div>
     </div>
