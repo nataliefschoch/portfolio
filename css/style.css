@@ -48,12 +48,12 @@
     letter-spacing: 0.24px;
     margin-top: 10px; }
   #portfolio a {
-    border-bottom: 1px solid black;
-    display: inline;
     color: #37384C;
-    line-height: 22px; }
+    display: inline;
+    line-height: 22px;
+    padding: 4px; }
     #portfolio a:hover {
-      color: #FF4195;
+      border-bottom: 2px solid black;
       text-decoration: none; }
     #portfolio a:active, #portfolio a:visited, #portfolio a:focus {
       color: #37384C;
@@ -84,7 +84,8 @@
         clear: both; }
       #portfolio #main .column .item {
         margin: auto;
-        margin-top: 50px; }
+        margin-top: 50px;
+        height: 500px; }
         #portfolio #main .column .item.bio {
           display: none; }
         #portfolio #main .column .item p {
@@ -109,16 +110,13 @@
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 1000px) {
-  .img-responsive {
-    max-width: 130%; }
-
   #portfolio .container {
     padding: 60px 0px; }
   #portfolio header h1 {
     text-align: right;
     position: fixed;
     z-index: 10;
-    right: 100px; }
+    right: 5%; }
   #portfolio header ul.nav {
     position: fixed;
     z-index: 10; }
@@ -126,6 +124,8 @@
     width: 50%; }
     #portfolio #main .column .item {
       margin-top: 150px; }
+      #portfolio #main .column .item img {
+        max-height: 440px; }
       #portfolio #main .column .item:first-of-type {
         margin-top: 70px; }
       #portfolio #main .column .item.bio {
@@ -134,26 +134,30 @@
         margin-top: 230px;
         font-size: 21px;
         line-height: 28px;
-        width: 50%; }
+        width: 50%;
+        height: auto; }
         #portfolio #main .column .item.bio p {
           font-size: 20px;
           font-weight: 400; }
-      #portfolio #main .column .item.vad {
-        margin-left: -20px; }
-      #portfolio #main .column .item.gusto {
-        margin-left: 100px; }
+      #portfolio #main .column .item.vad img {
+        margin-left: -100px; }
       #portfolio #main .column .item.zp {
         margin-top: 130px;
         margin-left: 20px; }
-      #portfolio #main .column .item.wiser {
-        margin-left: 30px; }
-        #portfolio #main .column .item.wiser img {
-          width: 470px; }
+        #portfolio #main .column .item.zp img {
+          margin-top: -20px;
+          margin-left: -100px; }
+        #portfolio #main .column .item.zp p {
+          margin-left: -100px; }
       #portfolio #main .column .item.ballhawk {
-        width: 500px; }
+        margin-top: 100px; }
+        #portfolio #main .column .item.ballhawk img,
+        #portfolio #main .column .item.ballhawk p {
+          margin-left: 19%; }
       #portfolio #main .column .item.watermelon {
-        margin-top: 150px;
-        margin-left: 60px; }
+        margin-top: 150px; }
+        #portfolio #main .column .item.watermelon img {
+          float: right; }
   #portfolio footer .bio {
     width: 50%; } }
 /* Large devices (large desktops, 1200px and up) */

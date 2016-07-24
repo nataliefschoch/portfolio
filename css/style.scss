@@ -81,12 +81,12 @@ $cream-blue: #EAEAF3;
 	}
 
 	a {
-		border-bottom: 1px solid black;
-		display: inline;
 		color: $black;
+		display: inline;
 		line-height: 22px;
+		padding: 4px;
 		&:hover {
-			color: $pink;
+			border-bottom: 2px solid black;
 			text-decoration: none;
 		}
 		&:active, &:visited, &:focus {
@@ -130,6 +130,7 @@ $cream-blue: #EAEAF3;
 		 .item {
 			 	margin: auto;
 			 	margin-top: 50px;
+			 	height: 500px;
 			 	&.bio {
 			 		display: none;
 			 	}
@@ -179,9 +180,6 @@ $cream-blue: #EAEAF3;
 }
 
 @media (min-width: 1000px) {
-	.img-responsive {
-		max-width: 130%;
-	}
 	#portfolio {
 		.container {
 			padding: 60px 0px;
@@ -191,7 +189,7 @@ $cream-blue: #EAEAF3;
 				text-align: right;
 				position: fixed;
 				z-index: 10;
-				right: 100px;
+				right: 5%;
 			}
 			ul.nav {
 				position: fixed;
@@ -203,6 +201,9 @@ $cream-blue: #EAEAF3;
 		    width: 50%;
     		.item {
 					margin-top: 150px;
+					img {
+						max-height: 440px;
+					}
 					&:first-of-type {
 						margin-top: 70px;
 					}
@@ -213,33 +214,46 @@ $cream-blue: #EAEAF3;
 				    font-size: 21px;
 				    line-height: 28px;
 				    width: 50%;
+				    height: auto;
 				    p {
 				    	font-size: 20px;
 				    	font-weight: 400;
 				    }
 					}
 					&.vad {
-						margin-left: -20px;
-					}
-					&.gusto {
-						margin-left: 100px;
-					}
-					&.zp {
-						margin-top: 130px;
-					  margin-left: 20px;
-					}
-					&.wiser {
-						margin-left: 30px;
 						img {
-							width: 470px;
+							margin-left: -100px;
 						}
 					}
+					&.gusto {
+						
+					}
+					&.zp {
+						  margin-top: 130px;
+    					margin-left: 20px;
+						img {
+							margin-top: -20px;
+    					margin-left: -100px;
+						}
+						p {
+							margin-left: -100px;
+						}
+					}
+					&.wiser {
+						
+					}
 					&.ballhawk {
-						width: 500px;
+						margin-top: 100px;
+						img,
+						p {
+							margin-left: 19%;
+						}
 					}
 					&.watermelon {
 						margin-top: 150px;
-						margin-left: 60px;
+						img {
+							float: right;
+						}
 					}
 				}
 			}

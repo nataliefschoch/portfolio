@@ -16,9 +16,9 @@
     <div class='container'>
       <div class='column'>
         <ul class='nav'>
-          <li>Work</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><a href='#'>Work</a></li>
+          <li><a href='#'>About</a></li>
+          <li><a href='#'>Contact</a></li>
         </ul>
       </div>
       <div class='column'>
@@ -36,7 +36,7 @@
             <span>Front-end development, branding, etc.</span>
           </p>
         </div>
-        <div class='item'>
+        <div class='item vad'>
           <img src='images/img-home-vad@2x.jpg' class='img-responsive'>
           <p>
             Vad Foundation
