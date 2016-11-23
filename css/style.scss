@@ -1,25 +1,9 @@
 
 // Import styles
 @import url(reset.css);
-@import url("//hello.myfonts.net/count/314268");
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
+@import 'typography_styles';
 
-// Font styles
-@font-face {
-  font-family: 'noe';
-  src: url('Noe Display Medium.eot'); /* IE9 Compat Modes */
-  src: url('Noe Display Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('Noe Display Medium.woff2') format('woff2'), /* Super Modern Browsers */
-       url('Noe Display Medium.woff') format('woff'); /* Pretty Modern Browsers */
-}
-
-@font-face {
-	font-family: 'NeueHaasUnicaPro-Regular';
-	src: url('314268_0_0.eot');
-	src: url('314268_0_0.eot?#iefix') format('embedded-opentype'),
-	     url('314268_0_0.woff2') format('woff2'),
-	     url('314268_0_0.woff') format('woff'),
-	     url('314268_0_0.ttf') format('truetype');
-}
 
 // Mixin and Variables styles
 @mixin font-smoothing {
@@ -27,21 +11,7 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-$font-family-serif: 'Noe', Verdana, Serif;
-$font-family-sans: 'Graphik','NeueHaasUnicaPro-Regular', Helvetica, Arial, Sans-serif;
-$black: #37384C;
-$white: #fff;
-$pink: #FF4195;
-$cream-blue-dark: #EDF0FF;
-$cream-yellow: #FAFBF5;
-$cream-pink: #FFFCFD;
-$cream-blue: #EAEAF3;
 
-@-webkit-keyframes colorPulse {
-      0% {background-color: $cream-yellow;}
-     50% {background-color: $cream-pink;}
-    100% {background-color: $cream-blue;}
-}
 
 ::selection {
   background: $cream-blue-dark; /* WebKit/Blink Browsers */
@@ -52,48 +22,7 @@ $cream-blue: #EAEAF3;
 
 // Element Styles
 #portfolio {
-	transition: all 0.5s linear;
-	color: $black;
-	font-family: $font-family-sans;
-  text-rendering: optimizeLegibility;
-  overflow-x: hidden; 
 
-	h1 {
-		font-size: 40px;
-		font-family: $font-family-sans;
-		letter-spacing: 0.3px;
-		line-height: 35px;
-	}
-
-	h3 {
-		font-size: 20px;
-		font-family: $font-family-sans;
-		font-weight: 700;
-		letter-spacing: 0.3px;
-		line-height: 35px;
-	}
-
-	p {
-		font-family: $font-family-sans;
-		font-size: 15px;
-		letter-spacing: 0.24px;
-		margin-top: 10px;
-	}
-
-	a {
-		color: $black;
-		display: inline;
-		line-height: 22px;
-		padding: 4px;
-		&:hover {
-			border-bottom: 2px solid black;
-			text-decoration: none;
-		}
-		&:active, &:visited, &:focus {
-			color: $black;
-	    text-decoration: none;
-		}
-	}
 
 	.container {
 		margin: auto;

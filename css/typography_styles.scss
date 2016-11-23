@@ -1,0 +1,40 @@
+@import 'variables';
+
+h1 {
+	font-size: 40px;
+	font-family: $font-family-serif;
+	letter-spacing: 0.3px;
+	line-height: 35px;
+	color: $pink;
+}
+
+h3 {
+	font-size: 20px;
+	font-family: $font-family-sans;
+	font-weight: 700;
+	letter-spacing: 0.3px;
+	line-height: 35px;
+}
+
+
+p {
+	font-family: $font-family-sans;
+	font-size: 15px;
+	letter-spacing: 0.24px;
+	margin-top: 10px;
+}
+
+a {
+	color: $black;
+	display: inline;
+	line-height: 22px;
+	padding: 4px;
+	&:hover {
+		border-bottom: 2px solid black;
+		text-decoration: none;
+	}
+	&:active, &:visited, &:focus {
+		color: $black;
+    text-decoration: none;
+	}
+}
