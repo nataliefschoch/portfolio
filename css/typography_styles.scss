@@ -16,12 +16,26 @@ h3 {
 	line-height: 35px;
 }
 
+h4 {
+	color: $red;
+	font-family: $font-family-sans;
+    font-weight: 200;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+}
 
 p {
-	font-family: $font-family-sans;
-	font-size: 15px;
+	font-family: $font-family-serif;
+	font-size: 16px;
+	font-weight: 400;
 	letter-spacing: 0.24px;
+	line-height: 25px;
 	margin-top: 10px;
+	&.text-strong {
+		font-size: 18px;
+		line-height: 27px;
+		font-weight: 700;
+	}
 }
 
 a {

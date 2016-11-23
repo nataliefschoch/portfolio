@@ -14,11 +14,24 @@ h3 {
   letter-spacing: 0.3px;
   line-height: 35px; }
 
-p {
+h4 {
+  color: #ef4642;
   font-family: "bebas-neue", sans-serif;
-  font-size: 15px;
+  font-weight: 200;
+  font-size: 22px;
+  letter-spacing: 1.5px; }
+
+p {
+  font-family: "PT Serif", serif;
+  font-size: 16px;
+  font-weight: 400;
   letter-spacing: 0.24px;
+  line-height: 25px;
   margin-top: 10px; }
+  p.text-strong {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700; }
 
 a {
   color: #37384C;
@@ -32,116 +45,30 @@ a {
     color: #37384C;
     text-decoration: none; }
 
-::selection {
-  background: #EDF0FF;
-  /* WebKit/Blink Browsers */ }
+.drop-shadow-100 {
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.09); }
 
-::-moz-selection {
-  background: #EDF0FF;
-  /* Gecko Browsers */ }
+html {
+  font-family: "PT Serif", serif; }
 
-#portfolio .container {
-  margin: auto;
-  padding: 30px 0px;
-  width: 90%; }
-#portfolio header {
-  background: #f3f3f3; }
-  #portfolio header .container {
-    padding-bottom: 0; }
-  #portfolio header ul.nav {
-    font-size: 40px;
-    text-align: left; }
-    #portfolio header ul.nav li {
-      display: inline-block;
-      margin-right: 15px; }
-#portfolio #main {
-  background-color: #f3f3f3; }
-  #portfolio #main .column {
-    width: 100%;
-    float: left;
-    box-sizing: border-box;
-    transition: -webkit-transform 2000ms ease-out,opacity 1500ms linear 250ms;
-    transition: transform 2000ms ease-out,opacity 1500ms linear 250ms; }
-    #portfolio #main .column:nth-of-type(3) {
-      clear: both; }
-    #portfolio #main .column .item {
-      margin: auto;
-      margin-top: 50px;
-      height: 500px; }
-      #portfolio #main .column .item.bio {
-        display: none; }
-      #portfolio #main .column .item p {
-        font-weight: 600;
-        margin-top: 20px; }
-        #portfolio #main .column .item p span {
-          font-weight: 400;
-          margin-left: 20px; }
-#portfolio footer .bio {
-  margin: auto;
-  text-align: center; }
-  #portfolio footer .bio p {
-    font-size: 20px; }
-  #portfolio footer .bio ul {
-    margin-top: 30px; }
-    #portfolio footer .bio ul li {
-      display: inline;
-      margin-right: 10px; }
-      #portfolio footer .bio ul li.last-child {
-        margin-right: 0; }
+.container {
+  width: 90%;
+  max-width: 1700px;
+  padding: 10px; }
 
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 1000px) {
-  #portfolio .container {
-    padding: 60px 0px; }
-  #portfolio header h1 {
-    text-align: right;
-    position: fixed;
-    z-index: 10;
-    right: 5%; }
-  #portfolio header ul.nav {
-    position: fixed;
-    z-index: 10; }
-  #portfolio #main .column {
-    width: 50%; }
-    #portfolio #main .column .item {
-      margin-top: 150px; }
-      #portfolio #main .column .item img {
-        max-height: 440px; }
-      #portfolio #main .column .item:first-of-type {
-        margin-top: 70px; }
-      #portfolio #main .column .item.bio {
-        display: inline-block;
-        margin-left: 130px;
-        margin-top: 230px;
-        font-size: 21px;
-        line-height: 28px;
-        width: 50%;
-        height: auto; }
-        #portfolio #main .column .item.bio p {
-          font-size: 20px;
-          font-weight: 400; }
-      #portfolio #main .column .item.vad img {
-        margin-left: -100px; }
-      #portfolio #main .column .item.zp {
-        margin-top: 130px;
-        margin-left: 20px; }
-        #portfolio #main .column .item.zp img {
-          margin-top: -20px;
-          margin-left: -100px; }
-        #portfolio #main .column .item.zp p {
-          margin-left: -100px; }
-      #portfolio #main .column .item.ballhawk {
-        margin-top: 100px; }
-        #portfolio #main .column .item.ballhawk img,
-        #portfolio #main .column .item.ballhawk p {
-          margin-left: 19%; }
-      #portfolio #main .column .item.watermelon {
-        margin-top: 150px; }
-        #portfolio #main .column .item.watermelon img {
-          float: right; }
-  #portfolio footer .bio {
-    width: 50%; } }
+@media (min-width: 768px) {
+  .container {
+    width: 90%;
+    max-width: 1700px;
+    padding: 30px; } }
 /* Large devices (large desktops, 1200px and up) */
+.drop-shadow-100 {
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.09); }
+
+section.work-intro .work-img-intro {
+  height: 600px;
+  background: grey; }
 
 /*# sourceMappingURL=style.css.map */

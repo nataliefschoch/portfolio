@@ -1,0 +1,42 @@
+@import 'variables';
+@import 'helpers';
+
+
+html {
+	font-family: $font-family-serif;
+}
+
+.container {
+	width: 90%;
+	max-width: 1700px;
+	padding: 10px;
+}
+
+
+// Element Styles
+#portfolio {
+
+}
+
+/* In between XSmall & Small devices (phones & tablets, 480px and up) */
+@media (min-width: 480px) {
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+.container {
+	width: 90%;
+	max-width: 1700px;
+	padding: 30px;
+}
+}
+
+@media (min-width: 1000px) {
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

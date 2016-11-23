@@ -11,16 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
  <header>
-    <div class='container'>
-      <div class='column'>
-        <ul class='nav'>
-          <li><a href='#'>Work</a></li>
-          <li><a href='#'>About</a></li>
-          <li><a href='#'>Contact</a></li>
-        </ul>
-      </div>
-      <div class='column'>
-        <h1>Natalie Schoch</h1>
-      </div>
-    </div>
-  </header>
+ 	<div class='container'>
+		header
+ 	</div>
+</header>

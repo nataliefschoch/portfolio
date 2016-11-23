@@ -12,11 +12,24 @@ h3 {
   letter-spacing: 0.3px;
   line-height: 35px; }
 
-p {
+h4 {
+  color: #ef4642;
   font-family: "bebas-neue", sans-serif;
-  font-size: 15px;
+  font-weight: 200;
+  font-size: 22px;
+  letter-spacing: 1.5px; }
+
+p {
+  font-family: "PT Serif", serif;
+  font-size: 16px;
+  font-weight: 400;
   letter-spacing: 0.24px;
+  line-height: 25px;
   margin-top: 10px; }
+  p.text-strong {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700; }
 
 a {
   color: #37384C;
