@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'noe';
+  src: url("Noe Display Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("Noe Display Medium.eot?#iefix") format("embedded-opentype"), url("Noe Display Medium.woff2") format("woff2"), url("Noe Display Medium.woff") format("woff");
+  /* Pretty Modern Browsers */ }
 .drop-shadow-100 {
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.09); }
 

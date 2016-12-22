@@ -3,7 +3,8 @@
 
 
 html {
-	font-family: $font-family-serif;
+	border: 7px solid $black;
+	font-family: $font-family-sans;
 }
 
 .container {
@@ -12,10 +13,66 @@ html {
 	padding: 10px;
 }
 
+.btn {
+	border: 2px solid $black;
+	padding: 10px 25px 6px 25px;
+	text-transform: uppercase;
+	font-family: $font-family-sans;
+	border-radius: 0;
+	font-style: italic;
+	margin-top: 35px;
+	letter-spacing: 0.6px;
+	img.btn-icon {
+		width: 7px;
+    margin-right: 10px;
+    float: left;
+	}
+}
+
+.divider {
+	height: 1px;
+	background-color: $black;
+	width: 60px;
+}
+
 
 // Element Styles
 #portfolio {
-
+	header {
+		text-align: center;
+		h3 {
+			display: inline-block;
+			margin-right: 10px;
+			&:last-child {
+				margin-right: 0;
+			}
+			a.active {
+				border-bottom: 2px solid $black;
+			}
+		}
+	}
+	#work {
+		padding-bottom: 60px;
+		img {
+			margin-bottom: 15px;
+		}
+		h1,
+		.divider,
+		p {
+			float: left;
+			margin-right: 13px;
+		}
+		.divider {
+			margin-top: 17px;
+		}
+		p {
+			margin-top: 5px;
+		}
+	}
+}
+footer {
+	background-color: $black;
+	color: $white;
 }
 
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
@@ -25,15 +82,15 @@ html {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-.container {
-	width: 90%;
-	max-width: 1700px;
-	padding: 30px;
-}
+	.container {
+		width: 90%;
+		max-width: 1700px;
+		padding: 45px;
+	}
 }
 
 @media (min-width: 1000px) {
-	
+
 }
 
 /* Large devices (large desktops, 1200px and up) */

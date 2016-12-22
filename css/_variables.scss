@@ -1,6 +1,15 @@
-$font-family-serif: 'PT Serif', serif;
-$font-family-sans: "bebas-neue", sans-serif;
-$black: #37384C;
+
+@font-face {
+  font-family: 'noe';
+  src: url('Noe Display Medium.eot'); /* IE9 Compat Modes */
+  src: url('Noe Display Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Noe Display Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('Noe Display Medium.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+$font-family-serif: 'Noe', serif;
+$font-family-sans: "Graphik", sans-serif;
+$black: #000;
 $white: #fff;
 $pink: #FF4195;
 $cream-blue-dark: #EDF0FF;

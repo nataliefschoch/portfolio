@@ -1,38 +1,40 @@
+@font-face {
+  font-family: 'noe';
+  src: url("Noe Display Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("Noe Display Medium.eot?#iefix") format("embedded-opentype"), url("Noe Display Medium.woff2") format("woff2"), url("Noe Display Medium.woff") format("woff");
+  /* Pretty Modern Browsers */ }
 h1 {
-  font-size: 40px;
-  font-family: "PT Serif", serif;
-  letter-spacing: 0.3px;
-  line-height: 35px;
-  color: green; }
+  font-size: 28px;
+  font-family: "Noe", serif;
+  line-height: 37px; }
 
 h3 {
-  font-size: 20px;
-  font-family: "bebas-neue", sans-serif;
-  font-weight: 700;
+  font-size: 17px;
+  font-family: "Graphik", sans-serif;
+  font-weight: 400;
   letter-spacing: 0.3px;
   line-height: 35px; }
 
 h4 {
   color: #ef4642;
-  font-family: "bebas-neue", sans-serif;
+  font-family: "Graphik", sans-serif;
   font-weight: 200;
   font-size: 22px;
   letter-spacing: 1.5px; }
 
 p {
-  font-family: "PT Serif", serif;
-  font-size: 16px;
+  font-family: "Graphik", sans-serif;
+  font-size: 15px;
   font-weight: 400;
-  letter-spacing: 0.24px;
-  line-height: 25px;
-  margin-top: 10px; }
+  line-height: 25px; }
   p.text-strong {
     font-size: 18px;
     line-height: 27px;
     font-weight: 700; }
 
 a {
-  color: #37384C;
+  color: #000;
   display: inline;
   line-height: 22px;
   padding: 4px; }
@@ -40,7 +42,7 @@ a {
     border-bottom: 2px solid black;
     text-decoration: none; }
   a:active, a:visited, a:focus {
-    color: #37384C;
+    color: #000;
     text-decoration: none; }
 
 /*# sourceMappingURL=typography_styles.css.map */

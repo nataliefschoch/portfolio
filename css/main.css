@@ -1,13 +1,66 @@
+@font-face {
+  font-family: 'noe';
+  src: url("Noe Display Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("Noe Display Medium.eot?#iefix") format("embedded-opentype"), url("Noe Display Medium.woff2") format("woff2"), url("Noe Display Medium.woff") format("woff");
+  /* Pretty Modern Browsers */ }
 .drop-shadow-100 {
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.09); }
 
 html {
-  font-family: "PT Serif", serif; }
+  border: 7px solid #000;
+  font-family: "Graphik", sans-serif; }
 
 .container {
   width: 90%;
   max-width: 1700px;
   padding: 10px; }
+
+.btn {
+  border: 2px solid #000;
+  padding: 10px 25px 6px 25px;
+  text-transform: uppercase;
+  font-family: "Graphik", sans-serif;
+  border-radius: 0;
+  font-style: italic;
+  margin-top: 35px;
+  letter-spacing: 0.6px; }
+  .btn img.btn-icon {
+    width: 7px;
+    margin-right: 10px;
+    float: left; }
+
+.divider {
+  height: 1px;
+  background-color: #000;
+  width: 60px; }
+
+#portfolio header {
+  text-align: center; }
+  #portfolio header h3 {
+    display: inline-block;
+    margin-right: 10px; }
+    #portfolio header h3:last-child {
+      margin-right: 0; }
+    #portfolio header h3 a.active {
+      border-bottom: 2px solid #000; }
+#portfolio #work {
+  padding-bottom: 60px; }
+  #portfolio #work img {
+    margin-bottom: 15px; }
+  #portfolio #work h1,
+  #portfolio #work .divider,
+  #portfolio #work p {
+    float: left;
+    margin-right: 13px; }
+  #portfolio #work .divider {
+    margin-top: 17px; }
+  #portfolio #work p {
+    margin-top: 5px; }
+
+footer {
+  background-color: #000;
+  color: #fff; }
 
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
 /* Small devices (tablets, 768px and up) */
@@ -15,7 +68,7 @@ html {
   .container {
     width: 90%;
     max-width: 1700px;
-    padding: 30px; } }
+    padding: 45px; } }
 /* Large devices (large desktops, 1200px and up) */
 
 /*# sourceMappingURL=main.css.map */
