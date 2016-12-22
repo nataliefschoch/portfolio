@@ -7,6 +7,9 @@
 .drop-shadow-100 {
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.09); }
 
+p.text-small {
+  font-size: 13px; }
+
 html {
   border: 7px solid #000;
   font-family: "Graphik", sans-serif; }
@@ -23,7 +26,7 @@ html {
   font-family: "Graphik", sans-serif;
   border-radius: 0;
   font-style: italic;
-  margin-top: 35px;
+  margin-top: 15px;
   letter-spacing: 0.6px; }
   .btn img.btn-icon {
     width: 7px;
@@ -33,7 +36,7 @@ html {
 .divider {
   height: 1px;
   background-color: #000;
-  width: 60px; }
+  width: 50px; }
 
 #portfolio header {
   text-align: center; }
@@ -48,7 +51,7 @@ html {
   padding-bottom: 60px; }
   #portfolio #work img {
     margin-bottom: 15px; }
-  #portfolio #work h1,
+  #portfolio #work h2,
   #portfolio #work .divider,
   #portfolio #work p {
     float: left;

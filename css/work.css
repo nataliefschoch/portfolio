@@ -7,6 +7,9 @@
 .drop-shadow-100 {
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.09); }
 
+p.text-small {
+  font-size: 13px; }
+
 section.work-intro .work-img-intro {
   height: 600px;
   background: grey; }
