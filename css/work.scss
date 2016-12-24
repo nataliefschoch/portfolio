@@ -6,6 +6,9 @@ section.work-intro {
 		height: 500px;
 		background: grey;
 	}
+	p {
+		line-height: 26px;
+	}
 }
 
 section.web-carousel {
@@ -31,6 +34,15 @@ section.web-carousel {
 				outline: transparent;
 			}
 		}
+		.slick-dots {
+			bottom: 21px;
+			z-index: 4;
+			li {
+				button:before {
+					color: $white;
+				}
+			}
+		}
 	}
 }
 
@@ -52,7 +64,7 @@ section.web-carousel {
 			padding-right: 0;
 		}
 		.intro {
-			padding: 40px 0px 70px 0px;
+			padding: 40px 0px 90px 0px;
 		}
 		.work-section {
 			img.image-web {

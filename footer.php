@@ -29,8 +29,10 @@
         slidesToScroll: 1,
         centerPadding: '200px',
         variableWidth: true,
-        variableWidth: true,
-        responsive: [
+        autoplay: true,
+        autoplaySpeed: 3000,
+        appendDots: $('.intro'),
+        responsive: [,
           {
             breakpoint: 1024,
             settings: {

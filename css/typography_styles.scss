@@ -1,49 +1,69 @@
 @import 'variables';
 
 h1 {
-	font-size: 28px;
+	@include font-smoothing;
+	font-size: 37px;
 	font-family: $font-family-serif;
 	line-height: 37px;
 }
 
 h2 {
-	font-size: 24px;
+	@include font-smoothing;
+	font-size: 30px;
 	font-family: $font-family-serif;
 	line-height: 37px;
 }
 
 h3 {
-	font-size: 17px;
+	@include font-smoothing;
+	font-size: 24px;
 	font-family: $font-family-sans;
-	font-weight: 400;
-	letter-spacing: 0.3px;
+	font-weight: 500;
 	line-height: 35px;
 }
 
 h4 {
+	@include font-smoothing;
+	font-size: 20px;
 	font-family: $font-family-sans;
-	font-weight: 200;
-	font-size: 22px;
-	letter-spacing: 1.5px;
+	font-weight: 500;
+	line-height: 33px;
 }
 
 h5 {
+	@include font-smoothing;
+	font-size: 18px;
 	font-family: $font-family-sans;
-	font-weight: 400;
+	font-weight: 500;
+	line-height: 28px;
+}
+
+h6 {
+	@include font-smoothing;
 	font-size: 15px;
-	letter-spacing: 0.2px;
+	font-family: $font-family-sans;
+	font-weight: 500;
+	line-height: 24px;
 }
 
 p {
+	@include font-smoothing;
 	font-family: $font-family-sans;
 	font-size: 15px;
 	font-weight: 400;
-	line-height: 24px;
+	line-height: 23px;
 	&.text-strong {
 		font-family: $font-family-serif;
 		font-size: 18px;
 		line-height: 27px;
 		font-weight: 600;
+	}
+	a {
+		text-decoration: underline;
+		&:hover {
+			text-decoration: underline;
+			border-bottom: none;
+		}
 	}
 }
 

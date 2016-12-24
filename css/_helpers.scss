@@ -5,3 +5,26 @@
 .text-small {
 	font-size: 13px;
 }
+
+// Creates PIXEL-based padding helper classes in increments of 5px, from 5-100px. //
+@for $i from 1 through 30 {
+
+  $size-increment: 5;
+  $size: $i*$size-increment;
+
+  .padding-#{$size}px {
+    padding: #{$size}px !important;
+  }
+  .padding-top-#{$size}px {
+    padding-top: #{$size}px !important;
+  }
+  .padding-bottom-#{$size}px {
+    padding-bottom: #{$size}px !important;
+  }
+  .padding-left-#{$size}px {
+    padding-left: #{$size}px !important;
+  }
+  .padding-right-#{$size}px {
+    padding-right: #{$size}px !important;
+  }
+}

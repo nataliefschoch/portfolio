@@ -5,44 +5,68 @@
   src: url("Noe Display Medium.eot?#iefix") format("embedded-opentype"), url("Noe Display Medium.woff2") format("woff2"), url("Noe Display Medium.woff") format("woff");
   /* Pretty Modern Browsers */ }
 h1 {
-  font-size: 28px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 37px;
   font-family: "Noe", serif;
   line-height: 37px; }
 
 h2 {
-  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 30px;
   font-family: "Noe", serif;
   line-height: 37px; }
 
 h3 {
-  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 24px;
   font-family: "Graphik", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.3px;
+  font-weight: 500;
   line-height: 35px; }
 
 h4 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
   font-family: "Graphik", sans-serif;
-  font-weight: 200;
-  font-size: 22px;
-  letter-spacing: 1.5px; }
+  font-weight: 500;
+  line-height: 33px; }
 
 h5 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
   font-family: "Graphik", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
+  line-height: 28px; }
+
+h6 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 15px;
-  letter-spacing: 0.2px; }
+  font-family: "Graphik", sans-serif;
+  font-weight: 500;
+  line-height: 24px; }
 
 p {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-family: "Graphik", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  line-height: 24px; }
+  line-height: 23px; }
   p.text-strong {
     font-family: "Noe", serif;
     font-size: 18px;
     line-height: 27px;
     font-weight: 600; }
+  p a {
+    text-decoration: underline; }
+    p a:hover {
+      text-decoration: underline;
+      border-bottom: none; }
 
 a {
   color: #000;

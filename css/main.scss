@@ -15,18 +15,12 @@ html {
 
 .btn {
 	border: 2px solid $black;
-	padding: 10px 25px 6px 25px;
+  padding: 8px 18px 5px 18px;
 	text-transform: uppercase;
 	font-family: $font-family-sans;
 	border-radius: 0;
-	font-style: italic;
-	margin-top: 15px;
+	margin-top: 25px;
 	letter-spacing: 0.6px;
-	img.btn-icon {
-		width: 7px;
-    margin-right: 10px;
-    float: left;
-	}
 }
 
 .title-divider {
@@ -35,14 +29,17 @@ html {
 	.divider {
 		height: 1px;
 		background-color: $black;
-		width: 50px;
+		width: 40px;
 	}
-	h2,
+	h3,
 	.divider,
 	.question-mark,
 	p {
 		float: left;
 		margin-right: 13px;
+	}
+	h3 {
+		font-family: $font-family-serif;
 	}
 	.divider {
 		margin-top: 17px;
@@ -67,11 +64,26 @@ html {
 		h3 {
 			display: inline-block;
 			margin-right: 10px;
+			font-size: 17px;
+			font-family: $font-family-sans;
+			font-weight: 400;
+			letter-spacing: 0.3px;
+			line-height: 35px;
 			&:last-child {
 				margin-right: 0;
 			}
 			a.active {
 				border-bottom: 2px solid $black;
+			}
+		}
+		.about-link {
+			height: 30px;
+			width: 30px;
+			border: 2px solid $black;
+			border-radius: 50%;
+			float: right;
+			a {
+				line-height: 27px;
 			}
 		}
 		&.dark {
@@ -84,6 +96,13 @@ html {
 			}
 		}
 	}
+	#intro {
+		height: 350px;
+		h1 {
+			font-size: 37px;
+			line-height: 44px;
+		}
+	}
 	#work {
 		padding-bottom: 60px;
 		img {
@@ -92,19 +111,12 @@ html {
 	}
 }
 footer {
-	background-color: $black;
-	a {
-		color: $white;
-	}
 	ul {
 		li {
 			display: inline-block;
 			margin-right: 10px;
 			&:last-child {
 				margin-right: 0;
-			}
-			a {
-				color: $white;
 			}
 		}
 	}

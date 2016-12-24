@@ -5,17 +5,13 @@
     <div class='container'>
       <div class='row'>
         <div class='col-md-12'>
-          <div class='work-img-intro'></div>
+          <img src='images/work-gusto-peeps.jpg' class='img-responsive'>
         </div>
         <div class='col-md-8 col-md-offset-2'>
-          <div class='title-divider'>
-            <h2>
-              Gusto
-            </h2>
-            <div class='divider'></div>
-            <p class='text-small'>front-end development, branding, web design</p>
-          </div>
-        
+          <h2>
+            Gusto
+          </h2>
+          <p class='text-small'>front-end development, branding, web design</p>
           <p>
             When I joined Gusto, then ZenPayroll as the fifth member of the design team, I worked as generalist moving from in-product illustrations, to office and enviornment signage, to designing and developing web pages. During this time, I worked within a pre-existing brand guideline called Garden Styles.
           </p>
@@ -38,10 +34,6 @@
         <div class='col-md-6'>
           <img src='images/work-gusto-brand-guide-3.jpg' class='drop-shadow-100 img-responsive'>
         </div>
-        <div class='col-md-6 col-md-offset-3 text-center'>
-          <h3>Gusto brand guide</h3>
-          <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
-        </div>
       </div>
     </div>
   </section>
@@ -50,8 +42,8 @@
       <div class='col-md-12'>
         <div class='row work-section'>
           <div class='intro col-md-6 col-md-offset-3 text-center'>
-            <h3>Gusto brand guide</h3>
-            <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
+            <h3>Gusto.com web design and front-end development</h3>
+            <p>I lead the design and front-end development of the gusto.com homepage. I worked closely with the PMM team, and illustrator to create the narrative. The main goals of the page lorum ipsum dolor and ceit eget porttitor at sem. </p>
           </div>
           <div class="web-work-carousel text-center">
             <div>
@@ -90,17 +82,21 @@
   <section>
     <div class='container'>
       <div class='row work-section'>
-        <div class='col-md-6 col-md-offset-3'>
-          <img src='images/work-gusto-hr-admin-video.jpg' class='img-responsive'>
+        <div class='col-md-8 col-md-offset-2'>
+          <!-- <img src='images/work-gusto-hr-admin-video.jpg' class='img-responsive'>
+           -->
+           <iframe width="100%" height="100%" style='min-height: 430px;' src="https://www.youtube.com/embed/T4olEQvSwx4" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class='col-md-6 col-md-offset-3 text-center'>
-          <h3>Gusto brand guide</h3>
-          <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
+        <div class='col-md-6 col-md-offset-3 text-center padding-top-50px padding-bottom-60px'>
+          <h4>Gusto brand campaign commercials</h4>
+          <p>
+            Worked on the original concept and creative direction of the brand campaign Gusto worked on in September 2016, of the HR admin who does everything starring Kristen Schaal. The commericals obtained 700,000+ views and won
+            <a href='#' target='_blank'>Adweek’s Ad of the Day</a>
+            award.
+          </p>
         </div>
       </div>
     </div>
   </section>
 </main>
-
-
 <?php include 'footer.php';?>
