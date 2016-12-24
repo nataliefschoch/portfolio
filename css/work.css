@@ -14,12 +14,12 @@ section.work-intro .work-img-intro {
   height: 500px;
   background: grey; }
 
-.work-section {
-  padding: 30px 0; }
-
 section.web-carousel {
   background: #000;
+  color: #fff;
   overflow: hidden; }
+  section.web-carousel .intro {
+    margin-bottom: 20px; }
   section.web-carousel .work-section h5 {
     color: #fff; }
   section.web-carousel .work-section img.image-web {
@@ -33,12 +33,14 @@ section.web-carousel {
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 1000px) {
-  .work-section {
-    padding: 70px 0; }
-
-  .work-section.web img.image-web {
+  section.web-carousel .container {
+    padding-left: 0;
+    padding-right: 0; }
+  section.web-carousel .intro {
+    padding: 40px 0px 70px 0px; }
+  section.web-carousel .work-section img.image-web {
     width: 600px;
-    margin: 20px 60px 60px 60px; } }
+    margin: 20px 30px 30px 30px; } }
 /* Large devices (large desktops, 1200px and up) */
 
 /*# sourceMappingURL=work.css.map */

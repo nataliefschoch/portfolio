@@ -38,59 +38,64 @@
         <div class='col-md-6'>
           <img src='images/work-gusto-brand-guide-3.jpg' class='drop-shadow-100 img-responsive'>
         </div>
-      </div>
-      <div class='row work-section'>
-        <div class='col-md-6 col-md-offset-3'>
-          <img src='images/work-gusto-hr-admin-video.jpg' class='img-responsive'>
-          <div class='title-divider'>
-            <div class='question-mark'>
-              <a href="#" data-toggle="tooltip" title="Hooray!">
-                ?
-              </a>
-            </div>
-            <div class='divider'></div>
-            <p class='text-small'>front-end development, branding, web design</p>
-          </div>
+        <div class='col-md-6 col-md-offset-3 text-center'>
+          <h3>Gusto brand guide</h3>
+          <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
         </div>
       </div>
     </div>
   </section>
   <section class='web-carousel'>
-    <div class='col-md-12'>
+    <div class='container'>
+      <div class='col-md-12'>
+        <div class='row work-section'>
+          <div class='intro col-md-6 col-md-offset-3 text-center'>
+            <h3>Gusto brand guide</h3>
+            <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
+          </div>
+          <div class="web-work-carousel text-center">
+            <div>
+              <h5>Gusto homepage</h5>
+              <img class='img-responsive image-web' src="images/work-gusto-homepage-full.jpg">
+            </div>
+            <div>
+              <h5>Switch payroll provider page</h5>
+              <img class='img-responsive image-web' src="images/work-gusto-switch-full.jpg">
+            </div>
+            <div>
+              <h5>HR product page</h5>
+              <img class='img-responsive image-web' src="images/work-gusto-product-hr-full.jpg">
+            </div>
+            <div>
+              <h5>401(k) product page</h5>
+              <img class='img-responsive image-web' src="images/work-gusto-product-401k-full.jpg">
+            </div>
+            <div>
+              <h5>How it works</h5>
+              <img class='img-responsive image-web' src="images/work-gusto-how-it-works-full.jpg">
+            </div>
+            <div>
+              <h5>Framework - SMB Resource Center</h5>
+              <img class='img-responsive image-web' src="images/work-gusto-framework-article-full.jpg">
+            </div>
+            <div>
+              <h5>Payroll product page</h5>
+              <img class='img-responsive image-web' src="images/work-gusto-framework-cat-full.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class='container'>
       <div class='row work-section'>
-        <div class="web-work-carousel text-center">
-          <div>
-            <h5>Gusto homepage</h5>
-            <img class='img-responsive image-web' src="images/work-gusto-homepage-full.jpg">
-          </div>
-          <div>
-            <h5>Framework - SMB Resource Center</h5>
-            <img class='img-responsive image-web' src="images/work-gusto-homepage-full.jpg">
-          </div>
-          <div>
-            <h5>Payroll product page</h5>
-            <img class='img-responsive image-web' src="images/work-gusto-framework-full.jpg">
-          </div>
-          <div>
-            <h5>HR product page</h5>
-            <img class='img-responsive image-web' src="images/work-gusto-framework-full.jpg">
-          </div>
-          <div>
-            <h5>401(k) product page</h5>
-            <img class='img-responsive image-web' src="images/work-gusto-framework-full.jpg">
-          </div>
-          <div>
-            <h5>How it works page</h5>
-            <img class='img-responsive image-web' src="images/work-gusto-framework-full.jpg">
-          </div>
-          <div>
-            <h5>Switch page</h5>
-            <img class='img-responsive image-web' src="images/work-gusto-homepage-full.jpg">
-          </div>
-          <div>
-            <h5>Gusto homepage</h5>
-            <img class='img-responsive image-web' src="images/work-gusto-homepage-full.jpg">
-          </div>
+        <div class='col-md-6 col-md-offset-3'>
+          <img src='images/work-gusto-hr-admin-video.jpg' class='img-responsive'>
+        </div>
+        <div class='col-md-6 col-md-offset-3 text-center'>
+          <h3>Gusto brand guide</h3>
+          <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
         </div>
       </div>
     </div>
