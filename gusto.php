@@ -53,11 +53,49 @@
           </div>
         </div>
       </div>
+    </div>
+  </section>
+  <section class='web-carousel'>
+    <div class='col-md-12'>
       <div class='row work-section'>
-
+        <div class="web-work-carousel text-center">
+          <div>
+            <h5>Gusto homepage</h5>
+            <img class='img-responsive image-web' src="images/work-gusto-homepage-full.jpg">
+          </div>
+          <div>
+            <h5>Framework - SMB Resource Center</h5>
+            <img class='img-responsive image-web' src="images/work-gusto-homepage-full.jpg">
+          </div>
+          <div>
+            <h5>Payroll product page</h5>
+            <img class='img-responsive image-web' src="images/work-gusto-framework-full.jpg">
+          </div>
+          <div>
+            <h5>HR product page</h5>
+            <img class='img-responsive image-web' src="images/work-gusto-framework-full.jpg">
+          </div>
+          <div>
+            <h5>401(k) product page</h5>
+            <img class='img-responsive image-web' src="images/work-gusto-framework-full.jpg">
+          </div>
+          <div>
+            <h5>How it works page</h5>
+            <img class='img-responsive image-web' src="images/work-gusto-framework-full.jpg">
+          </div>
+          <div>
+            <h5>Switch page</h5>
+            <img class='img-responsive image-web' src="images/work-gusto-homepage-full.jpg">
+          </div>
+          <div>
+            <h5>Gusto homepage</h5>
+            <img class='img-responsive image-web' src="images/work-gusto-homepage-full.jpg">
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 </main>
+
 
 <?php include 'footer.php';?>
