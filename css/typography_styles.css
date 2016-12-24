@@ -34,9 +34,10 @@ p {
   font-weight: 400;
   line-height: 25px; }
   p.text-strong {
+    font-family: "Noe", serif;
     font-size: 18px;
     line-height: 27px;
-    font-weight: 700; }
+    font-weight: 600; }
 
 a {
   color: #000;

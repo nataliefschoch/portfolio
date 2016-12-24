@@ -3,10 +3,32 @@
 
 section.work-intro {
 	.work-img-intro {
-		height: 600px;
+		height: 500px;
 		background: grey;
 	}
 }
-section.work-story {
+
+.work-section {
+	padding: 30px 0 ;
+}
+
+/* In between XSmall & Small devices (phones & tablets, 480px and up) */
+@media (min-width: 480px) {
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1000px) {
+	.work-section {
+		padding: 70px 0 ;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 
 }

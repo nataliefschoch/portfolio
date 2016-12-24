@@ -29,10 +29,34 @@ html {
 	}
 }
 
-.divider {
-	height: 1px;
-	background-color: $black;
-	width: 50px;
+.title-divider {
+	display: block;
+	height: 50px;
+	.divider {
+		height: 1px;
+		background-color: $black;
+		width: 50px;
+	}
+	h2,
+	.divider,
+	.question-mark,
+	p {
+		float: left;
+		margin-right: 13px;
+	}
+	.divider {
+		margin-top: 17px;
+	}
+	p {
+		margin-top: 5px;
+	}
+	.question-mark {
+		font-family: $font-family-serif;
+		border: 1px solid $black;
+		border-radius: 50%;
+		height: 30px;
+		width: 30px;
+	}
 }
 
 
@@ -50,29 +74,43 @@ html {
 				border-bottom: 2px solid $black;
 			}
 		}
+		&.dark {
+			background: $black;
+			a {
+				color: $white;
+				&.active {
+					border-bottom: 2px solid $white;
+				}	
+			}
+		}
 	}
 	#work {
 		padding-bottom: 60px;
 		img {
 			margin-bottom: 15px;
 		}
-		h2,
-		.divider,
-		p {
-			float: left;
-			margin-right: 13px;
-		}
-		.divider {
-			margin-top: 17px;
-		}
-		p {
-			margin-top: 5px;
-		}
 	}
 }
 footer {
 	background-color: $black;
-	color: $white;
+	a {
+		color: $white;
+	}
+	ul {
+		li {
+			display: inline-block;
+			margin-right: 10px;
+			&:last-child {
+				margin-right: 0;
+			}
+			a {
+				color: $white;
+			}
+		}
+	}
+}
+#about {
+	background: $black;
 }
 
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */

@@ -1,6 +1,4 @@
 <?php include 'header.php';?>
-
-<body id='portfolio'>
   
   <section id='intro'>
     <div class='container'>
@@ -20,29 +18,31 @@
     <div class='container'>
       <div class='row text-center'>
         <div class='col-md-6'>
-          <a href='#'>
+          <a href='gusto.php'>
             <img src='images/work-gusto-homepage.jpg' class='img-responsive'>
-          <h2>
-            Gusto
-          </h2>
-          <div class='divider'></div>
-          <p class='text-small'>front-end development, branding, web design</p>
+            <div class='title-divider'>
+              <h2>
+                Gusto
+              </h2>
+              <div class='divider'></div>
+              <p class='text-small'>front-end development, branding, web design</p>
+            </div>
           </a>
         </div>
         <div class='col-md-6'>
           <a href='#'>
             <img src='images/work-gusto-homepage.jpg' class='img-responsive'>
-            <h2>
-              Ballhawk
-            </h2>
-            <div class='divider'></div>
-            <p class='text-small'>front-end development, branding, web design</p>
+            <div class='title-divider'>
+              <h2>
+                Gusto
+              </h2>
+              <div class='divider'></div>
+              <p class='text-small'>front-end development, branding, web design</p>
+            </div>
           </a>
         </div>
       </div>
     </div>
   </section>
-
-</body>
 
 <?php include 'footer.php';?>

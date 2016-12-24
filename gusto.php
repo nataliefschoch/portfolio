@@ -7,13 +7,15 @@
         <div class='col-md-12'>
           <div class='work-img-intro'></div>
         </div>
-        <div class='col-md-6 col-md-offset-3'>
-          <p class='text-strong'>
-            Gusto is a fully integrated HR, payroll, and benefits company that supports small and mid-sized companies across the United States. I joined Gusto when the company was an 80 person team called ZenPayroll, offering a payroll tool and watched it grow into a 340+ person company called Gusto offering a full HR suite of features.
-          </p>
-          <p class='text-strong'>  
-            I played an integral part of ZenPayroll marketing collateral, customer acquisition expirements, and working on interactive pieces as apart of the brand team.
-          </p>
+        <div class='col-md-8 col-md-offset-2'>
+          <div class='title-divider'>
+            <h2>
+              Gusto
+            </h2>
+            <div class='divider'></div>
+            <p class='text-small'>front-end development, branding, web design</p>
+          </div>
+        
           <p>
             When I joined Gusto, then ZenPayroll as the fifth member of the design team, I worked as generalist moving from in-product illustrations, to office and enviornment signage, to designing and developing web pages. During this time, I worked within a pre-existing brand guideline called Garden Styles.
           </p>
@@ -27,29 +29,32 @@
       </div>
     </div>
   </section>
-  <section class='work-story'>
+  <section>
     <div class='container'>
-      <div class='row'>
-        <div class='col-md-4'>
-          <img src='images/work-gusto-brand-guide-1.jpg' class='drop-shadow-100 img-responsive'>
-        </div>
-        <div class='col-md-4'>
+      <div class='row work-section'>
+        <div class='col-md-6'>
           <img src='images/work-gusto-brand-guide-2.jpg' class='drop-shadow-100 img-responsive'>
         </div>
-        <div class='col-md-4'>
+        <div class='col-md-6'>
           <img src='images/work-gusto-brand-guide-3.jpg' class='drop-shadow-100 img-responsive'>
         </div>
       </div>
-      <div class='row'>
-        <div class='col-md-8'>
-          <img src='images/work-gusto-homepage.jpg' class='drop-shadow-100 img-responsive'>
+      <div class='row work-section'>
+        <div class='col-md-6 col-md-offset-3'>
+          <img src='images/work-gusto-hr-admin-video.jpg' class='img-responsive'>
+          <div class='title-divider'>
+            <div class='question-mark'>
+              <a href="#" data-toggle="tooltip" title="Hooray!">
+                ?
+              </a>
+            </div>
+            <div class='divider'></div>
+            <p class='text-small'>front-end development, branding, web design</p>
+          </div>
         </div>
-        <div class='col-md-4'>
-          <h4>Gusto brand guide</h4>
-          <p>
-            As apart of the rebrand from ZenPayroll to Gusto in September 2015, I was an integral part of establishing the original style guide and then again in March 2016 creating an fine-tuned version, as shown above. This included establishing typography, typographic styles, colors, and a UI library for print and digital. We also converted all styles into the code database.
-          </p>
-        </div>
+      </div>
+      <div class='row work-section'>
+
       </div>
     </div>
   </div>

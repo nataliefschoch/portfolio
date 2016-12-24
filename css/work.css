@@ -7,11 +7,21 @@
 .drop-shadow-100 {
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.09); }
 
-p.text-small {
+.text-small {
   font-size: 13px; }
 
 section.work-intro .work-img-intro {
-  height: 600px;
+  height: 500px;
   background: grey; }
+
+.work-section {
+  padding: 30px 0; }
+
+/* In between XSmall & Small devices (phones & tablets, 480px and up) */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 1000px) {
+  .work-section {
+    padding: 70px 0; } }
+/* Large devices (large desktops, 1200px and up) */
 
 /*# sourceMappingURL=work.css.map */

@@ -34,9 +34,10 @@ p {
 	font-weight: 400;
 	line-height: 25px;
 	&.text-strong {
+		font-family: $font-family-serif;
 		font-size: 18px;
 		line-height: 27px;
-		font-weight: 700;
+		font-weight: 600;
 	}
 }
 
