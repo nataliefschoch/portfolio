@@ -23,14 +23,19 @@ html {
 	letter-spacing: 0.6px;
 }
 
+.divider {
+	background-color: $black;
+	display: inline-block;
+	height: 1px;
+	width: 40px;
+	&.white {
+		background-color: $white;
+	}
+}
+
 .title-divider {
 	display: block;
 	height: 50px;
-	.divider {
-		height: 1px;
-		background-color: $black;
-		width: 40px;
-	}
 	h3,
 	.divider,
 	.question-mark,
@@ -99,22 +104,53 @@ html {
 	#intro {
 		height: 350px;
 		h1 {
-			font-size: 37px;
+			font-size: 31px;
 			line-height: 44px;
 		}
 	}
 	#work {
 		padding-bottom: 60px;
-		img {
-			margin-bottom: 15px;
+		a {
+			display: block;
+			&:hover {
+				text-decoration: none;
+				img {
+					transition: all 0.3s ease;
+					opacity: 0.8;
+				}
+			}
+			img {
+				margin-bottom: 15px;
+			}
 		}
 	}
 }
 footer {
+	@include font-smoothing;
+	background: $black;
+	.container {
+		padding-bottom: 80px;
+		padding-top: 70px;
+	}
 	ul {
+		position: relative;
+		.divider {
+			top: 10px;
+	    position: absolute;
+	    width: 50px;
+		}
 		li {
 			display: inline-block;
 			margin-right: 10px;
+			a, a:active, a:visited, a:focus {
+				color: $white;
+				&:hover {
+					color: $white;
+				}
+			}
+			&:nth-child(2) {
+				padding-left: 50px;
+			}
 			&:last-child {
 				margin-right: 0;
 			}

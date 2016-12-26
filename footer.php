@@ -3,16 +3,14 @@
 <footer>
   <div class='container'>
     <div class='row'>
-    	<div class='col-md-3'>
-    		<a href:'mailto:hello@natalieschoch.com'>
-    			<h3>hello@natalieschoch.com</h3>
-    		</a>
-    	</div>
-    	<div class='col-md-6'>
-    		<ul class='text-center'>
-    			<li><a href='#'>Github</a></li>
+    	<div class='col-md-8'>
+    		<ul>
+          <li><a href='mailto:hello@natalieschoch.com'>hello@natalieschoch.com</a></li>
+    			<div class='divider white'></div>
+          <li><a href='#'>Github</a></li>
     			<li><a href='#'>Dribbble</a></li>
     			<li><a href='#'>LinkedIn</a></li>
+          <li><a href='#'>Twitter</a></li>
     		</ul>
     	</div>
     </div>

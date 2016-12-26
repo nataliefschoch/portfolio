@@ -11,15 +11,49 @@ section.work-intro {
 	}
 }
 
+.commercial-wrapper {
+	position: relative;
+	button {
+		background: $white;
+    height: 84px;
+    width: 84px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -42px;
+    left: 50%;
+    margin-left: -42px;
+    .play-btn {
+	    margin: 0 auto;
+	    top: 25%;
+	    position: relative;
+	    width: 0;
+	    height: 0;
+	    border-style: solid;
+	    border-width: 14px 0 14px 23px;
+	    border-color: transparent transparent transparent $black;
+    }
+	}
+}
+
 section.web-carousel {
 	background: $black;
 	color: $white;
 	overflow: hidden;
+	.container {
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+	}
 	.intro {
 		margin-bottom: 20px;
 	}
 	.work-section {
 		h5 {
+			color: $white;
+		}
+		p a {
 			color: $white;
 		}
 		img.image-web {

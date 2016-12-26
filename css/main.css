@@ -4,8 +4,8 @@
   /* IE9 Compat Modes */
   src: url("Noe Display Medium.eot?#iefix") format("embedded-opentype"), url("Noe Display Medium.woff2") format("woff2"), url("Noe Display Medium.woff") format("woff");
   /* Pretty Modern Browsers */ }
-.drop-shadow-100 {
-  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.09); }
+.border {
+  border: 1px solid #f1f1f1; }
 
 .text-small {
   font-size: 13px; }
@@ -478,13 +478,17 @@ html {
   margin-top: 25px;
   letter-spacing: 0.6px; }
 
+.divider {
+  background-color: #000;
+  display: inline-block;
+  height: 1px;
+  width: 40px; }
+  .divider.white {
+    background-color: #fff; }
+
 .title-divider {
   display: block;
   height: 50px; }
-  .title-divider .divider {
-    height: 1px;
-    background-color: #000;
-    width: 40px; }
   .title-divider h3,
   .title-divider .divider,
   .title-divider .question-mark,
@@ -535,18 +539,44 @@ html {
 #portfolio #intro {
   height: 350px; }
   #portfolio #intro h1 {
-    font-size: 37px;
+    font-size: 31px;
     line-height: 44px; }
 #portfolio #work {
   padding-bottom: 60px; }
-  #portfolio #work img {
-    margin-bottom: 15px; }
+  #portfolio #work a {
+    display: block; }
+    #portfolio #work a:hover {
+      text-decoration: none; }
+      #portfolio #work a:hover img {
+        transition: all 0.3s ease;
+        opacity: 0.8; }
+    #portfolio #work a img {
+      margin-bottom: 15px; }
 
-footer ul li {
-  display: inline-block;
-  margin-right: 10px; }
-  footer ul li:last-child {
-    margin-right: 0; }
+footer {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #000; }
+  footer .container {
+    padding-bottom: 80px;
+    padding-top: 70px; }
+  footer ul {
+    position: relative; }
+    footer ul .divider {
+      top: 10px;
+      position: absolute;
+      width: 50px; }
+    footer ul li {
+      display: inline-block;
+      margin-right: 10px; }
+      footer ul li a, footer ul li a:active, footer ul li a:visited, footer ul li a:focus {
+        color: #fff; }
+        footer ul li a:hover, footer ul li a:active:hover, footer ul li a:visited:hover, footer ul li a:focus:hover {
+          color: #fff; }
+      footer ul li:nth-child(2) {
+        padding-left: 50px; }
+      footer ul li:last-child {
+        margin-right: 0; }
 
 #about {
   background: #000; }

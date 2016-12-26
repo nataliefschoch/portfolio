@@ -4,7 +4,7 @@
     <div class='container'>
       <div class='row'>
         <div class='text-center col-md-8 col-md-offset-2'>
-          <h1>Natalie Schoch is a designer working in San Francisco, CA. She’s currently working on web products and visual identity on the brand team at Gusto -- an intergrated HR software.</h1>
+          <h1>Natalie Schoch is a designer working in San Francisco, CA. She’s currently working on web products and visual identity at Gusto -- an intergrated HR software.</h1>
           <a class='text-small btn' href='#'>
             <!-- <img class='btn-icon' src='images/icon/icon-arrow-down.jpg'> -->
             Featured work

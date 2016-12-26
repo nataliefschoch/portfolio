@@ -8,6 +8,8 @@
 	<title>Natalie Schoch - Designer</title>
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link href="css/lity.css" rel="stylesheet">
+	<script src="js/lity.js"></script>
 	<meta name="keywords" content="natalie, schoch, designer, graphic, illustration, infographics">
 	<meta name="description" content="Natalie Schoch - Portfolio">
 	<meta name="author" content="Natalie Schoch">

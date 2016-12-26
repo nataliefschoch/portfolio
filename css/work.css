@@ -4,8 +4,8 @@
   /* IE9 Compat Modes */
   src: url("Noe Display Medium.eot?#iefix") format("embedded-opentype"), url("Noe Display Medium.woff2") format("woff2"), url("Noe Display Medium.woff") format("woff");
   /* Pretty Modern Browsers */ }
-.drop-shadow-100 {
-  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.09); }
+.border {
+  border: 1px solid #f1f1f1; }
 
 .text-small {
   font-size: 13px; }
@@ -466,13 +466,42 @@ section.work-intro .work-img-intro {
 section.work-intro p {
   line-height: 26px; }
 
+.commercial-wrapper {
+  position: relative; }
+  .commercial-wrapper button {
+    background: #fff;
+    height: 84px;
+    width: 84px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -42px;
+    left: 50%;
+    margin-left: -42px; }
+    .commercial-wrapper button .play-btn {
+      margin: 0 auto;
+      top: 25%;
+      position: relative;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 14px 0 14px 23px;
+      border-color: transparent transparent transparent #000; }
+
 section.web-carousel {
   background: #000;
   color: #fff;
   overflow: hidden; }
+  section.web-carousel .container {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%; }
   section.web-carousel .intro {
     margin-bottom: 20px; }
   section.web-carousel .work-section h5 {
+    color: #fff; }
+  section.web-carousel .work-section p a {
     color: #fff; }
   section.web-carousel .work-section img.image-web {
     width: 250px;
