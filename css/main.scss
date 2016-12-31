@@ -105,7 +105,6 @@ html {
 		}
 	}
 	#intro {
-		height: 350px;
 		h1 {
 			font-size: 31px;
 			line-height: 44px;
@@ -140,7 +139,7 @@ footer {
 		.divider {
 			top: 10px;
 	    position: absolute;
-	    width: 50px;
+	    width: 30px;
 		}
 		li {
 			display: inline-block;
@@ -151,8 +150,8 @@ footer {
 					color: $white;
 				}
 			}
-			&:nth-child(2) {
-				padding-left: 50px;
+			&:nth-of-type(2) {
+				padding-left: 40px;
 			}
 			&:last-child {
 				margin-right: 0;
@@ -164,6 +163,9 @@ footer {
 	background: $black;
 	h3 {
 		font-family: $font-family-serif; 
+	}
+	.date {
+		padding-right: 10px;
 	}
 }
 
@@ -189,4 +191,6 @@ footer {
 @media (min-width: 1200px) {
 
 }
+
+
 

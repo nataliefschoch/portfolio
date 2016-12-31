@@ -27,19 +27,19 @@
               <h3>Experience</h3>
             </div>
             <div class='col-md-9'>
-              <p class='text-strong inline-block'>
+              <p class='text-strong date inline-block'>
                 Present
               </p>
               <p class='inline-block'>Designer at Gusto</p>
             </div>
             <div class='col-md-9 col-md-offset-3'>
-              <p class='text-strong inline-block'>
+              <p class='text-strong date inline-block'>
                 2016
               </p>
               <p class='inline-block'>Marketing designer at Wiser</p>
             </div>
             <div class='col-md-9 col-md-offset-3'>
-              <p class='text-strong inline-block'>
+              <p class='text-strong date inline-block'>
                 2015
               </p>
               <p class='inline-block'>Intern at AF Studio Designs</p>

@@ -58,7 +58,7 @@ p {
   font-family: "Graphik", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  line-height: 23px; }
+  line-height: 25px; }
   p.text-strong {
     font-weight: 600; }
   p a {
@@ -72,8 +72,7 @@ p {
 a {
   color: #000;
   display: inline;
-  line-height: 22px;
-  padding: 4px; }
+  line-height: 22px; }
   a:hover {
     color: #000;
     text-decoration: none; }
@@ -98,6 +97,9 @@ a {
 
 .text-left {
   text-align: left; }
+
+.text-right {
+  text-align: right; }
 
 .text-white {
   color: #fff; }
@@ -638,11 +640,9 @@ html {
       color: #fff; }
       #portfolio header.dark a.active {
         border-bottom: 2px solid #fff; }
-#portfolio #intro {
-  height: 350px; }
-  #portfolio #intro h1 {
-    font-size: 31px;
-    line-height: 44px; }
+#portfolio #intro h1 {
+  font-size: 31px;
+  line-height: 44px; }
 #portfolio #work {
   padding-bottom: 60px; }
   #portfolio #work a {
@@ -667,7 +667,7 @@ footer {
     footer ul .divider {
       top: 10px;
       position: absolute;
-      width: 50px; }
+      width: 30px; }
     footer ul li {
       display: inline-block;
       margin-right: 10px; }
@@ -675,8 +675,8 @@ footer {
         color: #fff; }
         footer ul li a:hover, footer ul li a:active:hover, footer ul li a:visited:hover, footer ul li a:focus:hover {
           color: #fff; }
-      footer ul li:nth-child(2) {
-        padding-left: 50px; }
+      footer ul li:nth-of-type(2) {
+        padding-left: 40px; }
       footer ul li:last-child {
         margin-right: 0; }
 
@@ -684,6 +684,8 @@ footer {
   background: #000; }
   #about h3 {
     font-family: "Noe", serif; }
+  #about .date {
+    padding-right: 10px; }
 
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
 /* Small devices (tablets, 768px and up) */
@@ -707,6 +709,9 @@ footer {
 
 .text-left {
   text-align: left; }
+
+.text-right {
+  text-align: right; }
 
 .text-white {
   color: #fff; }
@@ -1171,8 +1176,6 @@ footer {
 section.work-intro .work-img-intro {
   height: 500px;
   background: grey; }
-section.work-intro p {
-  line-height: 26px; }
 
 .commercial-wrapper {
   position: relative; }
@@ -1222,7 +1225,8 @@ section.web-carousel {
     bottom: 21px;
     z-index: 4; }
     section.web-carousel .work-section .slick-dots li button:before {
-      color: #fff; }
+      color: #fff;
+      font-size: 7px; }
 
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
 /* Small devices (tablets, 768px and up) */

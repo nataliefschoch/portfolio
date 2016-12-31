@@ -6,9 +6,6 @@ section.work-intro {
 		height: 500px;
 		background: grey;
 	}
-	p {
-		line-height: 26px;
-	}
 }
 
 .commercial-wrapper {
@@ -74,6 +71,7 @@ section.web-carousel {
 			li {
 				button:before {
 					color: $white;
+					font-size: 7px;
 				}
 			}
 		}

@@ -44,12 +44,10 @@
         <div class='col-md-6'>
           <img src='images/work-gusto-brand-guide-3.jpg' class='border img-responsive'>
         </div>
-        <div class='col-md-6 col-md-offset-3 text-center padding-top-30px padding-bottom-60px'>
+        <div class='col-md-6 col-md-offset-3 padding-top-30px padding-bottom-60px'>
           <h4>Brand guidelines</h4>
           <p>
-            Worked on the original concept and creative direction of the brand campaign Gusto worked on in September 2016, of the HR admin who does everything starring Kristen Schaal. The commericals obtained 700,000+ views and won
-            <a href='#' target='_blank'>Adweek’s Ad of the Day</a>
-            award.
+            As apart of the rebrand from ZenPayroll to Gusto in September 2015, I was an integral part of establishing the original style guide and then again in March 2016 creating an fine-tuned version, as shown above. This included establishing typography, typographic styles, colors, and a UI library for print and digital. We also converted all styles into the code database.
           </p>
         </div>
       </div>
@@ -66,8 +64,8 @@
             </button>
           </div>
         </div>
-        <div class='col-md-6 col-md-offset-3 text-center padding-top-30px padding-bottom-60px'>
-          <h4>'HR admins do everything' brand campaign commercials</h4>
+        <div class='col-md-6 col-md-offset-3 padding-top-30px padding-bottom-60px'>
+          <h4>Brand campaign commercials</h4>
           <p>
             Worked on the original concept and creative direction of the brand campaign Gusto worked on in September 2016, of the HR admin who does everything starring Kristen Schaal. The commericals obtained 700,000+ views and won
             <a href='http://www.adweek.com/news/advertising-branding/ad-day-kristen-schaal-ultimate-hr-director-startups-fun-campaign-174024' target='_blank'>Adweek’s Ad of the Day</a>
@@ -81,8 +79,8 @@
     <div class='container'>
       <div class='col-md-12'>
         <div class='row work-section'>
-          <div class='intro col-md-6 col-md-offset-3 text-center'>
-            <h3>Gusto.com web design and front-end development</h3>
+          <div class='intro col-md-6 col-md-offset-3'>
+            <h3>Gusto.com design and front-end</h3>
             <p>I lead the design and front-end development of the gusto.com homepage. I worked closely with the PMM team, and illustrator to create the narrative. The main goals of the page lorum ipsum dolor and ceit eget porttitor at sem. </p>
           </div>
           <div class="web-work-carousel text-center">

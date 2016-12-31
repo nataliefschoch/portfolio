@@ -7,12 +7,15 @@
     		<ul>
           <li><a href='mailto:hello@natalieschoch.com'>hello@natalieschoch.com</a></li>
     			<div class='divider white'></div>
-          <li><a href='#'>Github</a></li>
-    			<li><a href='#'>Dribbble</a></li>
-    			<li><a href='#'>LinkedIn</a></li>
-          <li><a href='#'>Twitter</a></li>
+          <li><a href='https://github.com/nataliefschoch', target='_blank'>Github</a></li>
+    			<li><a href='https://dribbble.com/nataliefschoch', target='_blank'>Dribbble</a></li>
+    			<li><a href='https://www.linkedin.com/in/natalie-schoch-978ba17b' , target='_blank'>LinkedIn</a></li>
+          <li><a href='https://twitter.com/nataliefschoch', target='_blank'>Twitter</a></li>
     		</ul>
     	</div>
+      <div class='col-md-4 text-white text-right'>
+        <p>Natalie Schoch &copy; 2017</p>
+      </div>
     </div>
   </div>
   <script type="text/javascript">

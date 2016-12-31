@@ -13,6 +13,9 @@
 .text-left {
   text-align: left; }
 
+.text-right {
+  text-align: right; }
+
 .text-white {
   color: #fff; }
 
@@ -476,8 +479,6 @@
 section.work-intro .work-img-intro {
   height: 500px;
   background: grey; }
-section.work-intro p {
-  line-height: 26px; }
 
 .commercial-wrapper {
   position: relative; }
@@ -527,7 +528,8 @@ section.web-carousel {
     bottom: 21px;
     z-index: 4; }
     section.web-carousel .work-section .slick-dots li button:before {
-      color: #fff; }
+      color: #fff;
+      font-size: 7px; }
 
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
 /* Small devices (tablets, 768px and up) */
