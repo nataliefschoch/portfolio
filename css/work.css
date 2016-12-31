@@ -10,6 +10,19 @@
 .text-small {
   font-size: 13px; }
 
+.text-left {
+  text-align: left; }
+
+.text-white {
+  color: #fff; }
+
+.inline-block {
+  display: inline-block; }
+
+.text-small-caps {
+  text-transform: uppercase;
+  letter-spacing: 0.8px; }
+
 .padding-5px {
   padding: 5px !important; }
 
@@ -504,7 +517,7 @@ section.web-carousel {
   section.web-carousel .work-section p a {
     color: #fff; }
   section.web-carousel .work-section img.image-web {
-    width: 250px;
+    width: 140px;
     margin: 10px 20px 20px 20px; }
   section.web-carousel .work-section .slick-slide:hover {
     cursor: pointer; }

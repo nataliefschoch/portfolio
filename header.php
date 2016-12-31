@@ -18,7 +18,10 @@
 <header>
 	<div class='container'>
 		<div class='row'>
-			<div class='col-md-6 col-md-offset-3'>
+			<div class='col-md-3 text-left'>
+				<img src='images/logo-ns.jpg'/>
+			</div>
+			<div class='col-md-6'>
 				<h3>
 					<a class='active' href='index.php'>
 						Natalie Schoch

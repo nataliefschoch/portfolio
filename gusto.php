@@ -14,11 +14,11 @@
         <div class='col-md-3'><img src='images/work-gusto-grid-iphone.jpg' class='img-responsive'></div>
       </div>
       <div class='row padding-top-70px'>
-        <div class='col-md-8 col-md-offset-2'>
+        <div class='col-md-6 col-md-offset-3'>
           <div class='title-divider'>
-            <h3>
+            <h2>
               Gusto
-            </h3>
+            </h2>
             <div class='divider'></div>
             <p class='text-small'>Logo design, visual identity, front-end, web design</p>
           </div>

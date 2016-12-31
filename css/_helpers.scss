@@ -6,6 +6,27 @@
 	font-size: 13px;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-white {
+  color: $white;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+@mixin text-small-caps {
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.text-small-caps {
+  @include text-small-caps;
+}
+
 // Creates PIXEL-based padding helper classes in increments of 5px, from 5-100px. //
 @for $i from 1 through 30 {
 

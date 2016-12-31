@@ -10,6 +10,19 @@
 .text-small {
   font-size: 13px; }
 
+.text-left {
+  text-align: left; }
+
+.text-white {
+  color: #fff; }
+
+.inline-block {
+  display: inline-block; }
+
+.text-small-caps {
+  text-transform: uppercase;
+  letter-spacing: 0.8px; }
+
 .padding-5px {
   padding: 5px !important; }
 
@@ -482,19 +495,22 @@ html {
   background-color: #000;
   display: inline-block;
   height: 1px;
-  width: 40px; }
+  width: 30px; }
   .divider.white {
     background-color: #fff; }
 
 .title-divider {
   display: block;
-  height: 50px; }
+  height: 50px;
+  margin-bottom: 20px; }
+  .title-divider h2,
   .title-divider h3,
   .title-divider .divider,
   .title-divider .question-mark,
   .title-divider p {
     float: left;
     margin-right: 13px; }
+  .title-divider h2,
   .title-divider h3 {
     font-family: "Noe", serif; }
   .title-divider .divider {
@@ -513,15 +529,13 @@ html {
   #portfolio header h3 {
     display: inline-block;
     margin-right: 10px;
-    font-size: 17px;
+    font-size: 19px;
     font-family: "Graphik", sans-serif;
     font-weight: 400;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.2px;
     line-height: 35px; }
     #portfolio header h3:last-child {
       margin-right: 0; }
-    #portfolio header h3 a.active {
-      border-bottom: 2px solid #000; }
   #portfolio header .about-link {
     height: 30px;
     width: 30px;
@@ -530,6 +544,8 @@ html {
     float: right; }
     #portfolio header .about-link a {
       line-height: 27px; }
+  #portfolio header img {
+    width: 20px; }
   #portfolio header.dark {
     background: #000; }
     #portfolio header.dark a {
@@ -580,6 +596,8 @@ footer {
 
 #about {
   background: #000; }
+  #about h3 {
+    font-family: "Noe", serif; }
 
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
 /* Small devices (tablets, 768px and up) */

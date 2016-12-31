@@ -27,7 +27,7 @@ html {
 	background-color: $black;
 	display: inline-block;
 	height: 1px;
-	width: 40px;
+	width: 30px;
 	&.white {
 		background-color: $white;
 	}
@@ -36,6 +36,8 @@ html {
 .title-divider {
 	display: block;
 	height: 50px;
+	margin-bottom: 20px;
+	h2,
 	h3,
 	.divider,
 	.question-mark,
@@ -43,6 +45,7 @@ html {
 		float: left;
 		margin-right: 13px;
 	}
+	h2, 
 	h3 {
 		font-family: $font-family-serif;
 	}
@@ -69,16 +72,13 @@ html {
 		h3 {
 			display: inline-block;
 			margin-right: 10px;
-			font-size: 17px;
+			font-size: 19px;
 			font-family: $font-family-sans;
 			font-weight: 400;
-			letter-spacing: 0.3px;
+			letter-spacing: 0.2px;
 			line-height: 35px;
 			&:last-child {
 				margin-right: 0;
-			}
-			a.active {
-				border-bottom: 2px solid $black;
 			}
 		}
 		.about-link {
@@ -90,6 +90,9 @@ html {
 			a {
 				line-height: 27px;
 			}
+		}
+		img {
+			width: 20px;
 		}
 		&.dark {
 			background: $black;
@@ -159,6 +162,9 @@ footer {
 }
 #about {
 	background: $black;
+	h3 {
+		font-family: $font-family-serif; 
+	}
 }
 
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
