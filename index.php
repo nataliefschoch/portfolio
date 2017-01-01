@@ -10,7 +10,7 @@
     </div>
   </section>
   
-  <section id='work'>
+  <section id='work-home'>
     <div class='container'>
       <div class='row text-center'>
         <div class='col-md-6'>

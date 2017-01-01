@@ -476,72 +476,52 @@
 .padding-right-150px {
   padding-right: 150px !important; }
 
-section.work-intro .work-img-intro {
-  height: 500px;
-  background: grey; }
-
-.commercial-wrapper {
-  position: relative; }
-  .commercial-wrapper button {
-    background: #fff;
-    height: 84px;
-    width: 84px;
-    border-radius: 50%;
-    border: none;
-    position: absolute;
-    top: 50%;
-    margin-top: -42px;
-    left: 50%;
-    margin-left: -42px; }
-    .commercial-wrapper button .play-btn {
-      margin: 0 auto;
-      top: 25%;
-      position: relative;
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-width: 14px 0 14px 23px;
-      border-color: transparent transparent transparent #000; }
-
-section.web-carousel {
-  background: #000;
-  color: #fff;
-  overflow: hidden; }
-  section.web-carousel .container {
-    padding-left: 0;
-    padding-right: 0;
-    width: 100%; }
-  section.web-carousel .intro {
-    margin-bottom: 20px; }
-  section.web-carousel .work-section h5 {
-    color: #fff; }
-  section.web-carousel .work-section p a {
-    color: #fff; }
-  section.web-carousel .work-section img.image-web {
-    width: 140px;
-    margin: 10px 20px 20px 20px; }
-  section.web-carousel .work-section .slick-slide:hover {
-    cursor: pointer; }
-  section.web-carousel .work-section .slick-slide:focus {
-    outline: transparent; }
-  section.web-carousel .work-section .slick-dots {
-    bottom: 21px;
-    z-index: 4; }
-    section.web-carousel .work-section .slick-dots li button:before {
-      color: #fff;
-      font-size: 7px; }
-
-/* In between XSmall & Small devices (phones & tablets, 480px and up) */
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 1000px) {
-  section.web-carousel .container {
-    padding-left: 0;
-    padding-right: 0; }
-  section.web-carousel .intro {
-    padding: 40px 0px 90px 0px; }
-  section.web-carousel .work-section img.image-web {
-    width: 600px;
-    margin: 20px 30px 30px 30px; } }
-/* Large devices (large desktops, 1200px and up) */
+.work-page {
+  /* In between XSmall & Small devices (phones & tablets, 480px and up) */
+  /* Small devices (tablets, 768px and up) */
+  /* Large devices (large desktops, 1200px and up) */ }
+  .work-page section.work-intro p + p {
+    margin-top: 15px; }
+  .work-page section.work-intro .work-img-intro {
+    height: 500px;
+    background: grey; }
+  .work-page section.work h3 {
+    font-family: "Noe", serif; }
+  .work-page section.web-carousel {
+    background: #000;
+    color: #fff;
+    overflow: hidden; }
+    .work-page section.web-carousel .container {
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%; }
+    .work-page section.web-carousel .intro {
+      margin-bottom: 20px; }
+    .work-page section.web-carousel .work-section h5 {
+      color: #fff; }
+    .work-page section.web-carousel .work-section p a {
+      color: #fff; }
+    .work-page section.web-carousel .work-section img.image-web {
+      width: 140px;
+      margin: 10px 20px 20px 20px; }
+    .work-page section.web-carousel .work-section .slick-slide:hover {
+      cursor: pointer; }
+    .work-page section.web-carousel .work-section .slick-slide:focus {
+      outline: transparent; }
+    .work-page section.web-carousel .work-section .slick-dots {
+      bottom: 21px;
+      z-index: 4; }
+      .work-page section.web-carousel .work-section .slick-dots li button:before {
+        color: #fff;
+        font-size: 7px; }
+  @media (min-width: 1000px) {
+    .work-page section.web-carousel .container {
+      padding-left: 0;
+      padding-right: 0; }
+    .work-page section.web-carousel .intro {
+      padding: 40px 0px 90px 0px; }
+    .work-page section.web-carousel .work-section img.image-web {
+      width: 600px;
+      margin: 20px 30px 30px 30px; } }
 
 /*# sourceMappingURL=work.css.map */

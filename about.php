@@ -81,7 +81,7 @@
 
 <script>
   $( document ).ready(function() {
-    $('.body').addClass('.meow');
+    $('html').css('border-color', '#fff');
   });
 </script>
 <?php include 'footer.php';?>

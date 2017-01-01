@@ -58,6 +58,7 @@ p {
   font-weight: 400;
   line-height: 25px; }
   p.text-strong {
+    font-size: 16px;
     font-weight: 600; }
   p a {
     text-decoration: underline; }
@@ -65,7 +66,7 @@ p {
       text-decoration: underline;
       border-bottom: none; }
   p + p {
-    margin-top: 15px; }
+    margin-top: 5px; }
 
 a {
   color: #000;

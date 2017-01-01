@@ -559,16 +559,16 @@ html {
 #portfolio #intro h1 {
   font-size: 31px;
   line-height: 44px; }
-#portfolio #work {
+#portfolio #work-home {
   padding-bottom: 60px; }
-  #portfolio #work a {
+  #portfolio #work-home a {
     display: block; }
-    #portfolio #work a:hover {
+    #portfolio #work-home a:hover {
       text-decoration: none; }
-      #portfolio #work a:hover img {
+      #portfolio #work-home a:hover img {
         transition: all 0.3s ease;
         opacity: 0.8; }
-    #portfolio #work a img {
+    #portfolio #work-home a img {
       margin-bottom: 15px; }
 
 footer {

@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 
-<main>
+<main class='work-page'>
   <section class='work-intro'>
     <div class='container'>
       <div class='row'>
@@ -41,7 +41,7 @@
       </div>
     </div>
   </section>
-  <section>
+  <section class='work'>
     <div class='container'>
       <div class='row work-section'>
         <div class='col-md-6'>
@@ -51,7 +51,7 @@
           <img src='images/work-gusto-brand-guide-3.jpg' class='border img-responsive'>
         </div>
         <div class='col-md-6 col-md-offset-3 padding-top-30px padding-bottom-60px'>
-          <h4>Brand guidelines</h4>
+          <p class='text-strong'>Gusto brand guidelines</p>
           <p>
             As apart of the rebrand from ZenPayroll to Gusto in September 2015, I was an integral part of establishing the original style guide and then again in March 2016 creating an fine-tuned version, as shown above. This included establishing typography, typographic styles, colors, and a UI library for print and digital. We also converted all styles into the code database.
           </p>
@@ -59,19 +59,14 @@
       </div>
     </div>
   </section>
-  <section>
+  <section class='work'>
     <div class='container'>
       <div class='row work-section'>
-        <div class='col-md-8 col-md-offset-2'>
-          <div class='commercial-wrapper'>
-            <img src='images/work-gusto-hr-admin-video.jpg' class='img-responsive'>
-            <button href="//www.youtube.com/watch?v=T4olEQvSwx4&list=PLeSxBTBx8qo-pXYo4bzBE6WRrIafhR-1m" data-lity>
-              <div class='play-btn'></div>
-            </button>
-          </div>
+        <div class='col-md-10 col-md-offset-1'>
+          <iframe width="100%" height="100%" style='min-height: 560px' src="https://www.youtube.com/embed/T4olEQvSwx4?list=PLeSxBTBx8qo-pXYo4bzBE6WRrIafhR-1m" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class='col-md-6 col-md-offset-3 padding-top-30px padding-bottom-60px'>
-          <h4>Brand campaign commercials</h4>
+          <p class='text-strong'>Brand campaign commercials</p>
           <p>
             Worked on the original concept and creative direction of the brand campaign Gusto worked on in September 2016, of the HR admin who does everything starring Kristen Schaal. The commericals obtained 700,000+ views and won
             <a href='http://www.adweek.com/news/advertising-branding/ad-day-kristen-schaal-ultimate-hr-director-startups-fun-campaign-174024' target='_blank'>Adweek’s Ad of the Day</a>
@@ -81,12 +76,12 @@
       </div>
     </div>
   </section>
-  <section class='web-carousel'>
+  <section class='work web-carousel'>
     <div class='container'>
       <div class='col-md-12'>
         <div class='row work-section'>
           <div class='intro col-md-6 col-md-offset-3'>
-            <h3>Gusto.com design and front-end</h3>
+            <p class='text-strong'>Gusto.com design and front-end</p>
             <p>I lead the design and front-end development of the gusto.com homepage. I worked closely with the PMM team, and illustrator to create the narrative. The main goals of the page lorum ipsum dolor and ceit eget porttitor at sem. </p>
           </div>
           <div class="web-work-carousel text-center">
