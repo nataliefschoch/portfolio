@@ -1220,6 +1220,8 @@ footer {
   /* In between XSmall & Small devices (phones & tablets, 480px and up) */
   /* Small devices (tablets, 768px and up) */
   /* Large devices (large desktops, 1200px and up) */ }
+  .work-page section.work-intro h2 {
+    font-size: 40px; }
   .work-page section.work-intro p + p {
     padding-top: 15px; }
   .work-page section.work-intro .work-img-intro {
@@ -1242,6 +1244,8 @@ footer {
     background: #000;
     color: #fff;
     overflow: hidden; }
+    .work-page section.web-carousel .work-section p a {
+      color: #fff; }
     .work-page section.web-carousel .work-section h5 {
       color: #fff; }
     .work-page section.web-carousel .work-section img.image-web {

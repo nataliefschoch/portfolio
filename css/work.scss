@@ -4,6 +4,9 @@
 
 .work-page {
 	section.work-intro {
+		h2 {
+			font-size: 40px;
+		}
 			p + p {
 				padding-top: 15px;
 			}
@@ -41,6 +44,9 @@
 		color: $white;
 		overflow: hidden;
 		.work-section {
+			p a {
+				color: $white;
+			}
 			h5 {
 				color: $white;
 			}

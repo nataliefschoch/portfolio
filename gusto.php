@@ -25,20 +25,8 @@
           <p>
             I joined Gusto — then ZenPayroll,  as the fifth member of the design team. At that time, I was a generalist working on everything from in-product illustrations, to office and environment signage, to designing and developing web pages. During this time, I worked within a pre-existing brand guideline called Garden Styles.
           </p>
-          <p class='text-strong padding-top-20px'>Ready, set, rebrand!</p>            
           <p class='padding-top-5px'>
             In September of 2015, ZenPayroll went through a radical transformation. We changed our name to Gusto and underwent new branding, logo, and unveiled a health benefits product. The company worked with two agencies to develop the messaging platform and logo. The agencies laid the groundwork of the new brand and was a huge source of inspiration for the team. From that point, the in-house design team spearheaded the redesign &mdash; launching our new website, logo, and brand colors. I was deeply involved in the rebranding, working closely with Nelson Cash, the staff team, and the Head of Design.
-          </p>
-          <p class='text-strong padding-top-20px'>Growing our customers with Gusto</p>      
-          <p class='padding-top-5px'>  
-            For most of 2015 and 2016, I was the design lead on Gusto's growth team. The team’s mission was to acquire larger customers by running AB tests, conducting user-research and other user experiments. I worked closely in a small agile team of engineers and product managers.
-          </p>
-          <p>
-            The design team used a data-driven approach and designed within in the constraints of conversion optimization. Working on this team sharpened my instincts for designing for conversion and I found it immensely gratifying to be able to produce such a large impact on the company by making a quantifiable impact on our conversion rate overtime.
-          </p>
-          <p class='text-strong padding-top-20px'>What makes a brand, anyway?</p>      
-          <p class='padding-top-5px'>  
-            As Gusto is a relatively new name in the HR space, especially compared to the incumbents, it’s a great challenge and opportunity for the Brand Marketing team to shape our voice and brand. This sounded like a problem that I wanted to solve so I joined the Brand team at Gusto in 2016. I work closely with product marketing managers, copywriting, and visual designers on product releases, brand campaigns, and occasionally commercials.
           </p>
         </div>
       </div>
@@ -196,7 +184,7 @@
           <p class='text-light inline-block'>Winner! This design improved conversion rate by 40%</p>
         </div>
         <div class='col-sm-12 col-md-8 col-md-offset-2 padding-top-50px padding-bottom-60px'>
-          <p class='text-strong'>Data-driven design for acquisition</p>
+          <p class='text-strong'>A data-driven approach to designing for acquisition</p>
           <p>
             I lead design on the Growth team at Gusto for four quarters between 2015 - 2016. The team’s mission was to acquire new customers by running AB tests, conducting user-research and other acquisition experiments. I worked closely in a small agile team of engineers and product managers.
           </p>
