@@ -13,7 +13,7 @@
           <li><a href='https://twitter.com/nataliefschoch', target='_blank'>Twitter</a></li>
     		</ul>
     	</div>
-      <div class='col-md-4 text-white text-right'>
+      <div class='col-md-4 text-white copyright'>
         <p>Natalie Schoch &copy; 2017</p>
       </div>
     </div>

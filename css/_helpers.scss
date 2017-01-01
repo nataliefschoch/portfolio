@@ -39,6 +39,14 @@
   @include text-small-caps;
 }
 
+.padding-top-none {
+  padding-top: 0 !important;
+}
+  
+.padding-bottom-none {
+  padding-bottom: 0 !important;
+}
+
 // Creates PIXEL-based padding helper classes in increments of 5px, from 5-100px. //
 @for $i from 1 through 30 {
 

@@ -5,7 +5,7 @@
 .work-page {
 	section.work-intro {
 			p + p {
-				margin-top: 15px;
+				padding-top: 15px;
 			}
 		.work-img-intro {
 			height: 500px;
@@ -31,6 +31,9 @@
 					}
 				}
 			}
+			p a {
+				color: $white;
+			}
 		}
 	}
 	section.web-carousel {
@@ -39,9 +42,6 @@
 		overflow: hidden;
 		.work-section {
 			h5 {
-				color: $white;
-			}
-			p a {
 				color: $white;
 			}
 			img.image-web {

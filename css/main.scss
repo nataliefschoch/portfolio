@@ -78,15 +78,11 @@ html {
 		text-align: center;
 		h3 {
 			display: inline-block;
-			margin-right: 10px;
-			font-size: 19px;
+			font-size: 13px;
 			font-family: $font-family-sans;
 			font-weight: 400;
 			letter-spacing: 0.2px;
 			line-height: 35px;
-			&:last-child {
-				margin-right: 0;
-			}
 		}
 		a {
 			line-height: 28px;
@@ -96,7 +92,7 @@ html {
 			}
 		}
 		img {
-			width: 20px;
+			width: 15px;
 		}
 		&.dark {
 			background: $black;
@@ -106,12 +102,6 @@ html {
 			a {
 				color: $white;
 			}
-		}
-	}
-	#intro {
-		h1 {
-			font-size: 31px;
-			line-height: 44px;
 		}
 	}
 	#work-home {
@@ -162,6 +152,10 @@ footer {
 			}
 		}
 	}
+	.copyright {
+		text-align: center;
+		margin-top: 20px;
+	}
 }
 #about {
 	background: $black;
@@ -184,10 +178,29 @@ footer {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	.container {
-		width: 90%;
-		max-width: 1700px;
-		padding: 45px;
+	#portfolio {
+		.container {
+			width: 90%;
+			max-width: 1700px;
+			padding: 45px;
+		}
+		header {
+			h3 {
+				font-size: 19px;
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+			img {
+				width: 20px;
+			}
+		}
+		footer {
+			.copyright {
+				margin-top: 0;
+				text-align: right;
+			}
+		}
 	}
 }
 

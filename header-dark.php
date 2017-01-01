@@ -16,17 +16,17 @@
 <header class='dark'>
 	<div class='container'>
 		<div class='row'>
-			<div class='col-md-3 text-left'>
+			<div class='col-xs-3 text-left'>
 				<img src='images/logo-ns-white.png'/>
 			</div>
-			<div class='col-md-6'>
+			<div class='col-xs-6'>
 				<h3>
 					<a class='active' href='index.php'>
 						Natalie Schoch
 					</a>
 				</h3>
 			</div>
-			<div class='col-md-3'>
+			<div class='col-xs-3'>
 				<a href='about.php'>
 					<div class='circle-border'>
 						?

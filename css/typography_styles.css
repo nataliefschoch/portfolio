@@ -7,9 +7,9 @@
 h1 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 37px;
+  font-size: 20px;
   font-family: "Noe", serif;
-  line-height: 37px; }
+  line-height: 27px; }
 
 h2 {
   -webkit-font-smoothing: antialiased;
@@ -60,13 +60,15 @@ p {
   p.text-strong {
     font-size: 16px;
     font-weight: 600; }
+  p.text-light {
+    color: #939499; }
   p a {
     text-decoration: underline; }
     p a:hover {
       text-decoration: underline;
       border-bottom: none; }
   p + p {
-    margin-top: 5px; }
+    padding-top: 5px; }
 
 a {
   color: #000;
@@ -80,6 +82,10 @@ a {
     text-decoration: none; }
 
 @media (min-width: 1000px) {
+  h1 {
+    font-size: 31px;
+    line-height: 44px; }
+
   h5 {
     font-size: 18px; } }
 

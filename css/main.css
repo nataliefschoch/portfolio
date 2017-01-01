@@ -32,6 +32,12 @@
   text-transform: uppercase;
   letter-spacing: 0.8px; }
 
+.padding-top-none {
+  padding-top: 0 !important; }
+
+.padding-bottom-none {
+  padding-bottom: 0 !important; }
+
 .padding-5px {
   padding: 5px !important; }
 
@@ -543,30 +549,24 @@ html {
   text-align: center; }
   #portfolio header h3 {
     display: inline-block;
-    margin-right: 10px;
-    font-size: 19px;
+    font-size: 13px;
     font-family: "Graphik", sans-serif;
     font-weight: 400;
     letter-spacing: 0.2px;
     line-height: 35px; }
-    #portfolio header h3:last-child {
-      margin-right: 0; }
   #portfolio header a {
     line-height: 28px; }
     #portfolio header a .circle-border {
       font-family: "Noe", serif;
       float: right; }
   #portfolio header img {
-    width: 20px; }
+    width: 15px; }
   #portfolio header.dark {
     background: #000; }
     #portfolio header.dark .circle-border {
       border-color: #fff; }
     #portfolio header.dark a {
       color: #fff; }
-#portfolio #intro h1 {
-  font-size: 31px;
-  line-height: 44px; }
 #portfolio #work-home {
   padding-bottom: 60px; }
   #portfolio #work-home a {
@@ -603,6 +603,9 @@ footer {
         padding-left: 40px; }
       footer ul li:last-child {
         margin-right: 0; }
+  footer .copyright {
+    text-align: center;
+    margin-top: 20px; }
 
 #about {
   background: #000; }
@@ -617,10 +620,19 @@ footer {
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .container {
+  #portfolio .container {
     width: 90%;
     max-width: 1700px;
-    padding: 45px; } }
+    padding: 45px; }
+  #portfolio header h3 {
+    font-size: 19px; }
+    #portfolio header h3:last-child {
+      margin-right: 0; }
+  #portfolio header img {
+    width: 20px; }
+  #portfolio footer .copyright {
+    margin-top: 0;
+    text-align: right; } }
 /* Large devices (large desktops, 1200px and up) */
 
 /*# sourceMappingURL=main.css.map */

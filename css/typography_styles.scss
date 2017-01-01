@@ -2,9 +2,9 @@
 
 h1 {
 	@include font-smoothing;
-	font-size: 37px;
+	font-size: 20px;
 	font-family: $font-family-serif;
-	line-height: 37px;
+	line-height: 27px;
 }
 
 h2 {
@@ -56,6 +56,9 @@ p {
 		font-size: 16px;
 		font-weight: 600;
 	}
+	&.text-light {
+		color: $grey-500;
+	}
 	a {
 		text-decoration: underline;
 		&:hover {
@@ -64,7 +67,7 @@ p {
 		}
 	}
 	& + p {
-		margin-top: 5px;
+		padding-top: 5px;
 	}
 }
 
@@ -83,6 +86,10 @@ a {
 }
 
 @media (min-width: 1000px) {
+	h1 {
+		font-size: 31px;
+		line-height: 44px;
+	}
 	h5 {
 		font-size: 18px;
 	}

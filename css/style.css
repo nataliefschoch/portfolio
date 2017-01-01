@@ -9,9 +9,9 @@
 h1 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 37px;
+  font-size: 20px;
   font-family: "Noe", serif;
-  line-height: 37px; }
+  line-height: 27px; }
 
 h2 {
   -webkit-font-smoothing: antialiased;
@@ -62,13 +62,15 @@ p {
   p.text-strong {
     font-size: 16px;
     font-weight: 600; }
+  p.text-light {
+    color: #939499; }
   p a {
     text-decoration: underline; }
     p a:hover {
       text-decoration: underline;
       border-bottom: none; }
   p + p {
-    margin-top: 5px; }
+    padding-top: 5px; }
 
 a {
   color: #000;
@@ -82,6 +84,10 @@ a {
     text-decoration: none; }
 
 @media (min-width: 1000px) {
+  h1 {
+    font-size: 31px;
+    line-height: 44px; }
+
   h5 {
     font-size: 18px; } }
 @font-face {
@@ -117,6 +123,12 @@ a {
 .text-small-caps {
   text-transform: uppercase;
   letter-spacing: 0.8px; }
+
+.padding-top-none {
+  padding-top: 0 !important; }
+
+.padding-bottom-none {
+  padding-bottom: 0 !important; }
 
 .padding-5px {
   padding: 5px !important; }
@@ -629,30 +641,24 @@ html {
   text-align: center; }
   #portfolio header h3 {
     display: inline-block;
-    margin-right: 10px;
-    font-size: 19px;
+    font-size: 13px;
     font-family: "Graphik", sans-serif;
     font-weight: 400;
     letter-spacing: 0.2px;
     line-height: 35px; }
-    #portfolio header h3:last-child {
-      margin-right: 0; }
   #portfolio header a {
     line-height: 28px; }
     #portfolio header a .circle-border {
       font-family: "Noe", serif;
       float: right; }
   #portfolio header img {
-    width: 20px; }
+    width: 15px; }
   #portfolio header.dark {
     background: #000; }
     #portfolio header.dark .circle-border {
       border-color: #fff; }
     #portfolio header.dark a {
       color: #fff; }
-#portfolio #intro h1 {
-  font-size: 31px;
-  line-height: 44px; }
 #portfolio #work-home {
   padding-bottom: 60px; }
   #portfolio #work-home a {
@@ -689,6 +695,9 @@ footer {
         padding-left: 40px; }
       footer ul li:last-child {
         margin-right: 0; }
+  footer .copyright {
+    text-align: center;
+    margin-top: 20px; }
 
 #about {
   background: #000; }
@@ -703,10 +712,19 @@ footer {
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .container {
+  #portfolio .container {
     width: 90%;
     max-width: 1700px;
-    padding: 45px; } }
+    padding: 45px; }
+  #portfolio header h3 {
+    font-size: 19px; }
+    #portfolio header h3:last-child {
+      margin-right: 0; }
+  #portfolio header img {
+    width: 20px; }
+  #portfolio footer .copyright {
+    margin-top: 0;
+    text-align: right; } }
 /* Large devices (large desktops, 1200px and up) */
 @font-face {
   font-family: 'noe';
@@ -741,6 +759,12 @@ footer {
 .text-small-caps {
   text-transform: uppercase;
   letter-spacing: 0.8px; }
+
+.padding-top-none {
+  padding-top: 0 !important; }
+
+.padding-bottom-none {
+  padding-bottom: 0 !important; }
 
 .padding-5px {
   padding: 5px !important; }
@@ -1197,7 +1221,7 @@ footer {
   /* Small devices (tablets, 768px and up) */
   /* Large devices (large desktops, 1200px and up) */ }
   .work-page section.work-intro p + p {
-    margin-top: 15px; }
+    padding-top: 15px; }
   .work-page section.work-intro .work-img-intro {
     height: 500px;
     background: grey; }
@@ -1212,13 +1236,13 @@ footer {
       .work-page section.web-carousel-intro .intro .slick-dots li button:before {
         color: #fff;
         font-size: 7px; }
+    .work-page section.web-carousel-intro .intro p a {
+      color: #fff; }
   .work-page section.web-carousel {
     background: #000;
     color: #fff;
     overflow: hidden; }
     .work-page section.web-carousel .work-section h5 {
-      color: #fff; }
-    .work-page section.web-carousel .work-section p a {
       color: #fff; }
     .work-page section.web-carousel .work-section img.image-web {
       width: 140px;

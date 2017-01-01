@@ -14,28 +14,31 @@
         <div class='col-sm-3'><img src='images/work-gusto-grid-iphone.jpg' class='img-responsive'></div>
       </div>
       <div class='row padding-top-70px'>
-        <div class='col-md-6 col-md-offset-3'>
-          <div class='title-divider'>
+        <div class='col-md-8 col-md-offset-2'>
+          <div class='title-divider light'>
             <h2>
               Gusto
             </h2>
             <div class='divider'></div>
-            <p class='text-small'>Visual identity, front-end, web design</p>
+            <p class='text-light'>Visual identity, front-end, web design</p>
           </div>
           <p>
             I joined Gusto — then ZenPayroll,  as the fifth member of the design team. At that time, I was a generalist working on everything from in-product illustrations, to office and environment signage, to designing and developing web pages. During this time, I worked within a pre-existing brand guideline called Garden Styles.
           </p>
-          <p class='text-strong'>Rebrand</p>            
+          <p class='text-strong padding-top-20px'>Ready, set, rebrand!</p>            
+          <p class='padding-top-5px'>
+            In September of 2015, ZenPayroll went through a radical transformation. We changed our name to Gusto and underwent new branding, logo, and unveiled a health benefits product. The company worked with two agencies to develop the messaging platform and logo. The agencies laid the groundwork of the new brand and was a huge source of inspiration for the team. From that point, the in-house design team spearheaded the redesign &mdash; launching our new website, logo, and brand colors. I was deeply involved in the rebranding, working closely with Nelson Cash, the staff team, and the Head of Design.
+          </p>
+          <p class='text-strong padding-top-20px'>Growing our customers with Gusto</p>      
+          <p class='padding-top-5px'>  
+            For most of 2015 and 2016, I was the design lead on Gusto's growth team. The team’s mission was to acquire larger customers by running AB tests, conducting user-research and other user experiments. I worked closely in a small agile team of engineers and product managers.
+          </p>
           <p>
-            In September of 2015, ZenPayroll went through a radical transformation. We changed our name to Gusto and underwent new branding, logo, and unveiled a health benefits product. The company worked with two agencies to develop the messaging platform and logo. The agencies laid the groundwork of the new brand and was a huge source of inspiration for the team. From that point, the in-house design team spearheaded the redesign — launching our new website, logo, and brand colors. I was deeply involved in the rebranding, working closely with Nelson Cash, the staff team, and the Head of Design.
+            The design team used a data-driven approach and designed within in the constraints of conversion optimization. Working on this team sharpened my instincts for designing for conversion and I found it immensely gratifying to be able to produce such a large impact on the company by making a quantifiable impact on our conversion rate overtime.
           </p>
-          <p class='text-strong'>Growth team</p>      
-          <p>  
-            For most of 2015 and 2016, I was the design lead on Gusto’s growth team. The team’s mission was to acquire larger customers by running AB tests, conducting user-research and other user experiments. I worked closely in a small agile team of engineers and product managers. The design team used a  data-driven approach and designed within in the constraints of conversion optimization. Working on this team sharpened my instincts for designing for conversion and I found it immensely gratifying to be able to produce such a large impact on the company by making a quantifiable impact on our conversion rate overtime.
-          </p>
-          <p class='text-strong'>Brand team</p>      
-          <p>  
-            As Gusto is a relatively new name in the HR space, especially compared to the incumbents, it’s a great challenge and opportunity for the Brand Marketing team to shape our voice and brand. This sounded like a problem that I wanted to solve so I joined the Brand team at Gusto in 2016. I work closely with product marketing managers, copywriting, and visual designers on product releases, brand campaigns, and occasionally commercials :)
+          <p class='text-strong padding-top-20px'>What makes a brand, anyway?</p>      
+          <p class='padding-top-5px'>  
+            As Gusto is a relatively new name in the HR space, especially compared to the incumbents, it’s a great challenge and opportunity for the Brand Marketing team to shape our voice and brand. This sounded like a problem that I wanted to solve so I joined the Brand team at Gusto in 2016. I work closely with product marketing managers, copywriting, and visual designers on product releases, brand campaigns, and occasionally commercials.
           </p>
         </div>
       </div>
@@ -56,10 +59,10 @@
         <div class='col-sm-6 padding-bottom-15px'>
           <img src='images/work-gusto-brand-guide-3.jpg' class='img-responsive'>
         </div>
-        <div class='col-md-6 col-md-offset-3 padding-top-30px padding-bottom-60px'>
+        <div class='col-md-8 col-md-offset-2 padding-top-30px padding-bottom-60px'>
           <p class='text-strong'>Gusto brand guidelines</p>
           <p>
-            As apart of the rebrand from ZenPayroll to Gusto in September 2015, I was an integral part of establishing the original style guide and then again in March 2016 creating an fine-tuned version, as shown above. This included establishing typography, typographic styles, colors, and a UI library for print and digital. We also converted all styles into the code database.
+            As apart of ZenPayroll's rebrand to Gusto, the company needed to establish new brand guidelines for print, web, and product. The design team worked collaboratively to establish a system that was scalable, flexible, and distinct. I was an integral part of the teams that established our colors and typography. The style guide was sent out for internal use and to external vendors, as well as built out by myself and the team in our code database.
           </p>
         </div>
       </div>
@@ -71,12 +74,17 @@
         <div class='col-md-12'>
           <iframe width="100%" height="100%" style='min-height: 560px' src="https://www.youtube.com/embed/T4olEQvSwx4?list=PLeSxBTBx8qo-pXYo4bzBE6WRrIafhR-1m" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class='col-md-6 col-md-offset-3 padding-top-30px padding-bottom-60px'>
+        <div class='col-md-8 col-md-offset-2 padding-top-30px padding-bottom-60px'>
           <p class='text-strong'>Brand campaign commercials</p>
           <p>
-            Worked on the original concept and creative direction of the brand campaign Gusto worked on in September 2016, of the HR admin who does everything starring Kristen Schaal. The commericals obtained 700,000+ views and won
-            <a href='http://www.adweek.com/news/advertising-branding/ad-day-kristen-schaal-ultimate-hr-director-startups-fun-campaign-174024' target='_blank'>Adweek’s Ad of the Day</a>
-            award.
+            In September of 2016, the Gusto Brand team launched a brand awareness campaign. The original campaign concept was pitched by myself and two colleagues. It originated from insights we gleamed from a focus group session conducted with HR admins across in California and New Jersey. After listening to these admins, it became clear that the common thread among them was that they were an irreplaceable role that did multiple jobs, including recruiting, on boarding, payroll, office management, and much more. In short — HR admins do everything. We felt that Kristen Schaal was the perfect person to embody this role because of her quirky charm and cheery personality.
+          </p>
+          <p>
+            Based off this concept, we wrote the original script of the ’So many Zoes’ video, and then worked with Erix XXXX and AGENCY to develop the other four. I creative directed the photoshoot for Kristen, choosing the props, wardrobe, and poses for the photos that would be featured on our corporate website, billboards, and other campaign collateral.
+          </p>
+          <p>
+            The commercials resonated with our audience, obtaining over 700,000+ views total and was awarded
+            <a href='http://www.adweek.com/news/advertising-branding/ad-day-kristen-schaal-ultimate-hr-director-startups-fun-campaign-174024' target='_blank'>Adweek’s Ad of the Day</a>.
           </p>
         </div>
       </div>
@@ -85,9 +93,15 @@
   <section class='work web-carousel-intro'>
     <div class='container padding-top-70px'>
       <div class='row intro relative padding-bottom-50px'>
-        <div class='col-md-6 col-md-offset-3'>
+        <div class='col-md-8 col-md-offset-2'>
             <p class='text-strong'>Gusto.com design and front-end</p>
-            <p>I lead the design and front-end development of the gusto.com homepage. I worked closely with the PMM team, and illustrator to create the narrative. The main goals of the page lorum ipsum dolor and ceit eget porttitor at sem. </p>
+            <p>I lead the design and front-end development of top navigation pages on
+              <a href='https://gusto.com' target='_blank'>gusto.com</a>.
+              I lead the full design process, taking the designs from conception to wireframes, high-fidelity mock-ups, front-end development and responsive design.
+            </p>
+            <p>
+              These projects were typically run by a small team consisting of myself, a product marketing manager, copywriter, and illustrator. I worked closely with stake-holders to fully understand the context and goals of each page. I designed within the constraints of our brand guideline, and often with customer acquisition in mind. The designs were presented in our team wide critique and reviewed by members of staff at important milestones.
+            </p>
         </div>
       </div>
     </div>
@@ -176,14 +190,21 @@
         </div>
         <div class='col-sm-6'>
           <img src='images/work-gusto-homepage.jpg' class='padding-bottom-15px img-responsive'>
-          <p class='text-strong'>
+          <p class='text-strong inline-block'>
             <span class='circle-border'>B</span>
-            Expirement</p>
+            Expirement</p> 
+          <p class='text-light inline-block'>Winner! This design improved conversion rate by 40%</p>
         </div>
-        <div class='col-sm-12 col-md-6 col-md-offset-3 padding-top-50px padding-bottom-60px'>
-          <p class='text-strong'>Paid Acquisition AB Tests</p>
+        <div class='col-sm-12 col-md-8 col-md-offset-2 padding-top-50px padding-bottom-60px'>
+          <p class='text-strong'>Data-driven design for acquisition</p>
           <p>
-            As apart of the rebrand from ZenPayroll to Gusto in September 2015, I was an integral part of establishing the original style guide and then again in March 2016 creating an fine-tuned version, as shown above. This included establishing typography, typographic styles, colors, and a UI library for print and digital. We also converted all styles into the code database.
+            I lead design on the Growth team at Gusto for four quarters between 2015 - 2016. The team’s mission was to acquire new customers by running AB tests, conducting user-research and other acquisition experiments. I worked closely in a small agile team of engineers and product managers.
+          </p>
+          <p>
+            Our team used a data-driven approach and designed within in the constraints of conversion optimization. Working on this team sharpened my instincts for designing for conversion and I found it immensely gratifying to have such a measurable impact on the company by making a quantifiable improvements on our conversion rate overtime.
+          </p>
+          <p>
+            The AB test featured was a project that I initiated, designed, and developed. The mission was to increase the conversion rate our default paid landing page template. I designed the page using acquisition best practices including &mdash; front-loading important information above the fold, creating a clear heriarchy of information, calling out the form visually, and providing areas of social proof including press logo, secure check-out, and further below testimonials. This page out-performed our incumbedant landing page increasing the page's conversion rate from 3.2% to 9% over the course of 6 months.
           </p>
         </div>
       </div>
