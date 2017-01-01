@@ -13,6 +13,11 @@ html {
 	padding: 10px;
 }
 
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .btn {
 	border: 2px solid $black;
   padding: 8px 18px 5px 18px;
@@ -55,13 +60,15 @@ html {
 	p {
 		margin-top: 5px;
 	}
-	.question-mark {
-		font-family: $font-family-serif;
-		border: 1px solid $black;
-		border-radius: 50%;
-		height: 30px;
-		width: 30px;
-	}
+}
+
+.circle-border {
+	border: 2px solid $black;
+	border-radius: 50%;
+	height: 27px;
+	float: left;
+	text-align: center;
+	width: 27px;
 }
 
 
@@ -83,21 +90,17 @@ html {
 		}
 		a {
 			line-height: 28px;
-			.about-link {
-				border: 2px solid $black;
-				border-radius: 50%;
-				height: 27px;
-				float: right;
+			.circle-border {
 				font-family: $font-family-serif;
-				width: 27px;
-		}
+				float: right;
+			}
 		}
 		img {
 			width: 20px;
 		}
 		&.dark {
 			background: $black;
-			.about-link {
+			.circle-border {
 				border-color: $white;
 			}
 			a {

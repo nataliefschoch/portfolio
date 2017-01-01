@@ -22,6 +22,12 @@
 .inline-block {
   display: inline-block; }
 
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
 .text-small-caps {
   text-transform: uppercase;
   letter-spacing: 0.8px; }
@@ -487,16 +493,19 @@
     background: grey; }
   .work-page section.work h3 {
     font-family: "Noe", serif; }
+  .work-page section.web-carousel-intro {
+    background: #000;
+    color: #fff; }
+    .work-page section.web-carousel-intro .intro .slick-dots {
+      bottom: -30px;
+      z-index: 4; }
+      .work-page section.web-carousel-intro .intro .slick-dots li button:before {
+        color: #fff;
+        font-size: 7px; }
   .work-page section.web-carousel {
     background: #000;
     color: #fff;
     overflow: hidden; }
-    .work-page section.web-carousel .container {
-      padding-left: 0;
-      padding-right: 0;
-      width: 100%; }
-    .work-page section.web-carousel .intro {
-      margin-bottom: 20px; }
     .work-page section.web-carousel .work-section h5 {
       color: #fff; }
     .work-page section.web-carousel .work-section p a {
@@ -508,12 +517,23 @@
       cursor: pointer; }
     .work-page section.web-carousel .work-section .slick-slide:focus {
       outline: transparent; }
-    .work-page section.web-carousel .work-section .slick-dots {
-      bottom: 21px;
-      z-index: 4; }
-      .work-page section.web-carousel .work-section .slick-dots li button:before {
-        color: #fff;
-        font-size: 7px; }
+  .work-page section.acquisition .circle-border {
+    margin-right: 10px; }
+  .work-page section.bottom-nav .nav-button {
+    border-top: 2px solid #000;
+    padding-left: 0;
+    padding-right: 0; }
+    .work-page section.bottom-nav .nav-button a {
+      padding: 40px;
+      display: block; }
+      .work-page section.bottom-nav .nav-button a:hover {
+        background: #000;
+        color: #fff; }
+  @media (min-width: 768px) {
+    .work-page section.bottom-nav .nav-button {
+      border-bottom: 2px solid #000; }
+      .work-page section.bottom-nav .nav-button:first-of-type {
+        border-right: 2px solid #000; } }
   @media (min-width: 1000px) {
     .work-page section.web-carousel .container {
       padding-left: 0;

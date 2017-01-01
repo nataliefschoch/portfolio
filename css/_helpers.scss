@@ -22,6 +22,14 @@
   display: inline-block;
 }
 
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
 @mixin text-small-caps {
   text-transform: uppercase;
   letter-spacing: 0.8px;

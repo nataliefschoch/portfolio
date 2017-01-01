@@ -17,18 +17,26 @@
 			font-family: $font-family-serif;
 		}
 	}
+	section.web-carousel-intro {
+		background: $black;
+		color: $white;
+		.intro {
+			.slick-dots {
+		    bottom: -30px;
+				z-index: 4;
+				li {
+					button:before {
+						color: $white;
+						font-size: 7px;
+					}
+				}
+			}
+		}
+	}
 	section.web-carousel {
 		background: $black;
 		color: $white;
 		overflow: hidden;
-		.container {
-			padding-left: 0;
-			padding-right: 0;
-			width: 100%;
-		}
-		.intro {
-			margin-bottom: 20px;
-		}
 		.work-section {
 			h5 {
 				color: $white;
@@ -48,14 +56,24 @@
 					outline: transparent;
 				}
 			}
-			.slick-dots {
-				bottom: 21px;
-				z-index: 4;
-				li {
-					button:before {
-						color: $white;
-						font-size: 7px;
-					}
+		}
+	}
+	section.acquisition {
+		.circle-border {
+			margin-right: 10px;
+		}
+	}
+	section.bottom-nav {
+		.nav-button {
+			border-top: 2px solid $black;
+	    padding-left: 0;
+	    padding-right: 0;
+			a {
+				padding: 40px;
+				display: block;
+				&:hover {
+					background: $black;
+					color: $white;
 				}
 			}
 		}
@@ -69,7 +87,14 @@
 
 	/* Small devices (tablets, 768px and up) */
 	@media (min-width: 768px) {
-
+		section.bottom-nav {
+			.nav-button {
+				border-bottom: 2px solid $black;
+				&:first-of-type {
+					border-right: 2px solid $black;
+				}
+			}
+		}
 	}
 
 	@media (min-width: 1000px) {

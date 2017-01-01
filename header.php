@@ -28,7 +28,7 @@
 			</div>
 			<div class='col-md-3'>
 				<a href='about.php'>
-					<div class='about-link'>
+					<div class='circle-border'>
 						?
 					</div>
 				</a>

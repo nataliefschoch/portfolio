@@ -4,14 +4,14 @@
   <section class='work-intro'>
     <div class='container'>
       <div class='row'>
-        <div class='col-md-3'><img src='images/work-gusto-grid-shoes.jpg' class='img-responsive'></div>
-        <div class='col-md-3'><img src='images/work-gusto-grid-founders.jpg' class='img-responsive'></div>
-        <div class='col-md-6'><img src='images/work-gusto-grid-office.jpg' class='img-responsive'></div>
+        <div class='col-sm-3'><img src='images/work-gusto-grid-shoes.jpg' class='hidden-xs img-responsive'></div>
+        <div class='col-sm-3'><img src='images/work-gusto-grid-founders.jpg' class='hidden-xs img-responsive'></div>
+        <div class='col-sm-6'><img src='images/work-gusto-grid-office.jpg' class='hidden-xs img-responsive'></div>
       </div>
       <div class='row padding-top-30px'>
-        <div class='col-md-6'><img src='images/work-gusto-grid-ipads.jpg' class='img-responsive'></div>
-        <div class='col-md-3'><img src='images/work-gusto-grid-golden-ticket.jpg' class='img-responsive'></div>
-        <div class='col-md-3'><img src='images/work-gusto-grid-iphone.jpg' class='img-responsive'></div>
+        <div class='col-sm-6'><img src='images/work-gusto-grid-ipads.jpg' class='hidden-xs img-responsive'></div>
+        <div class='col-sm-3'><img src='images/work-gusto-grid-golden-ticket.jpg' class='hidden-xs img-responsive'></div>
+        <div class='col-sm-3'><img src='images/work-gusto-grid-iphone.jpg' class='img-responsive'></div>
       </div>
       <div class='row padding-top-70px'>
         <div class='col-md-6 col-md-offset-3'>
@@ -44,11 +44,17 @@
   <section class='work'>
     <div class='container'>
       <div class='row work-section'>
-        <div class='col-md-6'>
-          <img src='images/work-gusto-brand-guide-2.jpg' class='border img-responsive'>
+        <div class='col-sm-6 padding-bottom-15px'>
+          <img src='images/work-gusto-brand-logo-color.jpg' class='img-responsive'>
         </div>
-        <div class='col-md-6'>
-          <img src='images/work-gusto-brand-guide-3.jpg' class='border img-responsive'>
+        <div class='col-sm-6 padding-bottom-15px'>
+          <img src='images/work-gusto-brand-logo-white.jpg' class='img-responsive'>
+        </div>
+        <div class='col-sm-6 padding-bottom-15px'>
+          <img src='images/work-gusto-brand-guide-2.jpg' class='img-responsive'>
+        </div>
+        <div class='col-sm-6 padding-bottom-15px'>
+          <img src='images/work-gusto-brand-guide-3.jpg' class='img-responsive'>
         </div>
         <div class='col-md-6 col-md-offset-3 padding-top-30px padding-bottom-60px'>
           <p class='text-strong'>Gusto brand guidelines</p>
@@ -62,7 +68,7 @@
   <section class='work'>
     <div class='container'>
       <div class='row work-section'>
-        <div class='col-md-10 col-md-offset-1'>
+        <div class='col-md-12'>
           <iframe width="100%" height="100%" style='min-height: 560px' src="https://www.youtube.com/embed/T4olEQvSwx4?list=PLeSxBTBx8qo-pXYo4bzBE6WRrIafhR-1m" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class='col-md-6 col-md-offset-3 padding-top-30px padding-bottom-60px'>
@@ -76,14 +82,20 @@
       </div>
     </div>
   </section>
+  <section class='work web-carousel-intro'>
+    <div class='container padding-top-70px'>
+      <div class='row intro relative padding-bottom-50px'>
+        <div class='col-md-6 col-md-offset-3'>
+            <p class='text-strong'>Gusto.com design and front-end</p>
+            <p>I lead the design and front-end development of the gusto.com homepage. I worked closely with the PMM team, and illustrator to create the narrative. The main goals of the page lorum ipsum dolor and ceit eget porttitor at sem. </p>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class='work web-carousel'>
     <div class='container'>
       <div class='col-md-12'>
         <div class='row work-section'>
-          <div class='intro col-md-6 col-md-offset-3'>
-            <p class='text-strong'>Gusto.com design and front-end</p>
-            <p>I lead the design and front-end development of the gusto.com homepage. I worked closely with the PMM team, and illustrator to create the narrative. The main goals of the page lorum ipsum dolor and ceit eget porttitor at sem. </p>
-          </div>
           <div class="web-work-carousel text-center">
             <div>
               <h5>Gusto homepage</h5>
@@ -150,6 +162,44 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+  <section class='work acquisition'>
+    <div class='container'>
+      <div class='row work-section'>
+        <div class='col-sm-6'>
+          <img src='images/work-gusto-homepage.jpg' class='padding-bottom-15px img-responsive'>
+          <p class='text-strong'>
+            <span class='circle-border'>A</span>
+            Control</p>
+        </div>
+        <div class='col-sm-6'>
+          <img src='images/work-gusto-homepage.jpg' class='padding-bottom-15px img-responsive'>
+          <p class='text-strong'>
+            <span class='circle-border'>B</span>
+            Expirement</p>
+        </div>
+        <div class='col-sm-12 col-md-6 col-md-offset-3 padding-top-50px padding-bottom-60px'>
+          <p class='text-strong'>Paid Acquisition AB Tests</p>
+          <p>
+            As apart of the rebrand from ZenPayroll to Gusto in September 2015, I was an integral part of establishing the original style guide and then again in March 2016 creating an fine-tuned version, as shown above. This included establishing typography, typographic styles, colors, and a UI library for print and digital. We also converted all styles into the code database.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class='bottom-nav'>
+    <div class='container-fluid text-center'>
+      <div class='col-sm-6 nav-button'>
+        <a href='#'>
+          Back to top
+        </a>
+      </div>
+      <div class='col-sm-6 nav-button'>
+        <a href='ballhawk.php'>
+          Next project
+        </a>
       </div>
     </div>
   </section>

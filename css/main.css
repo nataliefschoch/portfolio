@@ -22,6 +22,12 @@
 .inline-block {
   display: inline-block; }
 
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
 .text-small-caps {
   text-transform: uppercase;
   letter-spacing: 0.8px; }
@@ -485,6 +491,10 @@ html {
   max-width: 1700px;
   padding: 10px; }
 
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0; }
+
 .btn {
   border: 2px solid #000;
   padding: 8px 18px 5px 18px;
@@ -520,12 +530,14 @@ html {
     margin-top: 17px; }
   .title-divider p {
     margin-top: 5px; }
-  .title-divider .question-mark {
-    font-family: "Noe", serif;
-    border: 1px solid #000;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px; }
+
+.circle-border {
+  border: 2px solid #000;
+  border-radius: 50%;
+  height: 27px;
+  float: left;
+  text-align: center;
+  width: 27px; }
 
 #portfolio header {
   text-align: center; }
@@ -541,18 +553,14 @@ html {
       margin-right: 0; }
   #portfolio header a {
     line-height: 28px; }
-    #portfolio header a .about-link {
-      border: 2px solid #000;
-      border-radius: 50%;
-      height: 27px;
-      float: right;
+    #portfolio header a .circle-border {
       font-family: "Noe", serif;
-      width: 27px; }
+      float: right; }
   #portfolio header img {
     width: 20px; }
   #portfolio header.dark {
     background: #000; }
-    #portfolio header.dark .about-link {
+    #portfolio header.dark .circle-border {
       border-color: #fff; }
     #portfolio header.dark a {
       color: #fff; }
