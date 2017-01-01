@@ -19,7 +19,7 @@
 	<div class='container'>
 		<div class='row'>
 			<div class='col-md-3 text-left'>
-				<img src='images/logo-ns.jpg'/>
+				<img src='images/logo-ns.png'/>
 			</div>
 			<div class='col-md-6'>
 				<h3>
@@ -29,11 +29,11 @@
 				</h3>
 			</div>
 			<div class='col-md-3'>
-				<div class='about-link'>
-					<a href='about.php'>
+				<a href='about.php'>
+					<div class='about-link'>
 						?
-					</a>
-				</div>
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>

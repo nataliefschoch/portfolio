@@ -81,26 +81,27 @@ html {
 				margin-right: 0;
 			}
 		}
-		.about-link {
-			height: 30px;
-			width: 30px;
-			border: 2px solid $black;
-			border-radius: 50%;
-			float: right;
-			a {
-				line-height: 27px;
-			}
+		a {
+			line-height: 28px;
+			.about-link {
+				border: 2px solid $black;
+				border-radius: 50%;
+				height: 27px;
+				float: right;
+				font-family: $font-family-serif;
+				width: 27px;
+		}
 		}
 		img {
 			width: 20px;
 		}
 		&.dark {
 			background: $black;
+			.about-link {
+				border-color: $white;
+			}
 			a {
 				color: $white;
-				&.active {
-					border-bottom: 2px solid $white;
-				}	
 			}
 		}
 	}
@@ -167,6 +168,10 @@ footer {
 	.date {
 		padding-right: 10px;
 	}
+	a {
+		color: $white;
+		display: inline-block;
+	}
 }
 
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
@@ -191,6 +196,3 @@ footer {
 @media (min-width: 1200px) {
 
 }
-
-
-

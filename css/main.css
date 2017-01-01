@@ -539,22 +539,23 @@ html {
     line-height: 35px; }
     #portfolio header h3:last-child {
       margin-right: 0; }
-  #portfolio header .about-link {
-    height: 30px;
-    width: 30px;
-    border: 2px solid #000;
-    border-radius: 50%;
-    float: right; }
-    #portfolio header .about-link a {
-      line-height: 27px; }
+  #portfolio header a {
+    line-height: 28px; }
+    #portfolio header a .about-link {
+      border: 2px solid #000;
+      border-radius: 50%;
+      height: 27px;
+      float: right;
+      font-family: "Noe", serif;
+      width: 27px; }
   #portfolio header img {
     width: 20px; }
   #portfolio header.dark {
     background: #000; }
+    #portfolio header.dark .about-link {
+      border-color: #fff; }
     #portfolio header.dark a {
       color: #fff; }
-      #portfolio header.dark a.active {
-        border-bottom: 2px solid #fff; }
 #portfolio #intro h1 {
   font-size: 31px;
   line-height: 44px; }
@@ -601,6 +602,9 @@ footer {
     font-family: "Noe", serif; }
   #about .date {
     padding-right: 10px; }
+  #about a {
+    color: #fff;
+    display: inline-block; }
 
 /* In between XSmall & Small devices (phones & tablets, 480px and up) */
 /* Small devices (tablets, 768px and up) */

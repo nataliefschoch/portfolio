@@ -1,24 +1,31 @@
-<?php include 'header.php';?>
-
+<?php include 'header-dark.php';?>
 
   <section id='about'>
     <div class='container'>
       <div class='row text-center'>
       	<div class='col-md-8 col-md-offset-2 text-white text-left'>
-      		<img src='images/me.jpg'>
+      		<img src='images/me.jpg' class='img-responsive'>
           <div class='row padding-top-50px'>
             <div class='col-md-3'>
               <h3>About</h3>
             </div>
             <div class='col-md-9'>
               <p>
-                I’ve always been curious about the various forms of design and I’ve been carrying a sketchbook and pencil with me at all times since I was a kid.
+                I’ve always loved to craft stories. From a young age my only past times were writing stories, making up my own jokes, drawing, and crafts. Now, I’m interested in crafting stories through visual and interactive mediums.
               </p>
               <p>
-                I'm currently on the design team at Airbnb, and before that, I was the Head of Design at Tally. I’ve recently released a side project called Hindsight. Many moons ago, I was lucky enough to work alongside some insanely talented peeps at places like Palantir, Watsi, Rdio (RIP), and Square.
+                I’m currently on the Brand Marketing team at
+                <a href='https://gusto.com', target='_blank'>
+                  Gusto
+                </a>
+                , focusing on our corporate website and other interactive experiences. Previously at Gusto I was a Design lead focused on new customer acquisition on the Growth team. Before Gusto I was a designer at
+                <a href='https://wiser.com', target='_blank'>
+                  Wiser
+                </a>
+                working on marketing collateral and infographics.
               </p>
               <p>
-                I’m almost always listening to music, I love making photos, and I’m often curating my massive collection of animated gifs.
+                I’m never-not listening to music. I’m working on a side project called I Need Space (soon to be released), which features personally curated playlists.  I also love hikes, ramen, and art history.
               </p>
             </div>
           </div>
@@ -44,8 +51,13 @@
               </p>
               <p class='inline-block'>Intern at AF Studio Designs</p>
             </div>
+            <div class='col-md-9 col-md-offset-3'>
+              <p>
+                <a class='inline-block' href='#'>download resume</a>
+              </p>
+            </div>
           </div>
-          <div class='row padding-top-50px'>
+          <div class='row padding-top-30px'>
             <div class='col-md-3'>
               <h3>Skills</h3>
             </div>
@@ -60,12 +72,16 @@
                 <li><p>CSS/SCSS</p></li>
                 <li><p>Responsive design</p></li>
               </ul>
-            </di>
+            </div>
           </div>
       	</div>
       </div>
     </div>
   </section>
 
-
+<script>
+  $( document ).ready(function() {
+    $('.body').addClass('.meow');
+  });
+</script>
 <?php include 'footer.php';?>

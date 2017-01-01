@@ -20,16 +20,22 @@
               Gusto
             </h2>
             <div class='divider'></div>
-            <p class='text-small'>Logo design, visual identity, front-end, web design</p>
+            <p class='text-small'>Visual identity, front-end, web design</p>
           </div>
           <p>
-            When I joined Gusto, then ZenPayroll as the fifth member of the design team, I worked as generalist moving from in-product illustrations, to office and enviornment signage, to designing and developing web pages. During this time, I worked within a pre-existing brand guideline called Garden Styles.
+            I joined Gusto — then ZenPayroll,  as the fifth member of the design team. At that time, I was a generalist working on everything from in-product illustrations, to office and environment signage, to designing and developing web pages. During this time, I worked within a pre-existing brand guideline called Garden Styles.
           </p>
-          <p>            
-            In September of 2015, ZenPayroll went through a radical transformation of it’s identity. We announced a new name, new visual indentity, logo, and a health benefits product. The company worked with two agencies to develop the messaging platform and logo. While the agencies provided us with a great starting point, we felt that the in-house design team, which at that point had grown to 10 designers, had a deeper understanding of the Gusto brand and we decided to take the redesign in-house. I worked closely with the CEO, Head of Design, and many other indivduals in the company to build out our corporate website (oh yeah, and we had about 2 weeks o do it). 
+          <p class='text-strong'>Rebrand</p>            
+          <p>
+            In September of 2015, ZenPayroll went through a radical transformation. We changed our name to Gusto and underwent new branding, logo, and unveiled a health benefits product. The company worked with two agencies to develop the messaging platform and logo. The agencies laid the groundwork of the new brand and was a huge source of inspiration for the team. From that point, the in-house design team spearheaded the redesign — launching our new website, logo, and brand colors. I was deeply involved in the rebranding, working closely with Nelson Cash, the staff team, and the Head of Design.
           </p>
+          <p class='text-strong'>Growth team</p>      
           <p>  
-            With this new product offering and young brand, we we’re also attracting new and larger customer types.
+            For most of 2015 and 2016, I was the design lead on Gusto’s growth team. The team’s mission was to acquire larger customers by running AB tests, conducting user-research and other user experiments. I worked closely in a small agile team of engineers and product managers. The design team used a  data-driven approach and designed within in the constraints of conversion optimization. Working on this team sharpened my instincts for designing for conversion and I found it immensely gratifying to be able to produce such a large impact on the company by making a quantifiable impact on our conversion rate overtime.
+          </p>
+          <p class='text-strong'>Brand team</p>      
+          <p>  
+            As Gusto is a relatively new name in the HR space, especially compared to the incumbents, it’s a great challenge and opportunity for the Brand Marketing team to shape our voice and brand. This sounded like a problem that I wanted to solve so I joined the Brand team at Gusto in 2016. I work closely with product marketing managers, copywriting, and visual designers on product releases, brand campaigns, and occasionally commercials :)
           </p>
         </div>
       </div>
