@@ -1216,14 +1216,21 @@ footer {
 .padding-right-150px {
   padding-right: 150px !important; }
 
-h3.work-subtitle {
-  text-align: center;
-  margin-bottom: 50px; }
-
 .work-page {
   /* In between XSmall & Small devices (phones & tablets, 480px and up) */
   /* Small devices (tablets, 768px and up) */
   /* Large devices (large desktops, 1200px and up) */ }
+  .work-page h3.work-subtitle {
+    text-align: center;
+    margin-bottom: 50px; }
+  .work-page ul {
+    margin: 10px auto; }
+    .work-page ul li {
+      margin-left: 35px;
+      margin-bottom: 5px;
+      list-style-type: circle; }
+      .work-page ul li:first-of-type {
+        margin-top: 10px; }
   .work-page section.work-intro h2 {
     font-size: 40px; }
   .work-page section.work-intro p + p {
@@ -1244,6 +1251,8 @@ h3.work-subtitle {
         font-size: 11px; }
     .work-page section.web-carousel-intro .intro p a {
       color: #fff; }
+  .work-page section.commercial iframe {
+    min-height: 250px; }
   .work-page section.web-carousel {
     background: #000;
     color: #fff;
@@ -1255,15 +1264,19 @@ h3.work-subtitle {
     .work-page section.web-carousel .work-section img.image-web {
       width: 140px;
       margin: 10px 20px 20px 20px; }
+    .work-page section.web-carousel .work-section .slick-prev,
+    .work-page section.web-carousel .work-section .slick-next {
+      width: 0px; }
+    .work-page section.web-carousel .work-section .slick-prev {
+      left: -70px; }
+    .work-page section.web-carousel .work-section .slick-next:before {
+      content: url("../images/icon/icon-arrow-right.png"); }
+    .work-page section.web-carousel .work-section .slick-prev:before {
+      content: url("../images/icon/icon-arrow-left.png"); }
     .work-page section.web-carousel .work-section .slick-slide:hover {
       cursor: pointer; }
     .work-page section.web-carousel .work-section .slick-slide:focus {
       outline: transparent; }
-    .work-page section.web-carousel .work-section .web-work-carousel h6,
-    .work-page section.web-carousel .work-section .web-work-carousel p {
-      display: inline-block; }
-    .work-page section.web-carousel .work-section .web-work-carousel h6 {
-      margin-right: 10px; }
   .work-page section.acquisition .circle-border {
     margin-right: 10px; }
   .work-page section.bottom-nav .nav-button {
@@ -1277,11 +1290,18 @@ h3.work-subtitle {
         background: #000;
         color: #fff; }
   @media (min-width: 768px) {
+    .work-page section.commercial iframe {
+      min-height: 560px; }
     .work-page section.bottom-nav .nav-button {
       border-bottom: 2px solid #000; }
       .work-page section.bottom-nav .nav-button:first-of-type {
         border-right: 2px solid #000; } }
   @media (min-width: 1000px) {
+    .work-page section.web-carousel .web-work-carousel h6,
+    .work-page section.web-carousel .web-work-carousel p {
+      display: inline-block; }
+    .work-page section.web-carousel .web-work-carousel h6 {
+      margin-right: 10px; }
     .work-page section.web-carousel .container {
       padding-left: 0;
       padding-right: 0; }

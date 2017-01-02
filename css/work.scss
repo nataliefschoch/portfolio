@@ -1,20 +1,30 @@
 @import 'variables';
 @import 'helpers';
 
-h3.work-subtitle {
-	text-align: center;
-	margin-bottom: 50px;
-}
-
-
 .work-page {
+
+	h3.work-subtitle {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	ul {
+		margin: 10px auto;
+		li {
+			margin-left: 35px;
+			margin-bottom: 5px;
+			list-style-type: circle;
+			&:first-of-type {
+				margin-top: 10px;
+			}
+		}
+	}
 	section.work-intro {
 		h2 {
 			font-size: 40px;
 		}
-			p + p {
-				padding-top: 15px;
-			}
+		p + p {
+			padding-top: 15px;
+		}
 		.work-img-intro {
 			height: 500px;
 			background: grey;
@@ -44,6 +54,11 @@ h3.work-subtitle {
 			}
 		}
 	}
+	section.commercial {
+		iframe {
+			min-height: 250px;
+		}
+	}
 	section.web-carousel {
 		background: $black;
 		color: $white;
@@ -59,21 +74,25 @@ h3.work-subtitle {
 				width: 140px;
 				margin: 10px 20px 20px 20px;
 			}
+			.slick-prev,
+			.slick-next  {
+				width: 0px;
+			}
+			.slick-prev {
+				left: -70px;
+			}
+			.slick-next:before  {
+				content: url('../images/icon/icon-arrow-right.png');
+			}
+			.slick-prev:before  {
+				content: url('../images/icon/icon-arrow-left.png');
+			}
 			.slick-slide {
 				&:hover {
 					cursor: pointer;
 				}
 				&:focus {
 					outline: transparent;
-				}
-			}
-			.web-work-carousel {
-				h6,
-				p {
-					display: inline-block;
-				}
-				h6 {
-					margin-right: 10px;
 				}
 			}
 		}
@@ -107,6 +126,11 @@ h3.work-subtitle {
 
 	/* Small devices (tablets, 768px and up) */
 	@media (min-width: 768px) {
+		section.commercial {
+			iframe {
+				min-height: 560px;
+			}
+		}
 		section.bottom-nav {
 			.nav-button {
 				border-bottom: 2px solid $black;
@@ -119,6 +143,15 @@ h3.work-subtitle {
 
 	@media (min-width: 1000px) {
 		section.web-carousel {
+			.web-work-carousel {
+				h6,
+				p {
+					display: inline-block;
+				}
+				h6 {
+					margin-right: 10px;
+				}
+			}
 			.container {
 				padding-left: 0;
 				padding-right: 0;

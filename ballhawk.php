@@ -18,10 +18,7 @@
             <p class='text-light'>Branding, front-end, web design</p>
           </div>
           <p>
-            I joined Gusto — then ZenPayroll,  as the fifth member of the design team. At that time, I was a generalist working on everything from in-product illustrations, to office and environment signage, to designing and developing web pages. During this time, I worked within a pre-existing brand guideline called Garden Styles.
-          </p>
-          <p>
-            I joined Gusto — then ZenPayroll,  as the fifth member of the design team. At that time, I was a generalist working on everything from in-product illustrations, to office and environment signage, to designing and developing web pages. During this time, I worked within a pre-existing brand guideline called Garden Styles.
+            <a href='http://getballhawk.com'>Ballhawk</a> is a Fantasy Football mock draft simulator with customizable A.I., player data analysis, and post-draft team grading. The company was founded in 2016 and I collaberated with the Ballhawk team to create a logo, brand colors, iconography, illustration, and develop a landing page. The team wanted to create a visual system that would be flexible enough to use for the UI of the product as well as marketing materials that would appeal to their target audience &mdash; tech-savvy fantasy football enthusiasts.
           </p>
         </div>
       </div>
@@ -43,8 +40,8 @@
       </div>
       <div class='row work-section padding-bottom-40px'>
         <div class='col-md-8 col-md-offset-2 padding-top-30px padding-bottom-60px'>
-          <p class='text-strong'>Ready, set, rebrand!</p>
-          <p>In September of 2015, ZenPayroll went through a radical transformation. We changed our name to Gusto and underwent new branding, logo, and unveiled a health benefits product. The company worked with two agencies to develop the messaging platform and logo. The agencies laid the groundwork of the new brand and was a huge source of inspiration for the team. From that point, the in-house design team spearheaded the redesign &mdash; launching our new website, logo, and brand colors. I was deeply involved in the rebranding, working closely with Nelson Cash, the staff team, and the Head of Design.</p>
+          <p class='text-strong'>Creating the mark</p>
+          <p>When I joined the project, Ballhawk's company name was already selected. The company's founder wanted the logo to visually reference football, as the company's name itself was not explicitly related to the sport. We chose the typeface Jockey One Regular because of it's resemblance to letters on a football jersey. After many iterations, the mark was chosen because of it's clear depiction of a football. Upon further inspection however, the form can represent an eye shape using the X as a pupil. The X represents the X and O's draw in football strategy communicating the strategic nature of the app.</p>
         </div>
       </div>
       <div class='row work-section padding-bottom-40px'>
@@ -75,13 +72,18 @@
           <p class='text-light text-small'>The brand 'in-the-wild'</p>
         </div>
       </div>
-      <div class='row work-section padding-bottom-40px'>
+      <div class='row work padding-bottom-40px'>
         <div class='col-md-8 col-md-offset-2 padding-top-30px padding-bottom-60px'>
-          <p class='text-strong'>Ready, set, rebrand!</p>
-          <p>In September of 2015, ZenPayroll went through a radical transformation. We changed our name to Gusto and underwent new branding, logo, and unveiled a health benefits product. The company worked with two agencies to develop the messaging platform and logo. The agencies laid the groundwork of the new brand and was a huge source of inspiration for the team. From that point, the in-house design team spearheaded the redesign &mdash; launching our new website, logo, and brand colors. I was deeply involved in the rebranding, working closely with Nelson Cash, the staff team, and the Head of Design.</p>
-          <p class='text-strong'>Gusto brand guidelines</p>
+          <p class='text-strong'>Ballhawk's brand identity</p>
+          <p>I compiled a simple brand guide for the Ballhawk team to reference when continuing to develop their UI or when making marketing materials. It outlined logo usage, the official color palette, and typography hierarchy. The typeface Teko was chosen for headlines because of it's bold, condensed form that mimicked football jersey typeface but also offered clear legibility. Inconsolata is a mono typeface that resembles source code, evoking the automated and A.I. capabilities of the product.</p>
+            <ul>
+              <p>The goals of the color system were to:</p>
+              <li><p>Stand out from the competitive landscape</p></li>
+              <li><p>Communicate modernity and automation</p></li>
+              <li><p>Create a limited but flexible set of colors</p></li>
+            </ul>
           <p>
-            As apart of ZenPayroll's rebrand to Gusto, the company needed to establish new brand guidelines for print, web, and product. The design team worked collaboratively to establish a system that was scalable, flexible, and distinct. I was an integral part of the teams that established our colors and typography. The style guide was sent out for internal use and to external vendors, as well as built out by myself and the team in our code database.
+            Charcoal was chosen as the primary color with orange as the primary accent and an electric blue as a tertiary accent color. The charcoal is used as a neutral, but is tinted with undertones of a steel blue to give it distinction. Orange and blue are complementary colors and when used sparingly in combination they appear brighter and more vibrant. They are commonly used colors for football teams which tend to favor bright primary or secondary colors on the color wheel. In addition, the colors work well on light or dark backgrounds, making them compatible for UI within the app.
           </p>
         </div>
       </div>
@@ -96,19 +98,43 @@
       <div class='row work-section padding-bottom-40px'>
         <div class='col-md-8 col-md-offset-2 padding-top-30px padding-bottom-60px'>
           <p class='text-strong'>Ballhawk upsell illustration</p>
-          <p>In September of 2015, ZenPayroll went through a radical transformation. We changed our name to Gusto and underwent new branding, logo, and unveiled a health benefits product. The company worked with two agencies to develop the messaging platform and logo. The agencies laid the groundwork of the new brand and was a huge source of inspiration for the team. From that point, the in-house design team spearheaded the redesign &mdash; launching our new website, logo, and brand colors. I was deeply involved in the rebranding, working closely with Nelson Cash, the staff team, and the Head of Design.</p>
+          <p>Ballhawk uses a freemium model, offering basic functionality for free and monetizing by offering premium features for users willing to pay a monthly fee. The upsell screen is trigged when users voluntarily elect to upgrade by clicking a call to action button, or when users try to use a feature that is only offered to premium members. Because Ballhawk is asking users to become paying subscribers, we felt we need an illustration to signal the significance of this page, and offer a moment of surprise and delight.</p>
+          <p>I selected an illustration style that used geometric shapes and hard angles. We wanted the illustration to be representational of football, legible at a glance, and utilizing the brand colors.</p>
         </div>
       </div>
       <div class='row work-section padding-bottom-40px'>
         <div class='col-sm-12'>
           <h3 class='work-subtitle'>Design and development</h3>
-          <img src='images/ballhawk/work-ballhawk-web.jpg' class='img-responsive'>
+        </div>
+      </div>
+      <div class='row work-section padding-bottom-30px'>
+        <div class='col-sm-3'>
+          <img src='images/ballhawk/work-ballhawk-inspo-airforce.jpg' class='img-responsive'>
+        </div>
+        <div class='col-sm-3'>
+          <img src='images/ballhawk/work-ballhawk-inspo-nike.jpg' class='img-responsive'>
+        </div>
+        <div class='col-sm-3'>
+          <img src='images/ballhawk/work-ballhawk-inspo-palantir.jpg' class='img-responsive'>
+        </div>
+        <div class='col-sm-3'>
+          <img src='images/ballhawk/work-ballhawk-inspo-underarmor.jpg' class='img-responsive'>
+        </div>
+         <div class='col-md-12 padding-top-10px'>
+          <p class='text-light text-small'>Landing page inspiration</p>
         </div>
       </div>
       <div class='row work-section padding-bottom-40px'>
-        <div class='col-md-8 col-md-offset-2 padding-top-30px padding-bottom-60px'>
-          <p class='text-strong'>Ballhawk landing page</p>
-          <p>In September of 2015, ZenPayroll went through a radical transformation. We changed our name to Gusto and underwent new branding, logo, and unveiled a health benefits product. The company worked with two agencies to develop the messaging platform and logo. The agencies laid the groundwork of the new brand and was a huge source of inspiration for the team. From that point, the in-house design team spearheaded the redesign &mdash; launching our new website, logo, and brand colors. I was deeply involved in the rebranding, working closely with Nelson Cash, the staff team, and the Head of Design.</p>
+        <div class='col-md-8 col-md-offset-2 padding-top-30px padding-bottom-30px'>
+          <p class='text-strong inline-block padding-right-10px'>Ballhawk landing page</p>
+          <p class='inline-block'><a href='http://getballhawk.com', target='_blank'>See it live</a></p>
+          <p>I built Ballhawk's landing page for their product launch. We consistently used to the brand colors and typography, utilizing the photograph of a football player in the background for context. We we're inspired by the boldness and masculinity of brands such as Nike and the U.S. Air Force.</p>
+          <p>I featured a video of the drafting flow in the app to communicate clearly the value and simplicity of the feature.</p>
+        </div>
+      </div>
+      <div class='row work-section padding-bottom-40px'>
+        <div class='col-sm-12'>
+          <img src='images/ballhawk/work-ballhawk-web.jpg' class='img-responsive'>
         </div>
       </div>
     </div>

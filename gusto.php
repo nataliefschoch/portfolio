@@ -23,10 +23,10 @@
             <p class='text-light'>Visual identity, front-end, web design</p>
           </div>
           <p>
-            I joined Gusto — then ZenPayroll,  as the fifth member of the design team. At that time, I was a generalist working on everything from in-product illustrations, to office and environment signage, to designing and developing web pages. During this time, I worked within a pre-existing brand guideline called Garden Styles.
+            Gusto  is an integrated payroll, benefits, and HR software for small and mid-sized businesses. The company was founded in 2011 as ZenPayroll and rebranded to Gusto in September of 2015. Gusto serves over 40,000 companies nationwide and has offices in San Francisco and Denver.
           </p>
           <p>
-            I joined Gusto — then ZenPayroll,  as the fifth member of the design team. At that time, I was a generalist working on everything from in-product illustrations, to office and environment signage, to designing and developing web pages. During this time, I worked within a pre-existing brand guideline called Garden Styles.
+            I joined Gusto &mdash; then ZenPayroll,  as the fifth member of the design team. I had the great opportunity to work with several agencies and the in-house team, shaping ZenPayroll’s rebrand to Gusto and it's new brand identity. In addition I worked on Gusto's growth team focusing on growing new channels for customer acquisition, and on the Brand design team &mdash; building brand awareness through marketing campaigns.
           </p>
         </div>
       </div>
@@ -34,7 +34,7 @@
   </section>
   <section class='work'>
     <div class='container'>
-      <h3 class='work-subtitle'>Zenpayroll to Gusto redesign</h3>
+      <h3 class='work-subtitle'>ZenPayroll to Gusto redesign</h3>
       <div class='row work-section padding-bottom-40px'>
         <div class='col-sm-6'>
           <img src='images/work-gusto-brand-logo-color.jpg' class='img-responsive'>
@@ -76,23 +76,23 @@
       </div>
     </div>
   </section>
-  <section class='work'>
+  <section class='work commercial'>
     <div class='container'>
       <div class='row work-section'>
         <div class='col-md-12'>
           <h3 class='work-subtitle'>Brand campaign commercials</h3>
-          <iframe width="100%" height="100%" style='min-height: 560px' src="https://www.youtube.com/embed/T4olEQvSwx4?list=PLeSxBTBx8qo-pXYo4bzBE6WRrIafhR-1m" frameborder="0" allowfullscreen></iframe>
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/T4olEQvSwx4?list=PLeSxBTBx8qo-pXYo4bzBE6WRrIafhR-1m" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class='col-md-8 col-md-offset-2 padding-top-30px padding-bottom-60px'>
           <p class='text-strong'>Brand campaign commercials</p>
           <p>
-            In September of 2016, the Gusto Brand team launched a brand awareness campaign. The original campaign concept was pitched by myself and two colleagues. It originated from insights we gleamed from a focus group session conducted with HR admins across in California and New Jersey. After listening to these admins, it became clear that the common thread among them was that they were an irreplaceable role that did multiple jobs, including recruiting, on boarding, payroll, office management, and much more. In short — HR admins do everything. We felt that Kristen Schaal was the perfect person to embody this role because of her quirky charm and cheery personality.
+            In September of 2016, the Gusto Brand team launched a brand awareness campaign. The original campaign concept was pitched by myself and two colleagues. It originated from insights we gleamed from a focus group session conducted with HR admins in California and New Jersey. From the sessions, a common thread among the HR admins was the immense breadth of their role, which included recruiting, onboarding, payroll and office management to name a few. In short &mdash; HR admins do everything. We felt that Kristen Schaal was the perfect person to embody this role because of her quirky charm and cheery personality.
           </p>
           <p>
-            Based off this concept, we wrote the original script of the ’So many Zoes’ video, and then worked with Erich &amp; Kallman and Biscuit Production to develop the other four. I creative directed the photoshoot for Kristen, choosing the props, wardrobe, and poses for the photos that would be featured on our corporate website, billboards, and other campaign collateral.
+            Based off this concept, the team wrote the original script of the 'So many Zoes' video and collaborated with Erich &amp; Kallman and Biscuit Production to develop three other short videos of the series. I creative directed the photo shoot with Kristen Schaal, choosing the props, wardrobe, and poses for the photos that would be featured on our corporate website, billboards and other campaign collateral.
           </p>
           <p>
-            The commercials resonated with our audience, obtaining over 700,000+ views total and was awarded
+            The commercials resonated with our audience, obtaining over 1,400,000 views and was awarded
             <a href='http://www.adweek.com/news/advertising-branding/ad-day-kristen-schaal-ultimate-hr-director-startups-fun-campaign-174024' target='_blank'>Adweek’s Ad of the Day</a>.
           </p>
         </div>
@@ -193,28 +193,28 @@
       <div class='row work-section'>
         <h3 class='work-subtitle'>Growth and acquisition</h3>
         <div class='col-sm-6'>
-          <img src='images/work-gusto-homepage.jpg' class='padding-bottom-15px img-responsive'>
+          <img src='images/work-gusto-ab-basic.jpg' class='padding-bottom-15px img-responsive'>
           <p class='text-strong'>
             <span class='circle-border'>A</span>
             Control</p>
         </div>
         <div class='col-sm-6'>
-          <img src='images/work-gusto-homepage.jpg' class='padding-bottom-15px img-responsive'>
+          <img src='images/work-gusto-ab-basic.jpg' class='padding-bottom-15px img-responsive'>
           <p class='text-strong inline-block'>
             <span class='circle-border'>B</span>
-            Expirement</p> 
+            Experiment</p> 
           <p class='text-light inline-block'>Winner! This design improved conversion rate by 40%</p>
         </div>
         <div class='col-sm-12 col-md-8 col-md-offset-2 padding-top-50px padding-bottom-60px'>
           <p class='text-strong'>A data-driven approach to designing for acquisition</p>
           <p>
-            I lead design on the Growth team at Gusto for four quarters between 2015 - 2016. The team’s mission was to acquire new customers by running AB tests, conducting user-research and other acquisition experiments. I worked closely in a small agile team of engineers and product managers.
+            I lead design on the Growth team at Gusto for four quarters between 2015 - 2016. The team's mission was to acquire new customers by running AB tests, conducting user-research and other acquisition experiments. I worked closely in a small agile team of engineers and product managers.
           </p>
           <p>
             Our team used a data-driven approach and designed within in the constraints of conversion optimization. Working on this team sharpened my instincts for designing for conversion and I found it immensely gratifying to have such a measurable impact on the company by making a quantifiable improvements on our conversion rate overtime.
           </p>
           <p>
-            The AB test featured was a project that I initiated, designed, and developed. The mission was to increase the conversion rate our default paid landing page template. I designed the page using acquisition best practices including &mdash; front-loading important information above the fold, creating a clear heriarchy of information, calling out the form visually, and providing areas of social proof including press logo, secure check-out, and further below testimonials. This page out-performed our incumbedant landing page increasing the page's conversion rate from 3.2% to 9% over the course of 6 months.
+            The AB test featured was a project that I initiated, designed, and developed. The mission was to increase the conversion rate our default paid landing page template. I designed the page using acquisition best practices including &mdash; front-loading important information above the fold, creating a clear hierarchy of information, visually distinguishing the form, and providing areas of social proof including press logos, secure check-out call-out, and customer testimonials. This page out-performed our incumbent landing page increasing the page's conversion rate from 3.2% to 9% over the course of 6 months.
           </p>
         </div>
       </div>
