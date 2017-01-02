@@ -17,7 +17,9 @@
 	<div class='container'>
 		<div class='row'>
 			<div class='col-xs-3 text-left'>
-				<img src='images/logo-ns-white.png'/>
+				<a href='index.php'>
+					<img src='images/logo-ns-white.png'/>
+				</a>
 			</div>
 			<div class='col-xs-6'>
 				<h3>

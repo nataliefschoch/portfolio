@@ -26,7 +26,7 @@
           </a>
         </div>
         <div class='col-md-6'>
-          <a href='#'>
+          <a href='ballhawk.php'>
             <img src='images/work-ballhawk-homepage.jpg' class='img-responsive'>
             <div class='title-divider'>
               <h3>
