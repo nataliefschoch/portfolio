@@ -1216,6 +1216,10 @@ footer {
 .padding-right-150px {
   padding-right: 150px !important; }
 
+h3.work-subtitle {
+  text-align: center;
+  margin-bottom: 50px; }
+
 .work-page {
   /* In between XSmall & Small devices (phones & tablets, 480px and up) */
   /* Small devices (tablets, 768px and up) */
@@ -1237,7 +1241,7 @@ footer {
       z-index: 4; }
       .work-page section.web-carousel-intro .intro .slick-dots li button:before {
         color: #fff;
-        font-size: 7px; }
+        font-size: 11px; }
     .work-page section.web-carousel-intro .intro p a {
       color: #fff; }
   .work-page section.web-carousel {
@@ -1255,6 +1259,11 @@ footer {
       cursor: pointer; }
     .work-page section.web-carousel .work-section .slick-slide:focus {
       outline: transparent; }
+    .work-page section.web-carousel .work-section .web-work-carousel h6,
+    .work-page section.web-carousel .work-section .web-work-carousel p {
+      display: inline-block; }
+    .work-page section.web-carousel .work-section .web-work-carousel h6 {
+      margin-right: 10px; }
   .work-page section.acquisition .circle-border {
     margin-right: 10px; }
   .work-page section.bottom-nav .nav-button {

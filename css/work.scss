@@ -1,6 +1,11 @@
 @import 'variables';
 @import 'helpers';
 
+h3.work-subtitle {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
 
 .work-page {
 	section.work-intro {
@@ -30,7 +35,7 @@
 				li {
 					button:before {
 						color: $white;
-						font-size: 7px;
+						font-size: 11px;
 					}
 				}
 			}
@@ -60,6 +65,15 @@
 				}
 				&:focus {
 					outline: transparent;
+				}
+			}
+			.web-work-carousel {
+				h6,
+				p {
+					display: inline-block;
+				}
+				h6 {
+					margin-right: 10px;
 				}
 			}
 		}
