@@ -1,7 +1,7 @@
 @import 'variables';
 @import 'helpers';
 
-
+//Basics
 html {
 	border: 7px solid $black;
 	font-family: $font-family-sans;
@@ -18,16 +18,7 @@ html {
   padding-left: 0;
 }
 
-.btn {
-	border: 2px solid $black;
-  padding: 8px 18px 5px 18px;
-	text-transform: uppercase;
-	font-family: $font-family-sans;
-	border-radius: 0;
-	margin-top: 25px;
-	letter-spacing: 0.6px;
-}
-
+//Components
 .divider {
 	background-color: $black;
 	display: inline-block;
@@ -42,23 +33,13 @@ html {
 	display: block;
 	height: 50px;
 	margin-bottom: 20px;
-	h2,
-	h3,
-	.divider,
-	.question-mark,
-	p {
-		float: left;
-		margin-right: 13px;
-	}
+	text-align: center;
 	h2, 
 	h3 {
 		font-family: $font-family-serif;
 	}
 	.divider {
-		margin-top: 17px;
-	}
-	p {
-		margin-top: 5px;
+		display: none;
 	}
 }
 
@@ -183,6 +164,30 @@ footer {
 			width: 90%;
 			max-width: 1700px;
 			padding: 45px;
+		}
+		.title-divider {
+			display: block;
+			height: 50px;
+			margin-bottom: 20px;
+			h2,
+			h3,
+			.divider,
+			.question-mark,
+			p {
+				float: left;
+				margin-right: 13px;
+			}
+			h2, 
+			h3 {
+				font-family: $font-family-serif;
+			}
+			.divider {
+				display: inline-block;
+				margin-top: 17px;
+			}
+			p {
+				margin-top: 5px;
+			}
 		}
 		header {
 			h3 {

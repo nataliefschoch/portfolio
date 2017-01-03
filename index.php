@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-  
+
   <section id='intro'>
     <div class='container'>
       <div class='row'>
@@ -14,7 +14,7 @@
   <section id='work-home'>
     <div class='container'>
       <div class='row text-center'>
-        <div class='col-md-6'>
+        <div class='col-md-6 padding-bottom-30px'>
           <a href='gusto.php'>
             <img src='images/work-gusto-homepage.jpg' class='img-responsive'>
             <div class='title-divider'>
@@ -26,7 +26,7 @@
             </div>
           </a>
         </div>
-        <div class='col-md-6'>
+        <div class='col-md-6 padding-bottom-30px'>
           <a href='ballhawk.php'>
             <img src='images/work-ballhawk-homepage.jpg' class='img-responsive'>
             <div class='title-divider'>
@@ -41,6 +41,5 @@
       </div>
     </div>
   </section>
-
 
 <?php include 'footer.php';?>

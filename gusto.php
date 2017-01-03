@@ -59,8 +59,8 @@
       </div>
       <div class='row work-section padding-bottom-40px'>
         <div class='col-sm-3'><img src='images/work-gusto-grid-insta.jpg' class='hidden-xs img-responsive'></div>
-        <div class='col-sm-3'><img src='images/work-gusto-grid-metro-lights.jpg' class='hidden-xs img-responsive'></div>
         <div class='col-sm-3'><img src='images/work-gusto-grid-golden-ticket.jpg' class='hidden-xs img-responsive'></div>
+        <div class='col-sm-3'><img src='images/work-gusto-grid-metro-lights.jpg' class='hidden-xs img-responsive'></div>
         <div class='col-sm-3'><img src='images/work-gusto-grid-iphone.jpg' class='img-responsive'></div>
         <div class='col-md-12 padding-top-10px'>
           <p class='text-light text-small'>Applications of brand guidelines by Gusto design team</p>
@@ -193,7 +193,7 @@
       <div class='row work-section'>
         <h3 class='work-subtitle'>Growth and acquisition</h3>
         <div class='col-sm-6'>
-          <img src='images/work-gusto-ab-basic.jpg' class='padding-bottom-15px img-responsive'>
+          <img src='images/work-gusto-ab-simple.jpg' class='padding-bottom-15px img-responsive'>
           <p class='text-strong'>
             <span class='circle-border'>A</span>
             Control</p>
@@ -223,12 +223,12 @@
   <section class='bottom-nav'>
     <div class='container-fluid text-center'>
       <div class='col-sm-6 nav-button'>
-        <a href='#'>
+        <a class='btn-sweep-to-left' href='#'>
           Back to top
         </a>
       </div>
       <div class='col-sm-6 nav-button'>
-        <a href='ballhawk.php'>
+        <a class='btn-sweep-to-right' href='ballhawk.php'>
           Next project
         </a>
       </div>

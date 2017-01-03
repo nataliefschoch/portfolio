@@ -12,12 +12,20 @@
        url('Noe Display Medium.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
+@mixin text-small-caps {
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+
+// Typefaces
 $font-family-serif: 'Noe', serif;
 $font-family-sans: "Graphik", sans-serif;
+
+// Colors
 $black: #000;
 $white: #fff;
 $grey-100: #f8f8f8;
 $grey-200: #f1f1f1;
 $grey-500: #939499;
 
-$red: #ef4642;

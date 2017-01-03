@@ -1,7 +1,9 @@
+//Border helpers
 .border {
   border: 1px solid $grey-200;
 }
 
+//Typography helpers
 .text-small {
 	font-size: 13px;
 }
@@ -18,6 +20,11 @@
   color: $white;
 }
 
+.text-small-caps {
+  @include text-small-caps;
+}
+
+//Display helpers
 .inline-block {
   display: inline-block;
 }
@@ -30,14 +37,7 @@
   position: absolute;
 }
 
-@mixin text-small-caps {
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-}
-
-.text-small-caps {
-  @include text-small-caps;
-}
+//Spacing helpers
 
 .padding-top-none {
   padding-top: 0 !important;

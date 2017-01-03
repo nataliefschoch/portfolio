@@ -29,7 +29,7 @@
 				</h3>
 			</div>
 			<div class='col-xs-3'>
-				<a href='about.php'>
+				<a class='about' href='about.php'>
 					<div class='circle-border'>
 						?
 					</div>

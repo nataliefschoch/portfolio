@@ -488,153 +488,93 @@
 .padding-right-150px {
   padding-right: 150px !important; }
 
-html {
-  border: 7px solid #000;
-  font-family: "Graphik", sans-serif; }
-
-.container {
-  width: 90%;
-  max-width: 1700px;
-  padding: 10px; }
-
-.container-fluid {
-  padding-right: 0;
-  padding-left: 0; }
-
-.divider {
-  background-color: #000;
-  display: inline-block;
-  height: 1px;
-  width: 30px; }
-  .divider.white {
-    background-color: #fff; }
-
-.title-divider {
-  display: block;
-  height: 50px;
-  margin-bottom: 20px;
-  text-align: center; }
-  .title-divider h2,
-  .title-divider h3 {
-    font-family: "Noe", serif; }
-  .title-divider .divider {
-    display: none; }
-
-.circle-border {
+.btn {
   border: 2px solid #000;
-  border-radius: 50%;
-  height: 27px;
-  float: left;
-  text-align: center;
-  width: 27px; }
+  padding: 8px 18px 5px 18px;
+  text-transform: uppercase;
+  font-family: "Graphik", sans-serif;
+  border-radius: 0;
+  margin-top: 25px;
+  letter-spacing: 0.6px; }
 
-#portfolio header {
-  text-align: center; }
-  #portfolio header h3 {
-    display: inline-block;
-    font-size: 13px;
-    font-family: "Graphik", sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.2px;
-    line-height: 35px; }
-  #portfolio header a {
-    line-height: 28px; }
-    #portfolio header a .circle-border {
-      font-family: "Noe", serif;
-      float: right; }
-  #portfolio header img {
-    width: 15px; }
-  #portfolio header.dark {
-    background: #000; }
-    #portfolio header.dark .circle-border {
-      border-color: #fff; }
-    #portfolio header.dark a {
-      color: #fff; }
-#portfolio #work-home {
-  padding-bottom: 60px; }
-  #portfolio #work-home a {
-    display: block; }
-    #portfolio #work-home a:hover {
-      text-decoration: none; }
-      #portfolio #work-home a:hover img {
-        transition: all 0.3s ease;
-        opacity: 0.8; }
-    #portfolio #work-home a img {
-      margin-bottom: 15px; }
+a.about:hover {
+  transition: all 0.25s ease;
+  color: #fff; }
+  a.about:hover .circle-border {
+    background-color: #000; }
 
-footer {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: #000; }
-  footer .container {
-    padding-bottom: 80px;
-    padding-top: 70px; }
-  footer ul {
-    position: relative; }
-    footer ul .divider {
-      top: 10px;
-      position: absolute;
-      width: 30px; }
-    footer ul li {
-      display: inline-block;
-      margin-right: 10px; }
-      footer ul li a, footer ul li a:active, footer ul li a:visited, footer ul li a:focus {
-        color: #fff; }
-        footer ul li a:hover, footer ul li a:active:hover, footer ul li a:visited:hover, footer ul li a:focus:hover {
-          color: #fff; }
-      footer ul li:nth-of-type(2) {
-        padding-left: 40px; }
-      footer ul li:last-child {
-        margin-right: 0; }
-  footer .copyright {
-    text-align: center;
-    margin-top: 20px; }
+/* Sweep To Left */
+/* Sweep To Right */
+.btn-sweep-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s; }
+  .btn-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out; }
+  .btn-sweep-to-right:hover, .btn-sweep-to-right:focus, .btn-sweep-to-right:active {
+    color: white; }
+    .btn-sweep-to-right:hover:before, .btn-sweep-to-right:focus:before, .btn-sweep-to-right:active:before {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1); }
 
-#about {
-  background: #000; }
-  #about h3 {
-    font-family: "Noe", serif; }
-  #about .date {
-    padding-right: 10px; }
-  #about a {
-    color: #fff;
-    display: inline-block; }
+.btn-sweep-to-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s; }
+  .btn-sweep-to-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out; }
+  .btn-sweep-to-left:hover, .btn-sweep-to-left:focus, .btn-sweep-to-left:active {
+    color: white; }
+    .btn-sweep-to-left:hover:before, .btn-sweep-to-left:focus:before, .btn-sweep-to-left:active:before {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1); }
 
-/* In between XSmall & Small devices (phones & tablets, 480px and up) */
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  #portfolio .container {
-    width: 90%;
-    max-width: 1700px;
-    padding: 45px; }
-  #portfolio .title-divider {
-    display: block;
-    height: 50px;
-    margin-bottom: 20px; }
-    #portfolio .title-divider h2,
-    #portfolio .title-divider h3,
-    #portfolio .title-divider .divider,
-    #portfolio .title-divider .question-mark,
-    #portfolio .title-divider p {
-      float: left;
-      margin-right: 13px; }
-    #portfolio .title-divider h2,
-    #portfolio .title-divider h3 {
-      font-family: "Noe", serif; }
-    #portfolio .title-divider .divider {
-      display: inline-block;
-      margin-top: 17px; }
-    #portfolio .title-divider p {
-      margin-top: 5px; }
-  #portfolio header h3 {
-    font-size: 19px; }
-    #portfolio header h3:last-child {
-      margin-right: 0; }
-  #portfolio header img {
-    width: 20px; }
-  #portfolio footer .copyright {
-    margin-top: 0;
-    text-align: right; } }
-/* Large devices (large desktops, 1200px and up) */
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=buttons.css.map */

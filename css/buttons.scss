@@ -1,0 +1,162 @@
+@import 'variables';
+@import 'helpers';
+
+.btn {
+	border: 2px solid $black;
+	padding: 8px 18px 5px 18px;
+	text-transform: uppercase;
+	font-family: $font-family-sans;
+	border-radius: 0;
+	margin-top: 25px;
+	letter-spacing: 0.6px;
+}
+
+a.about {
+	&:hover {
+		transition: all 0.25s ease;
+		color: $white;
+		.circle-border {
+			background-color: $black;
+		}
+	}
+}
+
+@mixin hardwareAccel() {
+	// Improve performance on mobile/tablet devices
+	// Perspective reduces blurryness of text in Chrome
+	@include prefixed(transform, perspective(1px) translateZ(0));
+}
+
+@mixin improveAntiAlias() {
+	// Improve aliasing on mobile/tablet devices
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+@mixin forceBlockLevel() {
+	// Transforms need to be block-level to work
+	display: inline-block;
+	vertical-align: middle;
+}
+
+@mixin hacks() {
+	@include forceBlockLevel();
+	@include hardwareAccel();
+	@include improveAntiAlias();
+}
+
+// prefix declarations
+@mixin prefixed($property, $value) {
+  @if $webkit == true {
+    -webkit-#{$property}: #{$value};
+  }
+
+  @if $moz == true {
+    -moz-#{$property}: #{$value};
+  }
+
+  @if $ms == true {
+    -ms-#{$property}: #{$value};
+  }
+
+  @if $o == true {
+    -o-#{$property}: #{$value};
+  }
+
+  #{$property}: #{$value};
+}
+
+// DEFAULT OPTIONS
+
+// Prefix for Hover class names
+$nameSpace: 'hvr' !default;
+
+// Durations
+$mediumDuration: .3s !default;
+
+$activeColor: $black !default;
+
+// Browser Prefixes - Which CSS prefixes should be used?
+$webkit: true !default;
+$moz: false !default;
+$ms: false !default;
+$o: false !default;
+
+// Compile with or without classes
+$includeClasses: true !default;
+
+/* Sweep To Left */
+@mixin sweep-to-left {
+	@include hacks();
+	position: relative;
+	@include prefixed(transition-property, color);
+	@include prefixed(transition-duration, $mediumDuration);
+
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: $activeColor;
+		@include prefixed(transform, scaleX(0));
+		@include prefixed(transform-origin, 100% 50%);
+		@include prefixed(transition-property, transform);
+		@include prefixed(transition-duration, $mediumDuration);
+		@include prefixed(transition-timing-function, ease-out);
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: white;
+
+		&:before {
+			@include prefixed(transform, scaleX(1));
+		}
+	}
+}
+
+/* Sweep To Right */
+@mixin sweep-to-right {
+	@include hacks();
+	position: relative;
+	@include prefixed(transition-property, color);
+	@include prefixed(transition-duration, $mediumDuration);
+
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: $activeColor;
+		@include prefixed(transform, scaleX(0));
+		@include prefixed(transform-origin, 0 50%);
+		@include prefixed(transition-property, transform);
+		@include prefixed(transition-duration, $mediumDuration);
+		@include prefixed(transition-timing-function, ease-out);
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: white;
+
+		&:before {
+			@include prefixed(transform, scaleX(1));
+		}
+	}
+}
+
+
+.btn-sweep-to-right {
+	@include sweep-to-right();
+}
+
+.btn-sweep-to-left {
+	@include sweep-to-left();
+}

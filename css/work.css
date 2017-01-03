@@ -19,6 +19,10 @@
 .text-white {
   color: #fff; }
 
+.text-small-caps {
+  text-transform: uppercase;
+  letter-spacing: 0.8px; }
+
 .inline-block {
   display: inline-block; }
 
@@ -27,10 +31,6 @@
 
 .absolute {
   position: absolute; }
-
-.text-small-caps {
-  text-transform: uppercase;
-  letter-spacing: 0.8px; }
 
 .padding-top-none {
   padding-top: 0 !important; }
@@ -558,9 +558,6 @@
     .work-page section.bottom-nav .nav-button a {
       padding: 40px;
       display: block; }
-      .work-page section.bottom-nav .nav-button a:hover {
-        background: #000;
-        color: #fff; }
   @media (min-width: 768px) {
     .work-page section.commercial iframe {
       min-height: 560px; }
