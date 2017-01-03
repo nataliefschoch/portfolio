@@ -4,6 +4,18 @@
   /* IE9 Compat Modes */
   src: url("Noe Display Medium.eot?#iefix") format("embedded-opentype"), url("Noe Display Medium.woff2") format("woff2"), url("Noe Display Medium.woff") format("woff");
   /* Pretty Modern Browsers */ }
+@font-face {
+  font-family: 'graphik-regular';
+  src: url("Graphik-Regular-Web.eot");
+  /* IE9 Compat Modes */
+  src: url("Graphik-Regular-Web.eot?#iefix") format("embedded-opentype"), url("Graphik-Regular-Web.woff2") format("woff2"), url("Graphik-Regular-Web.woff") format("woff");
+  /* Pretty Modern Browsers */ }
+@font-face {
+  font-family: 'graphik-semibold';
+  src: url("Graphik-Semibold-Web.eot");
+  /* IE9 Compat Modes */
+  src: url("Graphik-Semibold-Web.eot?#iefix") format("embedded-opentype"), url("Graphik-Semibold-Web.woff2") format("woff2"), url("Graphik-Semibold-Web.woff") format("woff");
+  /* Pretty Modern Browsers */ }
 .border {
   border: 1px solid #f1f1f1; }
 
@@ -492,7 +504,7 @@
   border: 2px solid #000;
   padding: 8px 18px 5px 18px;
   text-transform: uppercase;
-  font-family: "Graphik", sans-serif;
+  font-family: "graphik-regular", sans-serif;
   border-radius: 0;
   margin-top: 25px;
   letter-spacing: 0.6px; }

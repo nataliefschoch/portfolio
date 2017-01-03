@@ -4,6 +4,18 @@
   /* IE9 Compat Modes */
   src: url("Noe Display Medium.eot?#iefix") format("embedded-opentype"), url("Noe Display Medium.woff2") format("woff2"), url("Noe Display Medium.woff") format("woff");
   /* Pretty Modern Browsers */ }
+@font-face {
+  font-family: 'graphik-regular';
+  src: url("Graphik-Regular-Web.eot");
+  /* IE9 Compat Modes */
+  src: url("Graphik-Regular-Web.eot?#iefix") format("embedded-opentype"), url("Graphik-Regular-Web.woff2") format("woff2"), url("Graphik-Regular-Web.woff") format("woff");
+  /* Pretty Modern Browsers */ }
+@font-face {
+  font-family: 'graphik-semibold';
+  src: url("Graphik-Semibold-Web.eot");
+  /* IE9 Compat Modes */
+  src: url("Graphik-Semibold-Web.eot?#iefix") format("embedded-opentype"), url("Graphik-Semibold-Web.woff2") format("woff2"), url("Graphik-Semibold-Web.woff") format("woff");
+  /* Pretty Modern Browsers */ }
 .border {
   border: 1px solid #f1f1f1; }
 
@@ -490,7 +502,7 @@
 
 html {
   border: 7px solid #000;
-  font-family: "Graphik", sans-serif; }
+  font-family: "graphik-regular", sans-serif; }
 
 .container {
   width: 90%;
@@ -533,7 +545,7 @@ html {
   #portfolio header h3 {
     display: inline-block;
     font-size: 13px;
-    font-family: "Graphik", sans-serif;
+    font-family: "graphik-regular", sans-serif;
     font-weight: 400;
     letter-spacing: 0.2px;
     line-height: 35px; }

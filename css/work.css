@@ -4,6 +4,18 @@
   /* IE9 Compat Modes */
   src: url("Noe Display Medium.eot?#iefix") format("embedded-opentype"), url("Noe Display Medium.woff2") format("woff2"), url("Noe Display Medium.woff") format("woff");
   /* Pretty Modern Browsers */ }
+@font-face {
+  font-family: 'graphik-regular';
+  src: url("Graphik-Regular-Web.eot");
+  /* IE9 Compat Modes */
+  src: url("Graphik-Regular-Web.eot?#iefix") format("embedded-opentype"), url("Graphik-Regular-Web.woff2") format("woff2"), url("Graphik-Regular-Web.woff") format("woff");
+  /* Pretty Modern Browsers */ }
+@font-face {
+  font-family: 'graphik-semibold';
+  src: url("Graphik-Semibold-Web.eot");
+  /* IE9 Compat Modes */
+  src: url("Graphik-Semibold-Web.eot?#iefix") format("embedded-opentype"), url("Graphik-Semibold-Web.woff2") format("woff2"), url("Graphik-Semibold-Web.woff") format("woff");
+  /* Pretty Modern Browsers */ }
 .border {
   border: 1px solid #f1f1f1; }
 
@@ -518,9 +530,11 @@
     .work-page section.web-carousel-intro .intro .slick-dots {
       bottom: -30px;
       z-index: 4; }
-      .work-page section.web-carousel-intro .intro .slick-dots li button:before {
-        color: #fff;
-        font-size: 11px; }
+      .work-page section.web-carousel-intro .intro .slick-dots li {
+        margin-left: 0; }
+        .work-page section.web-carousel-intro .intro .slick-dots li button:before {
+          color: #fff;
+          font-size: 11px; }
     .work-page section.web-carousel-intro .intro p a {
       color: #fff; }
   .work-page section.commercial iframe {

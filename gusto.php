@@ -58,17 +58,17 @@
         </div>
       </div>
       <div class='row work-section padding-bottom-40px'>
+        <div class='col-sm-3'><img src='images/work-gusto-grid-denver-office.jpg' class='img-responsive'></div>
         <div class='col-sm-3'><img src='images/work-gusto-grid-insta.jpg' class='hidden-xs img-responsive'></div>
         <div class='col-sm-3'><img src='images/work-gusto-grid-golden-ticket.jpg' class='hidden-xs img-responsive'></div>
         <div class='col-sm-3'><img src='images/work-gusto-grid-metro-lights.jpg' class='hidden-xs img-responsive'></div>
-        <div class='col-sm-3'><img src='images/work-gusto-grid-iphone.jpg' class='img-responsive'></div>
         <div class='col-md-12 padding-top-10px'>
           <p class='text-light text-small'>Applications of brand guidelines by Gusto design team</p>
         </div>
         <div class='col-md-8 col-md-offset-2 padding-top-30px padding-bottom-60px'>
           <p class='text-strong'>Ready, set, rebrand!</p>
           <p>In September of 2015, ZenPayroll went through a radical transformation. We changed our name to Gusto and underwent new branding, logo, and unveiled a health benefits product. The company worked with two agencies to develop the messaging platform and logo. The agencies laid the groundwork of the new brand and was a huge source of inspiration for the team. From that point, the in-house design team spearheaded the redesign &mdash; launching our new website, logo, and brand colors. I was deeply involved in the rebranding, working closely with Nelson Cash, the staff team, and the Head of Design.</p>
-          <p class='text-strong'>Gusto brand guidelines</p>
+          <p class='text-strong padding-top-10px'>Gusto brand guidelines</p>
           <p>
             As apart of ZenPayroll's rebrand to Gusto, the company needed to establish new brand guidelines for print, web, and product. The design team worked collaboratively to establish a system that was scalable, flexible, and distinct. I was an integral part of the teams that established our colors and typography. The style guide was sent out for internal use and to external vendors, as well as built out by myself and the team in our code database.
           </p>
@@ -228,7 +228,7 @@
         </a>
       </div>
       <div class='col-sm-6 nav-button'>
-        <a class='btn-sweep-to-right' href='ballhawk.php'>
+        <a class='btn-sweep-to-right'href='ballhawk.php'>
           Next project
         </a>
       </div>

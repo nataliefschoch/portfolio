@@ -142,12 +142,12 @@
   <section class='bottom-nav'>
     <div class='container-fluid text-center'>
       <div class='col-sm-6 nav-button'>
-        <a href='#'>
+        <a class='btn-sweep-to-left' href='#'>
           Back to top
         </a>
       </div>
       <div class='col-sm-6 nav-button'>
-        <a href='gusto.php'>
+        <a class='btn-sweep-to-right' href='gusto.php'>
           Next project
         </a>
       </div>

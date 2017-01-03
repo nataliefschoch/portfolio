@@ -1,4 +1,6 @@
 @import 'variables';
+@import 'helpers';
+
 
 h1 {
 	@include font-smoothing;
@@ -50,11 +52,10 @@ p {
 	@include font-smoothing;
 	font-family: $font-family-sans;
 	font-size: 15px;
-	font-weight: 400;
 	line-height: 25px;
 	&.text-strong {
+		font-family: $font-family-sans-bold;
 		font-size: 16px;
-		font-weight: 600;
 	}
 	&.text-light {
 		color: $grey-500;

@@ -12,6 +12,22 @@
        url('Noe Display Medium.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
+@font-face {
+  font-family: 'graphik-regular';
+  src: url('Graphik-Regular-Web.eot'); /* IE9 Compat Modes */
+  src: url('Graphik-Regular-Web.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Graphik-Regular-Web.woff2') format('woff2'), /* Super Modern Browsers */
+       url('Graphik-Regular-Web.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'graphik-semibold';
+  src: url('Graphik-Semibold-Web.eot'); /* IE9 Compat Modes */
+  src: url('Graphik-Semibold-Web.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Graphik-Semibold-Web.woff2') format('woff2'), /* Super Modern Browsers */
+       url('Graphik-Semibold-Web.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
 @mixin text-small-caps {
   text-transform: uppercase;
   letter-spacing: 0.8px;
@@ -20,7 +36,8 @@
 
 // Typefaces
 $font-family-serif: 'Noe', serif;
-$font-family-sans: "Graphik", sans-serif;
+$font-family-sans: "graphik-regular", sans-serif;
+$font-family-sans-bold: "graphik-semibold", sans-serif;
 
 // Colors
 $black: #000;
