@@ -34,8 +34,7 @@ html {
 	height: 50px;
 	margin-bottom: 20px;
 	text-align: center;
-	h2, 
-	h3 {
+	h2 {
 		font-family: $font-family-serif;
 	}
 	.divider {
@@ -57,10 +56,10 @@ html {
 #portfolio {
 	header {
 		text-align: center;
-		h3 {
+		h1 {
 			display: inline-block;
-			font-size: 13px;
-			font-family: $font-family-sans;
+			font-size: 24px;
+			font-family: $font-family-serif;
 			font-weight: 400;
 			letter-spacing: 0.2px;
 			line-height: 35px;

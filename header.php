@@ -22,11 +22,11 @@
 				</a>
 			</div>
 			<div class='col-xs-6'>
-				<h3>
+				<h1>
 					<a class='active' href='index.php'>
 						Natalie Schoch
 					</a>
-				</h3>
+				</h1>
 			</div>
 			<div class='col-xs-3'>
 				<a class='about' href='about.php'>

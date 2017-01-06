@@ -31,6 +31,9 @@
 .text-white {
   color: #fff; }
 
+.text-grey {
+  color: #939499; }
+
 .text-small-caps {
   text-transform: uppercase;
   letter-spacing: 0.8px; }
@@ -593,5 +596,8 @@
     .work-page section.web-carousel .work-section img.image-web {
       width: 600px;
       margin: 20px 30px 30px 30px; } }
+  @media (min-width: 1200px) {
+    .work-page section.commercial iframe {
+      min-height: 660px; } }
 
 /*# sourceMappingURL=work.css.map */

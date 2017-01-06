@@ -31,6 +31,9 @@
 .text-white {
   color: #fff; }
 
+.text-grey {
+  color: #939499; }
+
 .text-small-caps {
   text-transform: uppercase;
   letter-spacing: 0.8px; }
@@ -526,8 +529,7 @@ html {
   height: 50px;
   margin-bottom: 20px;
   text-align: center; }
-  .title-divider h2,
-  .title-divider h3 {
+  .title-divider h2 {
     font-family: "Noe", serif; }
   .title-divider .divider {
     display: none; }
@@ -542,10 +544,10 @@ html {
 
 #portfolio header {
   text-align: center; }
-  #portfolio header h3 {
+  #portfolio header h1 {
     display: inline-block;
-    font-size: 13px;
-    font-family: "graphik-regular", sans-serif;
+    font-size: 24px;
+    font-family: "Noe", serif;
     font-weight: 400;
     letter-spacing: 0.2px;
     line-height: 35px; }

@@ -20,6 +20,10 @@
   color: $white;
 }
 
+.text-grey {
+  color: $grey-500;
+}
+
 .text-small-caps {
   @include text-small-caps;
 }

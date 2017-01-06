@@ -167,7 +167,11 @@
 
 	/* Large devices (large desktops, 1200px and up) */
 	@media (min-width: 1200px) {
-
+		section.commercial {
+			iframe {
+				min-height: 660px;
+			}
+		}
 	}
 
 }
