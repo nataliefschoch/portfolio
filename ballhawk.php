@@ -18,7 +18,7 @@
             <p class='text-light'>Branding, front-end, web design</p>
           </div>
           <p>
-            <a href='http://getballhawk.com'>Ballhawk</a> is a Fantasy Football mock draft simulator with customizable A.I., player data analysis, and post-draft team grading. The company was founded in 2016 and I collaberated with the Ballhawk team to create a logo, brand colors, iconography, illustration, and develop a landing page. The team wanted to create a visual system that would be flexible enough to use for the UI of the product as well as marketing materials that would appeal to their target audience &mdash; tech-savvy fantasy football enthusiasts.
+            <a href='http://getballhawk.com'>Ballhawk</a> is a Fantasy Football mock draft simulator with customizable A.I., player data analysis, and post-draft team grading. The company was founded in 2016 and I collaborated with the Ballhawk team to create a logo, brand colors, iconography, illustration, and develop a landing page. The team wanted to create a visual system that would be flexible enough to use for the UI of the product as well as marketing materials that would appeal to their target audience &mdash; tech-savvy fantasy football enthusiasts.
           </p>
         </div>
       </div>
@@ -41,7 +41,7 @@
       <div class='row work-section padding-bottom-40px'>
         <div class='col-md-8 col-md-offset-2 padding-top-30px padding-bottom-60px'>
           <p class='text-strong'>Creating the mark</p>
-          <p>When I joined the project, Ballhawk's company name was already selected. The company's founder wanted the logo to visually reference football, as the company's name itself was not explicitly related to the sport. We chose the typeface Jockey One Regular because of it's resemblance to letters on a football jersey. After many iterations, the mark was chosen because of it's clear depiction of a football. Upon further inspection however, the form can represent an eye shape using the X as a pupil. The X represents the X and O's draw in football strategy communicating the strategic nature of the app.</p>
+          <p>When I joined the project, Ballhawk's company name was already selected. The company's founder wanted the logo to visually reference football, as the company's name itself was not explicitly related to the sport. We chose the typeface Jockey One Regular because of it's resemblance to letters on a football jersey. After many iterations, the mark was chosen because of it's clear depiction of a football. Upon further inspection however, the form can represent an eye shape using the X as a pupil. "The X represents the X's and O's drawn in football strategy, communicating the strategic nature of the app.</p>
         </div>
       </div>
       <div class='row work-section padding-bottom-40px'>
@@ -75,7 +75,7 @@
       <div class='row work padding-bottom-40px'>
         <div class='col-md-8 col-md-offset-2 padding-top-30px padding-bottom-60px'>
           <p class='text-strong'>Ballhawk's brand identity</p>
-          <p>I compiled a simple brand guide for the Ballhawk team to reference when continuing to develop their UI or when making marketing materials. It outlined logo usage, the official color palette, and typography hierarchy. The typeface Teko was chosen for headlines because of it's bold, condensed form that mimicked football jersey typeface but also offered clear legibility. Inconsolata is a mono typeface that resembles source code, evoking the automated and A.I. capabilities of the product.</p>
+          <p>I compiled a simple brand guide for the Ballhawk team to reference when continuing to develop their UI or when making marketing materials. It outlined logo usage, the official color palette, and typography hierarchy. The typeface Teko was chosen for headlines because of its bold, condensed form that mimicked football jersey typeface but also offered clear legibility. Inconsolata is a mono typeface that resembles source code, evoking the automated and A.I. capabilities of the product.</p>
             <ul>
               <p>The goals of the color system were to:</p>
               <li><p>Stand out from the competitive landscape</p></li>
@@ -98,7 +98,7 @@
       <div class='row work-section padding-bottom-40px'>
         <div class='col-md-8 col-md-offset-2 padding-top-30px padding-bottom-60px'>
           <p class='text-strong'>Ballhawk upsell illustration</p>
-          <p>Ballhawk uses a freemium model, offering basic functionality for free and monetizing by offering premium features for users willing to pay a monthly fee. The upsell screen is trigged when users voluntarily elect to upgrade by clicking a call to action button, or when users try to use a feature that is only offered to premium members. Because Ballhawk is asking users to become paying subscribers, we felt we need an illustration to signal the significance of this page, and offer a moment of surprise and delight.</p>
+          <p>Ballhawk uses a freemium model, offering basic functionality for free and monetizing by offering premium features for users willing to pay a monthly fee. The upsell screen is trigged when users voluntarily elect to upgrade by clicking a call to action button, or when users try to use a feature that is only offered to premium members. Because Ballhawk is asking users to become paying subscribers, we felt we needed an illustration to signal the significance of this page, offering the user a moment of surprise and delight.</p>
           <p>I selected an illustration style that used geometric shapes and hard angles. We wanted the illustration to be representational of football, legible at a glance, and utilizing the brand colors.</p>
         </div>
       </div>

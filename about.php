@@ -11,21 +11,21 @@
             </div>
             <div class='col-md-9'>
               <p>
-                I've always loved to craft stories. From a young age my only past times were writing stories, making up my own jokes, drawing, and crafts. Now, I'm interested in crafting stories through visual and interactive mediums.
+                I've always loved to craft stories. From a young age my only pastimes were writing stories, making up my own jokes, drawing, and crafts. Now, I'm interested in crafting stories through visual and interactive mediums.
               </p>
               <p>
                 I’m currently on the Brand Marketing team at
                 <a href='https://gusto.com', target='_blank'>
                   Gusto
                 </a>,
-                focusing on our corporate website and other interactive experiences. Previously at Gusto I was a Design lead focused on new customer acquisition on the Growth team. Before Gusto I was a designer at
+                focusing on our corporate website and other interactive experiences. Previously at Gusto, I was a Design lead focused on new customer acquisition on the Growth team. Before Gusto, I was a designer at
                 <a href='https://wiser.com', target='_blank'>
                   Wiser
                 </a>
                 working on marketing collateral and infographics.
               </p>
               <p>
-                I'm never-not listening to music. I'm working on a side project called I Need Space (soon to be released), which features personally curated playlists.  I also love hikes, ramen, and art history.
+                I'm never not listening to music. I'm working on a side project called I Need Space (soon to be released), which features personally curated playlists.  I also love hikes, ramen, and art history.
               </p>
             </div>
           </div>
@@ -37,25 +37,25 @@
               <p class='text-strong date inline-block'>
                 2015 - Present
               </p>
-              <p class='inline-block'>Designer at Gusto</p>
+              <p class='inline-block'>Designer | Gusto</p>
             </div>
             <div class='col-md-9 col-md-offset-3'>
               <p class='text-strong date inline-block'>
                 2016 - 2015
               </p>
-              <p class='inline-block'>Marketing designer at Wiser</p>
+              <p class='inline-block'>Marketing Designer | Wiser</p>
             </div>
             <div class='col-md-9 col-md-offset-3'>
               <p class='text-strong date inline-block'>
                 2014
               </p>
-              <p class='inline-block'>Intern at AF Studio Designs</p>
+              <p class='inline-block'>Intern | AF Studio Designs</p>
             </div>
             <div class='col-md-9 col-md-offset-3'>
               <p class='text-strong date inline-block'>
                 2011 - 2013
               </p>
-              <p class='inline-block'>Graphic designer and Gallery Assistant at First Street Gallery</p>
+              <p class='inline-block'>Graphic designer and Gallery Assistant | First Street Gallery</p>
             </div>
             <div class='col-md-9 col-md-offset-3'>
               <p class='padding-top-15px'>
