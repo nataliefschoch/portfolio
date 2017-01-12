@@ -59,7 +59,7 @@
             </div>
             <div class='col-md-9 col-md-offset-3'>
               <p class='padding-top-15px'>
-                <a class='inline-block' href='#'>download resume</a>
+                <a class='inline-block' href="natalie-schoch-resume.pdf" download>download resume</a>
               </p>
             </div>
           </div>
