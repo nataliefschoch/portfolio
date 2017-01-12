@@ -37,25 +37,25 @@
               <p class='text-strong date inline-block'>
                 2015 - Present
               </p>
-              <p class='inline-block'>Designer | Gusto</p>
+              <p class='inline-block'>Designer at Gusto</p>
             </div>
             <div class='col-md-9 col-md-offset-3'>
               <p class='text-strong date inline-block'>
-                2016 - 2015
+                2014 - 2015
               </p>
-              <p class='inline-block'>Marketing Designer | Wiser</p>
+              <p class='inline-block'>Marketing designer at Wiser</p>
             </div>
             <div class='col-md-9 col-md-offset-3'>
               <p class='text-strong date inline-block'>
-                2014
+                2013
               </p>
-              <p class='inline-block'>Intern | AF Studio Designs</p>
+              <p class='inline-block'>Intern at AF Studio Designs</p>
             </div>
             <div class='col-md-9 col-md-offset-3'>
               <p class='text-strong date inline-block'>
                 2011 - 2013
               </p>
-              <p class='inline-block'>Graphic designer and Gallery Assistant | First Street Gallery</p>
+              <p class='inline-block'>Graphic designer and Gallery assistant at First Street Gallery</p>
             </div>
             <div class='col-md-9 col-md-offset-3'>
               <p class='padding-top-15px'>

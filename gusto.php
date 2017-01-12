@@ -26,7 +26,7 @@
             Gusto is an integrated payroll, benefits, and HR software for small and mid-sized businesses. The company was founded in 2011 as ZenPayroll and rebranded to Gusto in September of 2015. Gusto serves over 40,000 companies nationwide and has offices in San Francisco and Denver.
           </p>
           <p>
-            I joined Gusto &mdash; then ZenPayroll,  as the fifth member of the design team. I had the great opportunity to work with several agencies and the in-house team, shaping ZenPayroll’s rebrand to Gusto and its new brand identity. In addition I worked on Gusto's growth team focusing on growing new channels for customer acquisition, and on the Brand design team &mdash; building brand awareness through marketing campaigns.
+            I joined Gusto &mdash; then ZenPayroll,  as the fifth member of the design team. I had the great opportunity to work with several agencies and the in-house team, shaping ZenPayroll's rebrand to Gusto and its new brand identity. In addition I worked on Gusto's growth team focusing on growing new channels for customer acquisition, and on the Brand design team &mdash; building brand awareness through marketing campaigns.
           </p>
         </div>
       </div>
@@ -86,10 +86,10 @@
         <div class='col-md-12 padding-top-10px padding-bottom-30px'>
           <p class='text-grey text-small'>Four part Gusto digital commercials</p>
         </div>
+        <div class='col-sm-3'><img src='images/work-gusto-video-me.jpg' class='hidden-xs img-responsive'></div>
         <div class='col-sm-3'><img src='images/work-gusto-video-screen.jpg' class='img-responsive'></div>
-        <div class='col-sm-3'><img src='images/work-gusto-video-me.jpg' class='hidden-xs img-responsive'></div>
         <div class='col-sm-3'><img src='images/work-gusto-video-photoshoot.jpg' class='hidden-xs img-responsive'></div>
-        <div class='col-sm-3'><img src='images/work-gusto-video-me.jpg' class='hidden-xs img-responsive'></div>
+        <div class='col-sm-3'><img src='images/work-gusto-video-screen-2.jpg' class='hidden-xs img-responsive'></div>
         <div class='col-md-12 padding-top-10px'>
           <p class='text-grey text-small'>Dorky behind-the-scenes photos of me and the team</p>
         </div>
@@ -103,7 +103,7 @@
           </p>
           <p>
             The commercials resonated with our audience, generating over 1,400,000 views and wining
-            <a href='http://www.adweek.com/news/advertising-branding/ad-day-kristen-schaal-ultimate-hr-director-startups-fun-campaign-174024' target='_blank'>Adweek’s Ad of the Day</a>.
+            <a href='http://www.adweek.com/news/advertising-branding/ad-day-kristen-schaal-ultimate-hr-director-startups-fun-campaign-174024' target='_blank'>Adweek's Ad of the Day</a>.
           </p>
         </div>
       </div>

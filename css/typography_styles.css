@@ -529,10 +529,10 @@ h2 {
 h3 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 24px;
   font-family: "graphik-regular", sans-serif;
   font-weight: 500;
-  line-height: 35px; }
+  font-size: 15px;
+  line-height: 24px; }
 
 h4 {
   -webkit-font-smoothing: antialiased;
@@ -587,6 +587,10 @@ a {
   h1 {
     font-size: 31px;
     line-height: 44px; }
+
+  h3 {
+    font-size: 24px;
+    line-height: 35px; }
 
   h5 {
     font-size: 18px; } }

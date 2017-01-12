@@ -556,7 +556,7 @@ html {
   text-align: center; }
   #portfolio header h1 {
     display: inline-block;
-    font-size: 24px;
+    font-size: 18px;
     font-family: "Noe", serif;
     font-weight: 400;
     letter-spacing: 0.2px;
@@ -659,6 +659,9 @@ footer {
   #portfolio footer .copyright {
     margin-top: 0;
     text-align: right; } }
+@media (min-width: 1000px) {
+  #portfolio header h1 {
+    font-size: 24px; } }
 /* Large devices (large desktops, 1200px and up) */
 
 /*# sourceMappingURL=main.css.map */

@@ -16,19 +16,19 @@
 <header class='dark'>
 	<div class='container'>
 		<div class='row'>
-			<div class='col-xs-3 text-left'>
+			<div class='col-xs-2 text-left'>
 				<a href='index.php'>
 					<img src='images/logo-ns-white.png'/>
 				</a>
 			</div>
-			<div class='col-xs-6'>
-				<h3>
+			<div class='col-xs-8'>
+				<h1>
 					<a class='active' href='index.php'>
 						Natalie Schoch
 					</a>
-				</h3>
+				</h1>
 			</div>
-			<div class='col-xs-3'>
+			<div class='col-xs-2'>
 				<a href='about.php'>
 					<div class='circle-border'>
 						?

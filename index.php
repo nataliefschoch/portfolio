@@ -4,7 +4,7 @@
     <div class='container'>
       <div class='row'>
         <div class='text-center col-md-8 col-md-offset-2'>
-          <h3>Natalie is a designer working in San Francisco, CA. She’s currently working on web products and brand identity at
+          <h3>Natalie is a designer working in San Francisco, CA. She's currently working on web products and brand identity at
             <a href='https://gusto.com'>Gusto</a> &mdash; an intergrated HR software.</h3>
         </div>
       </div>
