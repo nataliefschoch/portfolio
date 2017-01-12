@@ -24,6 +24,15 @@
   color: $grey-500;
 }
 
+.text-bold {
+  font-family: $font-family-sans-bold;
+}
+
+.text-strong {
+  @extend .text-bold;
+  font-size: 16px;
+}
+
 .text-small-caps {
   @include text-small-caps;
 }
@@ -31,6 +40,10 @@
 //Display helpers
 .inline-block {
   display: inline-block;
+}
+
+.block {
+  display: block;
 }
 
 .relative {

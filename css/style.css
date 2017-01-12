@@ -35,12 +35,21 @@
 .text-grey {
   color: #939499; }
 
+.text-bold, .text-strong {
+  font-family: "graphik-semibold", sans-serif; }
+
+.text-strong {
+  font-size: 16px; }
+
 .text-small-caps {
   text-transform: uppercase;
   letter-spacing: 0.8px; }
 
 .inline-block {
   display: inline-block; }
+
+.block {
+  display: block; }
 
 .relative {
   position: relative; }
@@ -556,11 +565,6 @@ p {
   font-family: "graphik-regular", sans-serif;
   font-size: 15px;
   line-height: 25px; }
-  p.text-strong {
-    font-family: "graphik-semibold", sans-serif;
-    font-size: 16px; }
-  p.text-light {
-    color: #939499; }
   p a {
     text-decoration: underline; }
     p a:hover {
@@ -623,12 +627,21 @@ a {
 .text-grey {
   color: #939499; }
 
+.text-bold, .text-strong {
+  font-family: "graphik-semibold", sans-serif; }
+
+.text-strong {
+  font-size: 16px; }
+
 .text-small-caps {
   text-transform: uppercase;
   letter-spacing: 0.8px; }
 
 .inline-block {
   display: inline-block; }
+
+.block {
+  display: block; }
 
 .relative {
   position: relative; }
@@ -1276,12 +1289,21 @@ footer {
 .text-grey {
   color: #939499; }
 
+.text-bold, .text-strong {
+  font-family: "graphik-semibold", sans-serif; }
+
+.text-strong {
+  font-size: 16px; }
+
 .text-small-caps {
   text-transform: uppercase;
   letter-spacing: 0.8px; }
 
 .inline-block {
   display: inline-block; }
+
+.block {
+  display: block; }
 
 .relative {
   position: relative; }
@@ -1878,12 +1900,21 @@ footer {
 .text-grey {
   color: #939499; }
 
+.text-bold, .text-strong {
+  font-family: "graphik-semibold", sans-serif; }
+
+.text-strong {
+  font-size: 16px; }
+
 .text-small-caps {
   text-transform: uppercase;
   letter-spacing: 0.8px; }
 
 .inline-block {
   display: inline-block; }
+
+.block {
+  display: block; }
 
 .relative {
   position: relative; }

@@ -5,7 +5,7 @@
     <div class='container'>
       <div class='row'>
         <div class='col-sm-3'><img src='images/work-gusto-grid-shoes.jpg' class='hidden-xs img-responsive'></div>
-        <div class='col-sm-3'><img src='images/work-gusto-grid-billboard.jpg' class='hidden-xs img-responsive'></div>
+        <div class='col-sm-3'><img src='images/work-gusto-grid-billboard-2.jpg' class='hidden-xs img-responsive'></div>
         <div class='col-sm-6'><img src='images/work-gusto-grid-office.jpg' class='hidden-xs img-responsive'></div>
       </div>
       <div class='row padding-top-30px'>
@@ -20,7 +20,7 @@
               Gusto
             </h2>
             <div class='divider'></div>
-            <p class='text-light'>Visual identity, front-end, web design</p>
+            <p class='text-grey'>Visual identity, front-end, web design</p>
           </div>
           <p>
             Gusto is an integrated payroll, benefits, and HR software for small and mid-sized businesses. The company was founded in 2011 as ZenPayroll and rebranded to Gusto in September of 2015. Gusto serves over 40,000 companies nationwide and has offices in San Francisco and Denver.
@@ -43,7 +43,7 @@
           <img src='images/work-gusto-brand-logo-white.jpg' class='img-responsive'>
         </div>
         <div class='col-md-12 padding-top-10px'>
-          <p class='text-light text-small'>Logo</p>
+          <p class='text-grey text-small'>Logo</p>
         </div>
       </div>
       <div class='row work-section padding-bottom-40px'>
@@ -54,7 +54,7 @@
           <img src='images/work-gusto-brand-guide-3.jpg' class='img-responsive'>
         </div>
         <div class='col-md-12 padding-top-10px'>
-          <p class='text-light text-small'>Color and typographic brand guidelines</p>
+          <p class='text-grey text-small'>Color and typographic brand guidelines</p>
         </div>
       </div>
       <div class='row work-section padding-bottom-40px'>
@@ -63,7 +63,7 @@
         <div class='col-sm-3'><img src='images/work-gusto-grid-golden-ticket.jpg' class='hidden-xs img-responsive'></div>
         <div class='col-sm-3'><img src='images/work-gusto-grid-metro-lights.jpg' class='hidden-xs img-responsive'></div>
         <div class='col-md-12 padding-top-10px'>
-          <p class='text-light text-small'>Applications of brand guidelines by Gusto design team</p>
+          <p class='text-grey text-small'>Applications of brand guidelines by Gusto design team</p>
         </div>
         <div class='col-md-8 col-md-offset-2 padding-top-30px padding-bottom-60px'>
           <p class='text-strong'>Ready, set, rebrand!</p>
@@ -84,14 +84,14 @@
           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/T4olEQvSwx4?list=PLeSxBTBx8qo-pXYo4bzBE6WRrIafhR-1m" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class='col-md-12 padding-top-10px padding-bottom-30px'>
-          <p class='text-light text-small'>Four part Gusto digital commercials</p>
+          <p class='text-grey text-small'>Four part Gusto digital commercials</p>
         </div>
         <div class='col-sm-3'><img src='images/work-gusto-video-screen.jpg' class='img-responsive'></div>
         <div class='col-sm-3'><img src='images/work-gusto-video-me.jpg' class='hidden-xs img-responsive'></div>
-        <div class='col-sm-3'><img src='images/work-gusto-video-screen.jpg' class='hidden-xs img-responsive'></div>
+        <div class='col-sm-3'><img src='images/work-gusto-video-photoshoot.jpg' class='hidden-xs img-responsive'></div>
         <div class='col-sm-3'><img src='images/work-gusto-video-me.jpg' class='hidden-xs img-responsive'></div>
         <div class='col-md-12 padding-top-10px'>
-          <p class='text-light text-small'>Dorky behind-the-scenes photos of me and the team</p>
+          <p class='text-grey text-small'>Dorky behind-the-scenes photos of me and the team</p>
         </div>
         <div class='col-md-8 col-md-offset-2 padding-top-30px padding-bottom-60px'>
           <p class='text-strong'>Brand campaign commercials</p>
@@ -201,33 +201,47 @@
   <section class='work acquisition'>
     <div class='container'>
       <div class='row work-section'>
-        <h3 class='work-subtitle'>Growth and acquisition</h3>
-        <div class='col-sm-3 col-md-offset-3'>
-          <img src='images/work-gusto-mobile-ab.jpg' class='padding-bottom-15px img-responsive'>
-          <p class='text-strong'>
-            <span class='circle-border'>A</span>
-            Control
-          </p>
-          <p class='text-light inline-block'>3.33% conversion rate</p>
-        </div>
-        <div class='col-sm-3'>
-          <img src='images/work-gusto-mobile-ab.jpg' class='padding-bottom-15px img-responsive'>
-          <p class='text-strong inline-block'>
-            <span class='circle-border'>B</span>
-            Experiment</p> 
-          <p class='text-light inline-block'>Winner! 6.04% conversion rate</p>
-        </div>
-        <div class='col-sm-12 col-md-8 col-md-offset-2 padding-top-50px padding-bottom-60px'>
+        <h3 class='work-subtitle padding-top-70px '>Growth and acquisition</h3>
+        <div class='col-sm-12 col-md-8 col-md-offset-2 padding-bottom-60px'>
           <p class='text-strong'>A data-driven approach to designing for acquisition</p>
           <p>
-            I lead design on the Growth team at Gusto for four quarters between 2015 - 2016. The team's mission was to acquire new customers by running AB tests, conducting user-research and other acquisition experiments. I worked closely in a small agile team of engineers and product managers.
+            I lead design on the Growth team at Gusto for four quarters between 2015 - 2016. The team's mission was to acquire new customers by running AB tests, conducting user-research and conduct acquisition experiments. I worked closely in a small agile team of engineers and product managers.
           </p>
           <p>
             Our team used a data-driven approach and designed within in the constraints of conversion optimization. Working on this team sharpened my instincts for designing for conversion and I found it immensely gratifying to have such a measurable impact on the company by making a quantifiable improvements on our conversion rate overtime.
           </p>
+        </div>
+        <div class='col-sm-3 col-md-offset-3'>
+          <img src='images/work-gusto-mobile-ab.jpg' class='padding-bottom-15px img-responsive'>
+          <div class='col-md-2'>
+            <p class='text-strong circle-border'>A</p>
+          </div>
+          <div class='col-md-10'>
+            <p class='text-strong'>
+              Control
+            </p>
+            <p class='text-grey text-small block'>3.33% conversion rate</p>
+          </div>
+        </div>
+        <div class='col-sm-3'>
+          <img src='images/work-gusto-mobile-ab-winner.jpg' class='padding-bottom-15px img-responsive'>
+          <div class='col-md-2'>
+            <p class='text-strong circle-border'>B</p>
+          </div>
+          <div class='col-md-10'>
+            <p class='text-strong'>
+              Experiment
+            </p>
+            <p class='text-grey text-bold text-small block'>6.04% conversion rate</p>
+          </div>
+        </div>
+        <div class='col-sm-12 col-md-8 col-md-offset-2 padding-top-50px padding-bottom-60px'>
+          <p class='text-strong'>Case study: Brand campaign paid landing page AB test</p>
           <p>
             The AB test featured was a project that I initiated, designed, and developed. The mission was to increase the conversion rate our default paid landing page template. I designed the page using acquisition best practices including &mdash; front-loading important information above the fold, creating a clear hierarchy of information, visually distinguishing the form, and providing areas of social proof including press logos, secure check-out call-out, and customer testimonials. This page out-performed our incumbent landing page increasing the page's conversion rate from 3.2% to 9% over the course of 6 months.
           </p>
+          <img class='img-responsive padding-top-40px' src='images/work-gusto-ab-journey.jpg'>
+          <p class='text-grey text-small padding-top-10px'>Customer journey map</p>
         </div>
       </div>
     </div>

@@ -53,13 +53,6 @@ p {
 	font-family: $font-family-sans;
 	font-size: 15px;
 	line-height: 25px;
-	&.text-strong {
-		font-family: $font-family-sans-bold;
-		font-size: 16px;
-	}
-	&.text-light {
-		color: $grey-500;
-	}
 	a {
 		text-decoration: underline;
 		&:hover {

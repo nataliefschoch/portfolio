@@ -41,7 +41,7 @@
       <div class='row work-section padding-bottom-40px'>
         <div class='col-md-8 col-md-offset-2 padding-top-30px padding-bottom-60px'>
           <p class='text-strong'>Creating the mark</p>
-          <p>When I joined the project, Ballhawk's company name was already selected. The company's founder wanted the logo to visually reference football, as the company's name itself was not explicitly related to the sport. We chose the typeface Jockey One Regular because of it's resemblance to letters on a football jersey. After many iterations, the mark was chosen because of it's clear depiction of a football. Upon further inspection however, the form can represent an eye shape using the X as a pupil. "The X represents the X's and O's drawn in football strategy, communicating the strategic nature of the app.</p>
+          <p>When I joined the project, Ballhawk's company name was already selected. The company's founder wanted the logo to visually reference football, as the company's name itself was not explicitly related to the sport. We chose the typeface Jockey One Regular because of it's resemblance to letters on a football jersey. After many iterations, the mark was chosen because of it's clear depiction of a football. Upon further inspection however, the form can represent an eye shape using the X as a pupil. The X represents the X's and O's drawn in football strategy, communicating the strategic nature of the app.</p>
         </div>
       </div>
       <div class='row work-section padding-bottom-40px'>
