@@ -238,8 +238,43 @@
         <div class='col-sm-12 col-md-8 col-md-offset-2 padding-top-50px padding-bottom-60px'>
           <p class='text-strong'>Case study: Brand campaign paid landing page AB test</p>
           <p>
-            The AB test featured was a project that I initiated, designed, and developed. The mission was to increase the conversion rate our default paid landing page template. I designed the page using acquisition best practices including &mdash; front-loading important information above the fold, creating a clear hierarchy of information, visually distinguishing the form, and providing areas of social proof including press logos, secure check-out call-out, and customer testimonials. This page out-performed our incumbent landing page increasing the page's conversion rate from 3.2% to 9% over the course of 6 months.
+            The featured AB test was a landing page experiment we ran as apart of our brand campaign. Along with the billboards and videos, we launched a gated quiz to attract a lower intent audience to engage with our brand. Our ads performed well on Facebook but we saw a high bounce rate on the subsequent landing page. A small team consisting of an Online Marketing analyst, Product Marketing Manager and myself teamed up to solve the high bounce rate of this landing page.
           </p>
+          <ul class='padding-top-15px'>
+            <p>Problems:</p>
+            <li>
+              <p>
+                The landing page imagery is too disconnected from the content
+              </p>
+            </li>
+            <li>
+              <p>
+                There is too much friction to ask users to complete the quiz prior to lead capture
+              </p>
+            </li>
+            <li>
+              <p>
+                High majority of traffic is mobile, and the page is optimized for desktop
+              </p>
+            </li>
+          </ul>
+          <ul class='padding-top-15px'>
+            <p>Hypothesis:</p>
+            <li>
+              <p>
+                By mobile optimizing the quiz, asking for lead capture up front, and providing some upfront value to user in the form of an additional video we will create an experience that is delightful, easy, and valuable enough for a user to give us a piece of their contact information.
+              </p>
+            </li>
+          </ul>
+          <ul class='padding-top-15px'>
+            <p>Conclusion:</p>
+            <li>
+              <p>
+                By making these changes
+                <span class='text-bold'>we were able to increase conversion by 81%</span>, from a 3.33% conversion rate to a 6.04% conversion rate.
+              </p>
+            </li>
+          </ul>
           <img class='img-responsive padding-top-40px' src='images/work-gusto-ab-journey.jpg'>
           <p class='text-grey text-small padding-top-10px'>Customer journey map</p>
         </div>
